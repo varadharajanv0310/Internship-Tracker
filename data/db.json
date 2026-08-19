@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T18:24:57.384Z",
-  "runDate": "2026-08-19",
+  "generatedAt": "2026-08-19T19:03:32.901Z",
+  "runDate": "2026-08-20",
   "baselineRun": false,
   "roles": [
     {
@@ -333,7 +333,7 @@
       "url": "https://internshala.com/internship/detail/engineering-intern-internship-in-chennai-at-qualcomm-india-private-limited1781263137",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 3,
       "source": "internshala:0",
@@ -409,7 +409,7 @@
       "url": "https://freshersdunia.in/microsoft-internship-2026-data-science-intern/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -484,7 +484,7 @@
       "url": "https://job-boards.greenhouse.io/instawork/jobs/4706444006",
       "postedAt": "2026-08-19",
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 2,
       "source": "tracker:ai",
@@ -508,7 +508,7 @@
       "url": "https://freshersdunia.in/philips-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -532,7 +532,7 @@
       "url": "https://freshersdunia.in/stripe-internship-2026-hiring/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -724,7 +724,7 @@
       "url": "https://freshersdunia.in/cisco-software-engineer-summer-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -800,7 +800,7 @@
       "url": "https://freshersdunia.in/salesforce-off-campus-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -826,7 +826,7 @@
       "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Apprentice---Technology_R0000348368",
       "postedAt": "2026-08-04",
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 1,
       "source": "workday:target",
@@ -851,7 +851,7 @@
       "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8176611002",
       "postedAt": "2025-12-29",
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
       "deadline": null,
       "tier": 1,
       "source": "greenhouse:alphagrepsecurities",
@@ -871,11 +871,24 @@
       "isNew": false
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "source": "newsletter:offcampusjobs4u",
+      "sourceLabel": "OffCampusJobs4u — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "newsletter:enggwave",
+      "sourceLabel": "EnggWave — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
+    }
+  ],
   "stats": {
     "totalRoles": 35,
     "newThisRun": 0,
-    "sourcesOk": 38,
-    "sourcesFailed": 0
+    "sourcesOk": 36,
+    "sourcesFailed": 2
   }
 }
