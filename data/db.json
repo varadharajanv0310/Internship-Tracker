@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T18:08:29.276Z",
+  "generatedAt": "2026-08-19T18:19:02.803Z",
   "runDate": "2026-08-19",
-  "baselineRun": true,
+  "baselineRun": false,
   "roles": [
     {
       "id": "86d9317ca95fba65",
@@ -499,30 +499,6 @@
       "isNew": false
     },
     {
-      "id": "d4c820dcc1af87ef",
-      "company": "Zutawa Studios Private Limited",
-      "role": "Business Development Representative - Internship",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/business-development-sales-internship-in-bangalore-at-zutawa-studios-private-limited1786540770",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:2",
-      "sourceLabel": "Internshala — Software Dev — work from home",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false
-    },
-    {
       "id": "2ea59e2b1bfd1798",
       "company": "Philips",
       "role": "Software Development Engineer Intern",
@@ -926,12 +902,24 @@
       "sourceLabel": "Microsoft Careers (India)",
       "tier": 1,
       "error": "fetch failed"
+    },
+    {
+      "source": "newsletter:offcampusjobs4u",
+      "sourceLabel": "OffCampusJobs4u — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "newsletter:enggwave",
+      "sourceLabel": "EnggWave — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
     }
   ],
   "stats": {
-    "totalRoles": 37,
+    "totalRoles": 36,
     "newThisRun": 0,
-    "sourcesOk": 38,
-    "sourcesFailed": 1
+    "sourcesOk": 36,
+    "sourcesFailed": 3
   }
 }

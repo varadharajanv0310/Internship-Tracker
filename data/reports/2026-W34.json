@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "weekStart": "2026-08-17",
   "weekEnd": "2026-08-23",
-  "generatedAt": "2026-08-19T18:12:44.081Z",
+  "generatedAt": "2026-08-19T18:19:03.274Z",
   "newlyOpened": [
     {
       "id": "86d9317ca95fba65",
@@ -519,30 +519,6 @@
       "tier": 2,
       "source": "tracker:ai",
       "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false
-    },
-    {
-      "id": "d4c820dcc1af87ef",
-      "company": "Zutawa Studios Private Limited",
-      "role": "Business Development Representative - Internship",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/business-development-sales-internship-in-bangalore-at-zutawa-studios-private-limited1786540770",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:2",
-      "sourceLabel": "Internshala — Software Dev — work from home",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
@@ -1076,7 +1052,7 @@
   ],
   "deadlines": [],
   "numbers": {
-    "newRoles": 37,
+    "newRoles": 36,
     "bookmarked": 0,
     "applied": 0
   },
