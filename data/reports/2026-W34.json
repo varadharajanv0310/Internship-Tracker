@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "weekStart": "2026-08-17",
   "weekEnd": "2026-08-23",
-  "generatedAt": "2026-08-19T18:19:03.274Z",
+  "generatedAt": "2026-08-19T18:24:58.438Z",
   "newlyOpened": [
     {
       "id": "86d9317ca95fba65",
@@ -770,31 +770,6 @@
       "isNew": false
     },
     {
-      "id": "e8dd46943fac3e7a",
-      "company": "Philips",
-      "role": "Mechanical Engineering Intern",
-      "location": "Pune",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://offcampusjobs4u.com/philips-recruitment-2026-mechanical-engineering-intern-pune/",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
-      "deadline": null,
-      "tier": 4,
-      "source": "newsletter:offcampusjobs4u",
-      "sourceLabel": "OffCampusJobs4u — 2027 batch",
-      "odds": "Reach",
-      "oddsScore": 33,
-      "oddsReasons": [
-        "+ UI/UX (INTECHGRID)",
-        "- Non-CS discipline"
-      ],
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false
-    },
-    {
       "id": "7fa5422ecdbf9dce",
       "company": "Cisco",
       "role": "Cisco Software Engineer Summer Internship 2026 Hiring",
@@ -1052,7 +1027,7 @@
   ],
   "deadlines": [],
   "numbers": {
-    "newRoles": 36,
+    "newRoles": 35,
     "bookmarked": 0,
     "applied": 0
   },
