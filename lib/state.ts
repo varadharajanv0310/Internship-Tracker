@@ -1,5 +1,6 @@
 import { Redis } from "@upstash/redis";
 import type { StateMap } from "./types";
+import { todayISO } from "./normalize";
 
 export const STATE_KEY = "internship-radar:state:v1";
 
@@ -38,7 +39,7 @@ export function mergeState(current: StateMap, id: string, patch: Partial<StateMa
   const next = { ...prev, ...patch };
 
   if (patch.applied === true && !prev.applied) {
-    next.appliedAt = new Date().toISOString().slice(0, 10);
+    next.appliedAt = todayISO();
   }
   if (patch.applied === false) {
     next.appliedAt = null;

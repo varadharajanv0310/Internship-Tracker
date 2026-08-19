@@ -26,7 +26,10 @@ const StateCtx = createContext<Ctx | null>(null);
 function stamp(prev: RoleState, patch: Partial<RoleState>): RoleState {
   const next: RoleState = { ...prev, ...patch };
   if (patch.applied === true && !prev.applied) {
-    next.appliedAt = new Date().toISOString().slice(0, 10);
+    // IST, to match the server stamp in lib/state.ts.
+    next.appliedAt = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Kolkata",
+    }).format(new Date());
   }
   if (patch.applied === false) next.appliedAt = null;
   return next;

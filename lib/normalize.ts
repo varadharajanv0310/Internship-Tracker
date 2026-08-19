@@ -165,8 +165,13 @@ export function daysBetween(a: Date, b: Date): number {
   return Math.round((b.getTime() - a.getTime()) / 86400000);
 }
 
+/**
+ * Today's date in IST. Everything here is India-facing — the scan runs at
+ * 06:00 IST and the applied-date is his own application log — so a UTC stamp
+ * would mislabel anything between midnight and 05:30 IST as the previous day.
+ */
 export function todayISO(): string {
-  return new Date().toISOString().slice(0, 10);
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
 }
 
 /** ISO week label, e.g. 2026-W34. */
