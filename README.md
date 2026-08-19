@@ -94,6 +94,20 @@ Explore), 2026-batch fresher and full-time drives (Cognizant GenC, HCL GET,
 Ramco/Chargebee graduate programs), non-technical functions, and any drive dated
 entirely to a past year.
 
+### Known limitation: Cloudflare and datacenter IPs
+
+Three tier-4 newsletters (OffCampusJobs4u, EnggWave, Placement-Officer) and both
+Reddit sources answer normally from a home connection but return **403 from
+GitHub Actions runners**, which sit in datacenter IP ranges Cloudflare blocks.
+Header tuning does not change this, and the scanner does not try to defeat bot
+protection.
+
+What happens instead: those sources are recorded as failed and shown on the
+dashboard, and roles they previously supplied are carried forward — but only for
+**21 days**, after which they are dropped so the feed cannot accumulate zombie
+listings. Running `npm run scan` locally picks them up properly and commits the
+result, which is worth doing occasionally.
+
 ---
 
 ## Adding or removing companies

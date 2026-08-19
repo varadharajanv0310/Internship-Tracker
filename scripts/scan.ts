@@ -159,9 +159,21 @@ async function main(): Promise<void> {
   const failedSourceIds = new Set(
     outcomes.filter((o) => o.error && !SILENT_SOURCE_IDS.has(o.source.id)).map((o) => o.source.id),
   );
+  // Carried-forward roles are capped so a permanently blocked source (Cloudflare
+  // 403s the newsletters from datacenter IPs) cannot leave zombies in the feed.
+  const STALE_AFTER_DAYS = 21;
+  const staleCutoff = new Date(Date.now() - STALE_AFTER_DAYS * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
+
   let carriedForward = 0;
+  let droppedStale = 0;
   for (const role of previousDb?.roles ?? []) {
     if (!failedSourceIds.has(role.source) || byId.has(role.id)) continue;
+    if (role.lastSeenAt < staleCutoff) {
+      droppedStale++;
+      continue;
+    }
     byId.set(role.id, { ...role, isNew: false });
     carriedForward++;
   }
@@ -237,7 +249,7 @@ async function main(): Promise<void> {
   excluded by rules     ${droppedExcluded}
   eligible roles        ${roles.length}
   new this run          ${baselineRun ? `0 (baseline seeded)` : newThisRun}
-  carried forward       ${carriedForward}
+  carried forward       ${carriedForward}${droppedStale ? ` (${droppedStale} dropped as stale)` : ""}
   sources ok / failed   ${db.stats.sourcesOk} / ${db.stats.sourcesFailed}
   elapsed               ${((Date.now() - startedAt) / 1000).toFixed(1)}s
 ────────────────────────────────────────────────

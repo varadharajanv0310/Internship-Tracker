@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:22:21.832Z",
+  "generatedAt": "2026-08-19T18:23:44.031Z",
   "runDate": "2026-08-19",
   "baselineRun": false,
   "roles": [
@@ -715,31 +715,6 @@
       "isNew": false
     },
     {
-      "id": "e8dd46943fac3e7a",
-      "company": "Philips",
-      "role": "Mechanical Engineering Intern",
-      "location": "Pune",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://offcampusjobs4u.com/philips-recruitment-2026-mechanical-engineering-intern-pune/",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-19",
-      "deadline": null,
-      "tier": 4,
-      "source": "newsletter:offcampusjobs4u",
-      "sourceLabel": "OffCampusJobs4u — 2027 batch",
-      "odds": "Reach",
-      "oddsScore": 33,
-      "oddsReasons": [
-        "+ UI/UX (INTECHGRID)",
-        "- Non-CS discipline"
-      ],
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false
-    },
-    {
       "id": "7fa5422ecdbf9dce",
       "company": "Cisco",
       "role": "Cisco Software Engineer Summer Internship 2026 Hiring",
@@ -896,30 +871,11 @@
       "isNew": false
     }
   ],
-  "failures": [
-    {
-      "source": "newsletter:offcampusjobs4u",
-      "sourceLabel": "OffCampusJobs4u — 2027 batch",
-      "tier": 4,
-      "error": "HTTP 403 Forbidden"
-    },
-    {
-      "source": "newsletter:enggwave",
-      "sourceLabel": "EnggWave — 2027 batch",
-      "tier": 4,
-      "error": "HTTP 403 Forbidden"
-    },
-    {
-      "source": "newsletter:placementofficer",
-      "sourceLabel": "Placement-Officer — internships",
-      "tier": 4,
-      "error": "HTTP 429 Too Many Requests"
-    }
-  ],
+  "failures": [],
   "stats": {
-    "totalRoles": 36,
+    "totalRoles": 35,
     "newThisRun": 0,
-    "sourcesOk": 35,
-    "sourcesFailed": 3
+    "sourcesOk": 38,
+    "sourcesFailed": 0
   }
 }
