@@ -1,0 +1,78 @@
+name: Daily scan
+
+on:
+  schedule:
+    # 00:30 UTC = 06:00 IST, every day.
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+    inputs:
+      force_report:
+        description: "Also regenerate the weekly report"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run the scan
+        # Optional: set these repo secrets to keep Applied/Bookmarked state in
+        # Upstash/Vercel KV. Without them the scan still runs and state lives
+        # in the browser.
+        env:
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+        run: npm run scan
+
+      - name: Decide whether to build the weekly report
+        id: week
+        run: |
+          if [ "$(date -u +%u)" = "7" ] || [ "${{ inputs.force_report }}" = "true" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate the weekly report
+        if: steps.week.outputs.run == 'true'
+        env:
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+        run: npm run report
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No data changes this run."
+          else
+            git commit -m "chore(scan): refresh listings $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      # Only needed if the repo is NOT connected to Vercel's Git integration.
+      # Add a VERCEL_DEPLOY_HOOK secret to force a redeploy after each scan.
+      - name: Trigger Vercel redeploy
+        if: ${{ secrets.VERCEL_DEPLOY_HOOK != '' }}
+        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" > /dev/null
