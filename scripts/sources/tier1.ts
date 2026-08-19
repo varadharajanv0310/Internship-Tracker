@@ -8,7 +8,6 @@
 import {
   fetchAmazon,
   fetchGreenhouse,
-  fetchMicrosoft,
   fetchOracleRecruiting,
   fetchWorkday,
   type WorkdayTenant,
@@ -39,12 +38,6 @@ export const tier1Sources: Source[] = [
     label: "Amazon Jobs (India)",
     tier: 1,
     run: fetchAmazon,
-  },
-  {
-    id: "microsoft:gcs",
-    label: "Microsoft Careers (India)",
-    tier: 1,
-    run: fetchMicrosoft,
   },
   {
     id: "oracle:jpmorgan",

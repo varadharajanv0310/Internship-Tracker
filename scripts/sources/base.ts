@@ -41,8 +41,19 @@ export async function http(
         signal: ctl.signal,
         headers: {
           "user-agent": UA,
-          accept: "application/json, text/html;q=0.9, */*;q=0.8",
-          "accept-language": "en-IN,en;q=0.9",
+          accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7",
+          "accept-language": "en-IN,en-GB;q=0.9,en;q=0.8",
+          "cache-control": "no-cache",
+          pragma: "no-cache",
+          "sec-ch-ua": '"Chromium";v="126", "Google Chrome";v="126", "Not:A-Brand";v="24"',
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": '"Windows"',
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "upgrade-insecure-requests": "1",
           ...(rest.headers ?? {}),
         },
       });
@@ -59,7 +70,10 @@ export async function http(
 }
 
 export async function getJson<T = unknown>(url: string, init?: RequestInit & { timeoutMs?: number }): Promise<T> {
-  const res = await http(url, init);
+  const res = await http(url, {
+    ...init,
+    headers: { accept: "application/json, text/plain, */*", ...(init?.headers ?? {}) },
+  });
   return (await res.json()) as T;
 }
 

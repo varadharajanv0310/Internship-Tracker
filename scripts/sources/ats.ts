@@ -378,34 +378,3 @@ export async function fetchOracleRecruiting(
   }
   return [...out.values()];
 }
-
-/* ---------------------------------------------------------------- Microsoft */
-
-interface MsJob {
-  jobId: string;
-  title: string;
-  properties?: { locations?: string[]; primaryLocation?: string; description?: string };
-  postingDate?: string;
-}
-
-export async function fetchMicrosoft(): Promise<RawRole[]> {
-  const out = new Map<string, RawRole>();
-  const url =
-    "https://gcsservices.careers.microsoft.com/search/api/v1/search" +
-    "?q=intern&lc=India&l=en_us&pg=1&pgSz=50&o=Recent&flt=true";
-  const res = await getJson<{
-    operationResult?: { result?: { jobs?: MsJob[] } };
-  }>(url);
-  for (const j of res.operationResult?.result?.jobs ?? []) {
-    const link = `https://jobs.careers.microsoft.com/global/en/job/${j.jobId}`;
-    out.set(link, {
-      company: "Microsoft",
-      role: j.title,
-      location: j.properties?.primaryLocation ?? (j.properties?.locations ?? []).join(", "),
-      url: link,
-      postedAt: j.postingDate ? j.postingDate.slice(0, 10) : null,
-      description: (j.properties?.description ?? j.title).slice(0, 1200),
-    });
-  }
-  return [...out.values()];
-}

@@ -110,7 +110,7 @@ export interface Tier1Company {
 export const TIER1_COMPANIES: Tier1Company[] = [
   { name: "Amazon", bar: "high", kind: "bigtech", live: true, watchUrl: "https://www.amazon.jobs/en/search?base_query=intern&loc_query=India" },
   { name: "Google", bar: "extreme", kind: "bigtech", live: false, watchUrl: "https://www.google.com/about/careers/applications/jobs/results/?q=intern&location=India" },
-  { name: "Microsoft", bar: "high", kind: "bigtech", live: true, watchUrl: "https://jobs.careers.microsoft.com/global/en/search?q=intern&lc=India" },
+  { name: "Microsoft", bar: "high", kind: "bigtech", live: false, watchUrl: "https://jobs.careers.microsoft.com/global/en/search?q=intern&lc=India" },
   { name: "Salesforce", bar: "high", kind: "bigtech", live: true, watchUrl: "https://careers.salesforce.com/en/jobs/?search=intern&country=India" },
   { name: "Wells Fargo", bar: "medium", kind: "finance", live: false, watchUrl: "https://www.wellsfargojobs.com/en/jobs/?search=intern&country=India" },
   { name: "Cisco", bar: "high", kind: "bigtech", live: false, watchUrl: "https://jobs.cisco.com/jobs/SearchJobs/intern?listFilterMode=1" },
@@ -124,7 +124,7 @@ export const TIER1_COMPANIES: Tier1Company[] = [
   { name: "Target", bar: "medium", kind: "enterprise", live: true, watchUrl: "https://target.wd5.myworkdayjobs.com/targetcareers" },
   { name: "IBM", bar: "medium", kind: "enterprise", live: false, watchUrl: "https://www.ibm.com/careers/search?q=intern" },
   { name: "Snowflake", bar: "high", kind: "bigtech", live: false, watchUrl: "https://careers.snowflake.com/us/en/search-results?keywords=intern" },
-  { name: "SAP", bar: "medium", kind: "enterprise", live: true, watchUrl: "https://jobs.sap.com/search/?q=intern&locationsearch=India" },
+  { name: "SAP", bar: "medium", kind: "enterprise", live: false, watchUrl: "https://jobs.sap.com/search/?q=intern&locationsearch=India" },
   { name: "ServiceNow", bar: "high", kind: "enterprise", live: false, watchUrl: "https://careers.servicenow.com/careers/jobs/?search=intern" },
   { name: "Goldman Sachs", bar: "extreme", kind: "finance", live: false, watchUrl: "https://higher.gs.com/roles?page=1&sort=RELEVANCE" },
   { name: "D. E. Shaw", bar: "extreme", kind: "quant", live: false, watchUrl: "https://www.deshawindia.com/recruit/jobs/Adv/index.html" },

@@ -38,7 +38,7 @@ than disappearing from the feed.
 
 | Tier | What | Live sources |
 |---|---|---|
-| 1 | Big-tech & quant ATS | Amazon, Microsoft, JPMorgan, Salesforce, NVIDIA, Adobe, Intel, PayPal, Target, Morgan Stanley, Tower Research, IMC, Optiver, Graviton, AlphaGrep |
+| 1 | Big-tech & quant ATS | Amazon, JPMorgan, Salesforce, NVIDIA, Adobe, Intel, PayPal, Target, Morgan Stanley, Tower Research, IMC, Optiver, Graviton, AlphaGrep |
 | 2 | GitHub daily trackers | speedyapply 2027 SWE + AI `INTERN_INTL.md` (roles added in the last ~4 days) |
 | 3 | Chennai + remote rolling | Internshala (4 searches), Unstop, Freshworks, Fractal, Databricks, Zoho, Wadhwani AI, Planys |
 | 4 | India newsletters | FreshersDunia, OffCampusJobs4u, EnggWave, Placement-Officer |
@@ -53,11 +53,14 @@ pages through the whole India result set.
 
 ### Tier-1 companies without a live adapter
 
-Google, Apple, Cisco, Qualcomm, Uber, IBM, SAP, ServiceNow, Snowflake, Wells
-Fargo, Goldman Sachs, D. E. Shaw and Quadeye expose no key-free endpoint that
-works from a headless runner. They are **still on the priority list** — marked
-`live: false` in `lib/profile.ts`, surfaced as a watchlist of deep links on the
-dashboard, and picked up indirectly whenever tiers 2 and 4 post them.
+Google, Microsoft, Apple, Cisco, Qualcomm, Uber, IBM, SAP, ServiceNow,
+Snowflake, Wells Fargo, Goldman Sachs, D. E. Shaw and Quadeye expose no
+key-free endpoint that works from a headless runner — Microsoft's `gcsservices`
+API no longer resolves at all, and its careers site is a pure SPA.
+
+They are **still on the priority list**: marked `live: false` in
+`lib/profile.ts`, surfaced as a watchlist of deep links on the dashboard, and
+picked up indirectly whenever tiers 2 and 4 post them.
 
 ### Odds rating
 
@@ -118,7 +121,7 @@ const WORKDAY_TENANTS = [
 
 Adapters available: `fetchGreenhouse`, `fetchLever`, `fetchAshby`,
 `fetchSmartRecruiters`, `fetchWorkday`, `fetchOracleRecruiting`, `fetchAmazon`,
-`fetchMicrosoft`, plus `parseCareersAnchors` for plain HTML careers pages.
+plus `parseCareersAnchors` for plain HTML careers pages.
 
 To remove a company, delete its entry — the next run drops its roles.
 
