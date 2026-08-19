@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:19:02.803Z",
+  "generatedAt": "2026-08-19T18:22:21.832Z",
   "runDate": "2026-08-19",
   "baselineRun": false,
   "roles": [
@@ -898,12 +898,6 @@
   ],
   "failures": [
     {
-      "source": "microsoft:gcs",
-      "sourceLabel": "Microsoft Careers (India)",
-      "tier": 1,
-      "error": "fetch failed"
-    },
-    {
       "source": "newsletter:offcampusjobs4u",
       "sourceLabel": "OffCampusJobs4u — 2027 batch",
       "tier": 4,
@@ -914,12 +908,18 @@
       "sourceLabel": "EnggWave — 2027 batch",
       "tier": 4,
       "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "newsletter:placementofficer",
+      "sourceLabel": "Placement-Officer — internships",
+      "tier": 4,
+      "error": "HTTP 429 Too Many Requests"
     }
   ],
   "stats": {
     "totalRoles": 36,
     "newThisRun": 0,
-    "sourcesOk": 36,
+    "sourcesOk": 35,
     "sourcesFailed": 3
   }
 }
