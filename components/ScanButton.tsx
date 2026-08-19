@@ -7,20 +7,22 @@ type Status = "idle" | "running" | "queued" | "error";
 export function ScanButton() {
   const [status, setStatus] = useState<Status>("idle");
   const [detail, setDetail] = useState<string>("");
+  const [fallbackUrl, setFallbackUrl] = useState<string | null>(null);
 
   async function run() {
     setStatus("running");
     setDetail("");
+    setFallbackUrl(null);
     try {
       const res = await fetch("/api/scan", { method: "POST" });
-      const data = (await res.json()) as { ok: boolean; message: string };
-      if (data.ok) {
-        setStatus("queued");
-        setDetail(data.message);
-      } else {
-        setStatus("error");
-        setDetail(data.message);
-      }
+      const data = (await res.json()) as {
+        ok: boolean;
+        message: string;
+        fallbackUrl?: string | null;
+      };
+      setFallbackUrl(data.fallbackUrl ?? null);
+      setStatus(data.ok ? "queued" : "error");
+      setDetail(data.message);
     } catch (err) {
       setStatus("error");
       setDetail(err instanceof Error ? err.message : "Request failed");
@@ -57,6 +59,17 @@ export function ScanButton() {
               ✕
             </button>
           </div>
+
+          {fallbackUrl && (
+            <a
+              href={fallbackUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block rounded-md bg-white/10 px-2.5 py-1 font-medium text-zinc-100 transition hover:bg-white/20"
+            >
+              Open Actions → Run workflow ↗
+            </a>
+          )}
         </div>
       )}
     </div>

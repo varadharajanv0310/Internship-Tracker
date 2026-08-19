@@ -17,12 +17,26 @@ export async function POST() {
   const repo = process.env.GH_REPO;
   const token = process.env.GH_DISPATCH_TOKEN;
 
-  if (!repo || !token) {
+  // Without a token the scan cannot be dispatched from here, but the workflow
+  // is still one click away — hand back the Actions URL so the button stays
+  // useful instead of dead-ending on an error.
+  if (!token) {
     return NextResponse.json({
       ok: false,
-      message:
-        "Manual trigger needs GH_REPO and GH_DISPATCH_TOKEN set in Vercel env vars. " +
-        "Until then, run the workflow from the repo's Actions tab, or `npm run scan` locally.",
+      fallbackUrl: repo
+        ? `https://github.com/${repo}/actions/workflows/${WORKFLOW_FILE}`
+        : null,
+      message: repo
+        ? "No dispatch token set, so this can't fire the run directly. Open the workflow and hit “Run workflow” — same result, one extra click."
+        : "Manual trigger needs GH_REPO and GH_DISPATCH_TOKEN in Vercel env vars. Until then run the workflow from the repo's Actions tab, or `npm run scan` locally.",
+    });
+  }
+
+  if (!repo) {
+    return NextResponse.json({
+      ok: false,
+      fallbackUrl: null,
+      message: "GH_DISPATCH_TOKEN is set but GH_REPO is missing — add owner/repo in Vercel env vars.",
     });
   }
 
@@ -54,11 +68,13 @@ export async function POST() {
     const text = await res.text();
     return NextResponse.json({
       ok: false,
+      fallbackUrl: `https://github.com/${repo}/actions/workflows/${WORKFLOW_FILE}`,
       message: `GitHub returned ${res.status}: ${text.slice(0, 180)}`,
     });
   } catch (err) {
     return NextResponse.json({
       ok: false,
+      fallbackUrl: `https://github.com/${repo}/actions/workflows/${WORKFLOW_FILE}`,
       message: err instanceof Error ? err.message : "Dispatch failed",
     });
   }

@@ -188,9 +188,44 @@ npm run dev      # http://localhost:3000
    `VERCEL_DEPLOY_HOOK` if you'd rather force a redeploy than rely on the Git
    integration.
 
-The "Run scan now" button fires `workflow_dispatch` on `daily-scan.yml`. Without
-`GH_REPO`/`GH_DISPATCH_TOKEN` it says so plainly instead of failing silently —
-you can always run the workflow from the repo's Actions tab.
+### Enabling cross-device state (KV)
+
+1. Vercel dashboard → the `internship-radar` project → **Storage** → **Create
+   Database** → **Upstash for Redis** → pick the free tier, region Mumbai
+   (`ap-south-1`) → **Connect to Project**.
+2. Vercel injects the credentials as env vars automatically. Both naming
+   schemes work — `KV_REST_API_URL`/`KV_REST_API_TOKEN` or
+   `UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN`.
+3. **Redeploy** (Deployments → ⋯ → Redeploy). Env vars only apply to builds
+   made after they are added.
+4. Optional, so the Action can snapshot state back into the repo: copy the same
+   two values into GitHub → repo **Settings → Secrets and variables → Actions →
+   New repository secret**.
+
+The footer stops saying "saved in this browser" once KV is live. State already
+in a browser stays there — KV starts empty.
+
+### Enabling the one-click "Run scan now" button
+
+`GH_REPO` is already set. It needs a token that can dispatch the workflow:
+
+1. github.com → **Settings → Developer settings → Personal access tokens →
+   Fine-grained tokens → Generate new token**.
+2. **Repository access** → *Only select repositories* → `Internship-Tracker`.
+3. **Permissions → Repository permissions → Actions → Read and write**. Nothing
+   else is needed.
+4. Generate, copy the token, then add it to Vercel — either in the dashboard
+   (Settings → Environment Variables → `GH_DISPATCH_TOKEN`, Production) or:
+
+   ```bash
+   npx vercel env add GH_DISPATCH_TOKEN production
+   ```
+
+5. Redeploy.
+
+Until that token exists the button does not dead-end: it returns a direct link
+to the workflow so the run is one extra click away. `npm run scan` locally also
+works, and finds more (see the Cloudflare note above).
 
 ---
 
