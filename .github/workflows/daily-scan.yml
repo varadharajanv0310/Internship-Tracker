@@ -71,8 +71,17 @@ jobs:
             git push
           fi
 
-      # Only needed if the repo is NOT connected to Vercel's Git integration.
-      # Add a VERCEL_DEPLOY_HOOK secret to force a redeploy after each scan.
-      - name: Trigger Vercel redeploy
-        if: ${{ secrets.VERCEL_DEPLOY_HOOK != '' }}
-        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" > /dev/null
+      # The repo is connected to Vercel's Git integration, so the push above
+      # already redeploys. This is a fallback for setups without it: add a
+      # VERCEL_DEPLOY_HOOK secret and it fires instead.
+      # (`secrets` is not available in a step-level `if`, so guard inside run.)
+      - name: Trigger Vercel redeploy (optional)
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then
+            curl -fsS -X POST "$HOOK" > /dev/null
+            echo "Redeploy hook fired."
+          else
+            echo "No deploy hook set - Vercel's Git integration handles redeploys."
+          fi
