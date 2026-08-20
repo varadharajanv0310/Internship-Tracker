@@ -62,6 +62,43 @@ export function isChennai(location: string): boolean {
   return /chennai|madras/i.test(location);
 }
 
+/**
+ * Sources spell the same place many ways — "Bangalore", "Bengaluru",
+ * "Bangalore,India" and "Bengaluru, India" are all one city. Collapse raw
+ * strings onto a canonical set so the city filter and counts mean something.
+ * A listing can legitimately name several ("Bangalore, Hyderabad").
+ */
+const CITY_RULES: Array<[RegExp, string]> = [
+  [/chennai|madras|sholinganallur|siruseri|guindy|taramani/i, "Chennai"],
+  [/bengaluru|bangalore/i, "Bengaluru"],
+  [/hyderabad|secunderabad/i, "Hyderabad"],
+  [/pune|pimpri/i, "Pune"],
+  [/mumbai|thane|navi mumbai/i, "Mumbai"],
+  [/gurgaon|gurugram|noida|new delhi|\bdelhi\b|\bncr\b|faridabad/i, "Delhi NCR"],
+  [/kolkata|calcutta/i, "Kolkata"],
+  [/coimbatore/i, "Coimbatore"],
+  [/ahmedabad|gandhinagar/i, "Ahmedabad"],
+  [/kochi|cochin|trivandrum|thiruvananthapuram/i, "Kerala"],
+  [/jaipur/i, "Jaipur"],
+  [/indore|bhopal/i, "Indore"],
+  [/chandigarh|mohali/i, "Chandigarh"],
+  [/remote|work from home|\bwfh\b|anywhere/i, "Remote"],
+];
+
+/** Fallback when a listing only says "India". */
+export const CITY_UNSPECIFIED = "India";
+
+export function citiesOf(location: string): string[] {
+  const hits = CITY_RULES.filter(([re]) => re.test(location)).map(([, name]) => name);
+  const unique = [...new Set(hits)];
+  return unique.length > 0 ? unique : [CITY_UNSPECIFIED];
+}
+
+/** Tidy label for display — "Bangalore,India" reads as "Bengaluru". */
+export function locationLabel(location: string): string {
+  return citiesOf(location).join(" · ");
+}
+
 export interface Reason {
   text: string;
   kind: "plus" | "minus";

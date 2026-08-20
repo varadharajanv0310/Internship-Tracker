@@ -8,6 +8,7 @@ import {
   deadlineLabel,
   freshness,
   isLocal,
+  locationLabel,
   oddsColor,
   scoreFill,
   splitReasons,
@@ -30,6 +31,7 @@ export function RoleRow({
   const isNew = role.isNew || days === 0;
   const fresh = freshness(days);
   const local = isLocal(role.location);
+  const loc = locationLabel(role.location);
   const deadline = deadlineLabel(role);
   const reasons = splitReasons(role.oddsReasons);
 
@@ -67,11 +69,16 @@ export function RoleRow({
           <span className="row-role">{role.role}</span>
           <span className="row-sub">
             {role.company} · {TIER_SHORT[role.tier]}
+            {/* the location column is dropped on narrow screens, so carry it here */}
+            <span className="only-sm" data-local={local}>
+              {" "}
+              · {loc}
+            </span>
           </span>
         </span>
 
         <span className="row-loc" data-local={local}>
-          {role.location}
+          {loc}
         </span>
 
         <span className="tag">{role.leadWithTag}</span>

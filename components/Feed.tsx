@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { Odds, Role, SourceFailure } from "@/lib/types";
-import { ageInDays, isChennai, isLocal } from "@/lib/view";
+import { ageInDays, citiesOf, isChennai, isLocal } from "@/lib/view";
 import { RoleRow } from "./RoleRow";
 import { useRoleState } from "./StateProvider";
 
@@ -21,15 +21,27 @@ export function Feed({
   const [odds, setOdds] = useState<Odds | "All">("All");
   const [query, setQuery] = useState("");
   const [localOnly, setLocalOnly] = useState(false);
+  const [city, setCity] = useState<string>("All");
   const [newOnly, setNewOnly] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
 
   // Applied roles leave the feed — they live under Applied.
   const open = useMemo(() => roles.filter((r) => !state[r.id]?.applied), [roles, state]);
 
+  const cities = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const r of open) {
+      for (const c of citiesOf(r.location)) counts.set(c, (counts.get(c) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .sort((a, b) => (a[0] === "Chennai" ? -1 : b[0] === "Chennai" ? 1 : b[1] - a[1]))
+      .map(([name, n]) => ({ name, n }));
+  }, [open]);
+
   const feed = useMemo(() => {
     let out = open;
     if (odds !== "All") out = out.filter((r) => r.odds === odds);
+    if (city !== "All") out = out.filter((r) => citiesOf(r.location).includes(city));
     if (localOnly) out = out.filter((r) => isLocal(r.location));
     if (newOnly) out = out.filter((r) => r.isNew || ageInDays(r.firstSeenAt) === 0);
     const q = query.trim().toLowerCase();
@@ -41,7 +53,7 @@ export function Feed({
     return [...out].sort(
       (a, b) => ageInDays(a.firstSeenAt) - ageInDays(b.firstSeenAt) || b.oddsScore - a.oddsScore,
     );
-  }, [open, odds, localOnly, newOnly, query]);
+  }, [open, odds, city, localOnly, newOnly, query]);
 
   const newCount = open.filter((r) => r.isNew || ageInDays(r.firstSeenAt) === 0).length;
   const strongCount = open.filter((r) => r.odds === "Strong").length;
@@ -130,6 +142,24 @@ export function Feed({
         <span style={{ color: "rgba(var(--fg-rgb),.4)" }}>
           {feed.length} of {open.length} shown
         </span>
+      </section>
+
+      <section className="citybar no-print">
+        <span className="citybar-label">Location</span>
+        <button type="button" className="pill" data-on={city === "All"} onClick={() => setCity("All")}>
+          All
+        </button>
+        {cities.map((c) => (
+          <button
+            key={c.name}
+            type="button"
+            className="pill"
+            data-on={city === c.name}
+            onClick={() => setCity(c.name)}
+          >
+            {c.name} <span style={{ opacity: 0.55 }}>{c.n}</span>
+          </button>
+        ))}
       </section>
 
       {feed.length === 0 ? (

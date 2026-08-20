@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import type { Role } from "@/lib/types";
-import { TIER_SHORT, ageInDays, ageLabel, fmtDate, isLocal, oddsColor } from "@/lib/view";
+import { TIER_SHORT, ageInDays, ageLabel, fmtDate, isLocal, locationLabel, oddsColor } from "@/lib/view";
 import { useRoleState } from "./StateProvider";
 
 export function ListView({ roles, variant }: { roles: Role[]; variant: "bookmarks" | "applied" }) {
@@ -124,11 +124,17 @@ export function ListView({ roles, variant }: { roles: Role[]; variant: "bookmark
                   >
                     {role.role}
                   </a>
-                  <span className="row-sub">{role.company}</span>
+                  <span className="row-sub">
+                    {role.company}
+                    <span className="only-sm" data-local={isLocal(role.location)}>
+                      {" "}
+                      · {locationLabel(role.location)}
+                    </span>
+                  </span>
                 </span>
 
                 <span className="row-loc" data-local={isLocal(role.location)}>
-                  {role.location}
+                  {locationLabel(role.location)}
                 </span>
 
                 <span className="tag">{role.leadWithTag}</span>
