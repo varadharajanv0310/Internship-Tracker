@@ -9,6 +9,13 @@ export interface RawRole {
   postedAt?: string | null;
   deadline?: string | null;
   description?: string | null;
+  /**
+   * Set by sources that only ever list internships. Internshala and Unstop
+   * title their listings by category ("QA Engineer", "Embedded Systems"), so
+   * the word "intern" never appears — without this flag the central gate threw
+   * away 41 of 42 listings on a page where every listing is an internship.
+   */
+  impliedInternship?: boolean;
 }
 
 export interface Source {

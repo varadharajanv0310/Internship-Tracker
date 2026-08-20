@@ -24,6 +24,7 @@ import {
   isIndiaOrRemote,
   isRelevantDiscipline,
   looksLikeInternship,
+  norm,
   todayISO,
 } from "../lib/normalize";
 import { readKvState } from "../lib/state";
@@ -86,7 +87,7 @@ async function runAll(sources: Source[]): Promise<SourceOutcome[]> {
 /** Central eligibility gate — applied identically to every source. */
 function keep(raw: RawRole): boolean {
   if (!raw.company?.trim() || !raw.role?.trim() || !raw.url) return false;
-  if (!looksLikeInternship(raw.role)) return false;
+  if (!raw.impliedInternship && !looksLikeInternship(raw.role)) return false;
   if (!isIndiaOrRemote(raw.location)) return false;
   if (!isRelevantDiscipline(raw.role, raw.description)) return false;
   if (exclusionReason(raw.company, raw.role, raw.description)) return false;
@@ -208,6 +209,28 @@ async function main(): Promise<void> {
     }
   }
 
+  // ---- cap aggregator spam ------------------------------------------------
+  // One Chennai company posted 26 of 43 listings on Internshala, one per course
+  // topic (Web Development, ReactJS, Django, Python...). Cap how many a single
+  // company can occupy from the aggregator feeds, keeping its best-scoring
+  // roles. Company ATS boards are exempt: eight real NVIDIA reqs are eight
+  // real reqs.
+  const AGGREGATOR = /^(internshala|unstop|newsletter|reddit):/;
+  const MAX_PER_COMPANY = 3;
+  const perCompany = new Map<string, number>();
+  let cappedSpam = 0;
+
+  for (const role of [...byId.values()].sort((a, b) => b.oddsScore - a.oddsScore)) {
+    if (!AGGREGATOR.test(role.source)) continue;
+    const key = norm(role.company);
+    const seen = (perCompany.get(key) ?? 0) + 1;
+    perCompany.set(key, seen);
+    if (seen > MAX_PER_COMPANY) {
+      byId.delete(role.id);
+      cappedSpam++;
+    }
+  }
+
   const roles = [...byId.values()].sort((a, b) => {
     if (a.status !== b.status) return a.status === "open" ? -1 : 1;
     if (a.isNew !== b.isNew) return a.isNew ? -1 : 1;
@@ -283,6 +306,7 @@ async function main(): Promise<void> {
   new this run          ${baselineRun ? `0 (baseline seeded)` : newThisRun}
   carried forward       ${carriedForward}${droppedStale ? ` (${droppedStale} dropped as stale)` : ""}
   closed but tracked    ${closedTracked}
+  aggregator spam cut   ${cappedSpam}
   sources ok / failed   ${db.stats.sourcesOk} / ${db.stats.sourcesFailed}
   elapsed               ${((Date.now() - startedAt) / 1000).toFixed(1)}s
 ────────────────────────────────────────────────

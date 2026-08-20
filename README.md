@@ -37,13 +37,28 @@ On Sundays it also writes a weekly report that renders inside the site.
 If a source fails, roles it previously supplied are **carried forward** rather
 than disappearing from the feed.
 
+### Two gotchas the central filter has to know about
+
+**Sources where every listing is an internship.** Internshala and Unstop title
+listings by category — "QA Engineer", "Embedded Systems", "Web Development" —
+so the word "intern" never appears. The title-based gate threw away 41 of 42
+listings on a page where all 42 were internships. Those adapters now set
+`impliedInternship` on each role, which skips that one gate (every other filter
+still applies).
+
+**Aggregator spam.** One Chennai company posted 26 of 43 Internshala listings,
+one per course topic (Web Development, ReactJS, Django, Python...). A single
+company is capped at 3 roles from aggregator feeds, keeping its best-scoring
+ones. Company ATS boards are exempt — eight real NVIDIA reqs are eight real
+reqs.
+
 ### The six source tiers
 
 | Tier | What | Live sources |
 |---|---|---|
 | 1 | Big-tech & quant ATS | Amazon, JPMorgan, Salesforce, NVIDIA, Adobe, Intel, PayPal, Target, Morgan Stanley, Tower Research, IMC, Optiver, Graviton, AlphaGrep |
 | 2 | GitHub daily trackers | speedyapply 2027 SWE + AI `INTERN_INTL.md` (roles added in the last ~4 days) |
-| 3 | Chennai + remote rolling | Internshala (4 searches), Unstop, Freshworks, Fractal, Databricks, Zoho, Wadhwani AI, Planys |
+| 3 | Chennai + remote rolling | Internshala (14 categories × Chennai + WFH, 2 pages deep), Unstop (6 pages), Freshworks, Swiggy, Zomato, Meesho, Flipkart, Fractal, Zoho, Wadhwani AI, Planys, plus ~380 discovered company boards |
 | 4 | India newsletters | FreshersDunia, OffCampusJobs4u, EnggWave, Placement-Officer |
 | 5 | Research labs | AI4Bharat, MSR India, IBM Research, Google Research, Adobe Research, IISc, IAS-INSA-NASI SRFP |
 | 6 | Community | r/developersIndia, r/Btechtards — Reddit blocks datacenter IPs, so this tier **fails silently by design** |
