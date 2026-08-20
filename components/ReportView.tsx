@@ -2,182 +2,207 @@
 
 import Link from "next/link";
 import type { Role, WeeklyReport } from "@/lib/types";
+import { fmtDate, splitReasons } from "@/lib/view";
 
-function RoleLine({ role, rank }: { role: Role; rank?: number }) {
-  return (
-    <li className="print-plain rounded-lg border border-white/10 bg-white/[0.03] p-3">
-      <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-        {rank !== undefined && (
-          <span className="font-mono text-xs text-zinc-500">{rank}.</span>
-        )}
-        <span className="font-semibold text-zinc-100">{role.company}</span>
-        <span className="text-zinc-600">·</span>
-        <span className="text-zinc-200">{role.role}</span>
-      </div>
-      <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-zinc-500">
-        <span>{role.location}</span>
-        {role.stipend && (
-          <>
-            <span>·</span>
-            <span className="text-emerald-400">{role.stipend}</span>
-          </>
-        )}
-        <span>·</span>
-        <span
-          className={
-            role.odds === "Strong"
-              ? "text-emerald-400"
-              : role.odds === "Moderate"
-                ? "text-amber-400"
-                : "text-rose-400"
-          }
-        >
-          {role.odds} ({role.oddsScore}/100)
-        </span>
-        <span>·</span>
-        <span>lead with {role.leadWithTag}</span>
-        <span>·</span>
-        <a
-          href={role.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sky-400 underline-offset-2 hover:underline"
-        >
-          apply
-        </a>
-      </div>
-      <p className="mt-1 text-xs text-zinc-500">{role.leadWith}</p>
-    </li>
-  );
+function rangeLabel(report: WeeklyReport): string {
+  const year = report.weekEnd.slice(0, 4);
+  return `${fmtDate(report.weekStart)} – ${fmtDate(report.weekEnd)} ${year}`;
+}
+
+function daysLeft(iso: string): number {
+  return Math.ceil((Date.parse(`${iso}T00:00:00Z`) - Date.now()) / 86_400_000);
+}
+
+/**
+ * The strongest positive reason doubles as the "why bother" line. The reason
+ * already names the project in parentheses, so strip that before appending the
+ * lead-with — otherwise the same project is named twice in one sentence.
+ */
+function whyLine(role: Role): string {
+  const plus = splitReasons(role.oddsReasons).find((r) => r.kind === "plus");
+  const lead = `Lead with ${role.leadWith}.`;
+  if (!plus) return lead;
+  const claim = plus.text
+    .replace(/^\+\s*/, "")
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .trim();
+  return `${claim}. ${lead}`;
 }
 
 export function ReportView({
   report,
-  weeks,
+  sourcesTotal,
+  failures,
+  manualCount,
 }: {
   report: WeeklyReport;
-  weeks: string[];
+  sourcesTotal: number;
+  failures: Array<{ sourceLabel: string }>;
+  manualCount: number;
 }) {
-  const { numbers } = report;
+  const range = rangeLabel(report);
+  const closingIn7 = report.deadlines.filter((r) => r.deadline && daysLeft(r.deadline) <= 7).length;
+
+  const mix = (() => {
+    const counts = new Map<string, number>();
+    for (const r of report.newlyOpened) {
+      counts.set(r.leadWithTag, (counts.get(r.leadWithTag) ?? 0) + 1);
+    }
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
+    const max = sorted[0]?.[1] ?? 1;
+    return sorted.map(([tag, n]) => ({ tag, n, width: `${Math.round((n / max) * 100)}%` }));
+  })();
 
   return (
-    <div className="space-y-6">
-      <header className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <h1 className="text-xl font-semibold tracking-tight text-zinc-100">
-            Weekly report · {report.week}
-          </h1>
-          <p className="mt-1 text-sm text-zinc-500">
-            {report.weekStart} → {report.weekEnd}
-          </p>
+    <div style={{ padding: "40px 0 0" }}>
+      <div
+        className="no-print"
+        style={{
+          display: "flex",
+          alignItems: "flex-end",
+          justifyContent: "space-between",
+          gap: 40,
+          paddingBottom: 22,
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+          <span className="big-title" style={{ fontSize: 40 }}>
+            Weekly report
+          </span>
+          <span className="meta dim">{range}</span>
         </div>
-        <div className="no-print flex items-center gap-2">
-          {weeks.length > 1 && (
-            <select
-              defaultValue={report.week}
-              onChange={(e) => {
-                window.location.href = `/report/${e.target.value}`;
-              }}
-              className="rounded-lg border border-white/10 bg-black/40 px-2.5 py-1.5 text-sm text-zinc-200 outline-none"
-            >
-              {weeks.map((w) => (
-                <option key={w} value={w}>
-                  {w}
-                </option>
-              ))}
-            </select>
-          )}
-          <button
-            type="button"
-            onClick={() => window.print()}
-            className="rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-[13px] font-medium text-zinc-200 transition hover:bg-white/10"
-          >
-            Download PDF
+        <div
+          className="meta"
+          style={{ display: "flex", gap: 26, paddingBottom: 8, letterSpacing: ".12em" }}
+        >
+          <button type="button" className="linkish linkish-acc" onClick={() => window.print()}>
+            →&ensp;Export PDF
           </button>
+          <Link href="/report/archive" className="linkish" style={{ color: "rgba(var(--fg-rgb),.6)" }}>
+            Past reports
+          </Link>
         </div>
-      </header>
+      </div>
 
-      {report.empty ? (
-        <div className="print-plain rounded-xl border border-white/10 bg-white/[0.03] p-6">
-          <p className="text-zinc-200">Nothing new opened this week.</p>
-          <p className="mt-1 text-sm text-zinc-500">
-            No roles crossed the radar between {report.weekStart} and {report.weekEnd},
-            and nothing is closing in the next 14 days.
-          </p>
-        </div>
-      ) : (
-        <>
-          <section>
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-rose-300">
-              🚨 Newly opened this week ({report.newlyOpened.length})
-            </h2>
-            {report.newlyOpened.length === 0 ? (
-              <p className="mt-2 text-sm text-zinc-500">No new roles surfaced.</p>
-            ) : (
-              <ul className="mt-2 space-y-2">
-                {report.newlyOpened.map((role) => (
-                  <RoleLine key={role.id} role={role} />
-                ))}
-              </ul>
-            )}
-          </section>
+      <article className="paper">
+        <header className="paper-head">
+          <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+            <span style={{ fontSize: 25, letterSpacing: "-0.02em" }}>Weekly digest — {range}</span>
+            <span
+              className="mono"
+              style={{
+                fontSize: 10,
+                letterSpacing: ".14em",
+                textTransform: "uppercase",
+                color: "rgba(22,21,26,.5)",
+              }}
+            >
+              Internship Radar · {sourcesTotal} sources · Summer 2027
+            </span>
+          </div>
+          <span className="paper-mark" aria-hidden="true" />
+        </header>
 
-          {report.topNew.length > 0 && (
-            <section>
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-300">
-                Top {report.topNew.length} to prioritise
-              </h2>
-              <ul className="mt-2 space-y-2">
-                {report.topNew.map((role, i) => (
-                  <RoleLine key={role.id} role={role} rank={i + 1} />
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {report.deadlines.length > 0 && (
-            <section>
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-orange-300">
-                ⏳ Closing within 14 days
-              </h2>
-              <ul className="mt-2 space-y-2">
-                {report.deadlines.map((role) => (
-                  <RoleLine key={role.id} role={role} />
-                ))}
-              </ul>
-            </section>
-          )}
-        </>
-      )}
-
-      <section className="print-plain rounded-xl border border-white/10 bg-white/[0.03] p-4">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-300">
-          My week in numbers
-        </h2>
-        <dl className="mt-3 grid grid-cols-3 gap-4">
+        <div className="paper-stats">
           {[
-            { label: "new roles surfaced", value: numbers.newRoles },
-            { label: "bookmarked", value: numbers.bookmarked },
-            { label: "applied to", value: numbers.applied },
-          ].map((n) => (
-            <div key={n.label}>
-              <dd className="text-2xl font-semibold text-zinc-100">{n.value}</dd>
-              <dt className="mt-0.5 text-xs text-zinc-500">{n.label}</dt>
+            { value: report.numbers.newRoles, label: "Roles opened" },
+            { value: report.numbers.applied, label: "You applied" },
+            { value: report.newlyOpened.filter((r) => r.odds === "Strong").length, label: "Strong odds" },
+            { value: closingIn7, label: "Closing in 7d" },
+          ].map((s) => (
+            <div className="paper-stat" key={s.label}>
+              <b>{s.value}</b>
+              <span>{s.label}</span>
             </div>
           ))}
-        </dl>
-        <p className="mt-3 text-xs text-zinc-600">
-          Bookmarks count roles first seen this week; applications count anything
-          stamped applied between {report.weekStart} and {report.weekEnd}.
-        </p>
-      </section>
+        </div>
 
-      <p className="no-print text-xs text-zinc-600">
-        Generated {new Date(report.generatedAt).toUTCString()} ·{" "}
-        <Link href="/" className="underline-offset-2 hover:text-zinc-400 hover:underline">
-          back to feed
-        </Link>
-      </p>
+        {report.empty ? (
+          <div style={{ marginTop: 40 }}>
+            <p style={{ fontSize: 16, margin: 0 }}>Nothing new opened this week.</p>
+            <p style={{ fontSize: 13, color: "rgba(22,21,26,.6)", marginTop: 6 }}>
+              No roles crossed the radar between {report.weekStart} and {report.weekEnd}, and nothing
+              is closing in the next 14 days.
+            </p>
+          </div>
+        ) : (
+          <div className="paper-cols">
+            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+              <span className="paper-label">
+                Prioritise {report.topNew.length === 1 ? "this one" : `these ${report.topNew.length}`}
+              </span>
+              {report.topNew.map((p, i) => (
+                <div className="pick" key={p.id}>
+                  <span className="mono" style={{ fontSize: 11, color: "rgba(22,21,26,.42)" }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+                    <span style={{ fontSize: 16, letterSpacing: "-0.01em" }}>
+                      {p.role} — {p.company}
+                    </span>
+                    <span className="pick-why">{whyLine(p)}</span>
+                  </div>
+                  <span
+                    className="mono"
+                    style={{
+                      fontSize: 11,
+                      textAlign: "right",
+                      letterSpacing: ".08em",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    {p.odds} {p.oddsScore}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: 11 }}>
+                <span className="paper-label">Closing soon</span>
+                {report.deadlines.length === 0 ? (
+                  <span style={{ fontSize: 13, color: "rgba(22,21,26,.55)" }}>
+                    No dated deadlines this week.
+                  </span>
+                ) : (
+                  report.deadlines.slice(0, 5).map((c) => (
+                    <div className="closing-row" key={c.id}>
+                      <span>
+                        {c.company} — {c.role}
+                      </span>
+                      <span className="mono" style={{ fontSize: 11, color: "rgba(22,21,26,.6)" }}>
+                        {c.deadline ? fmtDate(c.deadline) : "—"}
+                      </span>
+                    </div>
+                  ))
+                )}
+              </div>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: 11 }}>
+                <span className="paper-label">Lead-with mix</span>
+                {mix.map((m) => (
+                  <div className="mix-row" key={m.tag}>
+                    <span style={{ flex: "0 0 120px", color: "rgba(22,21,26,.72)" }}>{m.tag}</span>
+                    <span className="mix-bar">
+                      <i style={{ width: m.width }} />
+                    </span>
+                    <span style={{ color: "rgba(22,21,26,.5)" }}>{m.n}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        <footer className="paper-foot">
+          <span>Manual-check backlog: {manualCount} companies</span>
+          <span>
+            Source failures: {failures.length}
+            {failures.length > 0 && ` · ${failures.map((f) => f.sourceLabel).join(", ")}`}
+          </span>
+        </footer>
+      </article>
     </div>
   );
 }
