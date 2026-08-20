@@ -8,7 +8,8 @@ import { useRoleState } from "./StateProvider";
 const THEME_KEY = "internship-radar:theme";
 
 export interface ChromeProps {
-  ids: string[];
+  /** id + status, so the Feed count can exclude closed listings. */
+  ids: Array<{ id: string; status: "open" | "closed" }>;
   runDate: string;
   sourcesOk: number;
   sourcesFailed: number;
@@ -76,10 +77,13 @@ export function Chrome({
     }
   }
 
-  // Applied roles leave the feed entirely — they live under Applied.
-  const appliedCount = ids.filter((id) => state[id]?.applied).length;
-  const starredCount = ids.filter((id) => state[id]?.bookmarked).length;
-  const openCount = ids.length - appliedCount;
+  // Applied roles leave the feed entirely — they live under Applied. Closed
+  // listings are retained only for the log, so they never count as open.
+  const appliedCount = ids.filter((r) => state[r.id]?.applied).length;
+  const starredCount = ids.filter((r) => state[r.id]?.bookmarked).length;
+  const openCount = ids.filter(
+    (r) => r.status === "open" && !state[r.id]?.applied,
+  ).length;
 
   const tabs: Array<{ href: string; label: string; count: string | number }> = [
     { href: "/", label: "Feed", count: openCount },

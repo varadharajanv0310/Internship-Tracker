@@ -47,6 +47,14 @@ export interface Role {
   leadWithTag: string;
   /** True when this fingerprint was first seen in the most recent run. */
   isNew: boolean;
+  /**
+   * "closed" = the listing no longer appears at its source. Closed roles are
+   * only retained when they are bookmarked or applied, so the application log
+   * does not lose entries the moment a company takes the req down.
+   */
+  status: "open" | "closed";
+  /** ISO date the role was first seen missing from a working source. */
+  closedAt: string | null;
 }
 
 export interface SourceFailure {
@@ -69,6 +77,8 @@ export interface Db {
     newThisRun: number;
     sourcesOk: number;
     sourcesFailed: number;
+    /** Closed-but-tracked roles retained for the application log. */
+    closedTracked: number;
   };
 }
 

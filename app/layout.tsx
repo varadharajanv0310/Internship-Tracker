@@ -36,7 +36,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <Aurora />
             <div className="shell">
               <Chrome
-                ids={db.roles.map((r) => r.id)}
+                ids={db.roles.map((r) => ({ id: r.id, status: r.status }))}
                 runDate={fmtDate(db.runDate)}
                 sourcesOk={db.stats.sourcesOk}
                 sourcesFailed={db.stats.sourcesFailed}

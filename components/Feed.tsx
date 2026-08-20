@@ -25,8 +25,12 @@ export function Feed({
   const [newOnly, setNewOnly] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
 
-  // Applied roles leave the feed — they live under Applied.
-  const open = useMemo(() => roles.filter((r) => !state[r.id]?.applied), [roles, state]);
+  // Applied roles leave the feed (they live under Applied), and closed
+  // listings are only retained for the log — neither belongs here.
+  const open = useMemo(
+    () => roles.filter((r) => r.status === "open" && !state[r.id]?.applied),
+    [roles, state],
+  );
 
   const cities = useMemo(() => {
     const counts = new Map<string, number>();

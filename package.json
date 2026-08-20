@@ -8,7 +8,8 @@
     "start": "next start",
     "scan": "tsx scripts/scan.ts",
     "report": "tsx scripts/report.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "discover": "tsx scripts/discover.ts"
   },
   "dependencies": {
     "@upstash/redis": "^1.38.2",

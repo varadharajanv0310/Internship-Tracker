@@ -3,7 +3,7 @@
  * Each returns RawRole[]; filtering to India/remote + internships happens
  * centrally in scan.ts so every source is treated identically.
  */
-import { getJson, postJson, stripTags, type RawRole } from "./base";
+import { getJson, getText, postJson, stripTags, type RawRole } from "./base";
 
 /* ------------------------------------------------------------------ Workday */
 
@@ -175,10 +175,12 @@ export async function fetchWorkday(t: WorkdayTenant): Promise<RawRole[]> {
     if (out.size > 0) return [...out.values()];
   }
 
-  // Fallback: keyword sweep when no country facet is exposed.
-  for (const searchText of ["intern", "internship", "student"]) {
+  // Fallback: keyword sweep when no country facet is exposed. Kept short —
+  // a tenant that exposes no India facet rarely has India roles, and this
+  // path now runs across ~185 discovered Workday boards.
+  for (const searchText of ["intern India", "internship India"]) {
     let total = Infinity;
-    for (let page = 0; page < 8; page++) {
+    for (let page = 0; page < 3; page++) {
       const res = await postJson<WorkdayResponse>(api, {
         appliedFacets: {},
         limit: 20,
@@ -374,6 +376,46 @@ export async function fetchOracleRecruiting(
           `${req.ShortDescriptionStr ?? ""} ${req.ExternalQualificationsStr ?? ""}`,
         ).slice(0, 1500),
       });
+    }
+  }
+  return [...out.values()];
+}
+
+/* --------------------------------------------------- SAP SuccessFactors (HTML) */
+
+/**
+ * SuccessFactors career sites render their result list server-side, so they
+ * are readable without a browser. The job slug reliably starts with the city
+ * ("/job/Bangalore-Data-Engineer-..."), which is a more dependable location
+ * than the sibling jobLocation cell.
+ */
+export async function fetchSuccessFactors(
+  company: string,
+  host: string,
+  queries = ["intern", "internship", "student"],
+): Promise<RawRole[]> {
+  const out = new Map<string, RawRole>();
+
+  for (const q of queries) {
+    const html = await getText(
+      `https://${host}/search/?q=${encodeURIComponent(q)}&locationsearch=India`,
+    );
+
+    const rowRe =
+      /class="jobTitle-link"[^>]*href="([^"]+)"[^>]*>([\s\S]{0,220}?)<\/a>([\s\S]{0,900}?)(?=class="jobTitle-link"|$)/g;
+
+    for (const m of html.matchAll(rowRe)) {
+      const href = m[1];
+      const title = stripTags(m[2]);
+      if (!href || !title) continue;
+
+      const slugCity = decodeURIComponent(href.replace(/^\/job\//, "")).split("-")[0];
+      const cellMatch = m[3].match(/class="jobLocation"[^>]*>([\s\S]{0,140}?)</);
+      const cell = cellMatch ? stripTags(cellMatch[1]) : "";
+      const location = cell || slugCity || "India";
+
+      const url = `https://${host}${href}`;
+      out.set(url, { company, role: title, location, url, description: title });
     }
   }
   return [...out.values()];

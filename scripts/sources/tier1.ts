@@ -9,6 +9,7 @@ import {
   fetchAmazon,
   fetchGreenhouse,
   fetchOracleRecruiting,
+  fetchSuccessFactors,
   fetchWorkday,
   type WorkdayTenant,
 } from "./ats";
@@ -32,6 +33,15 @@ const GREENHOUSE_BOARDS: Array<{ company: string; board: string }> = [
   { company: "AlphaGrep", board: "alphagrepsecurities" },
 ];
 
+/** Companies already covered here, so discovery does not scan them twice. */
+export const TIER1_HARDCODED_COMPANIES = [
+  "Amazon",
+  "JPMorgan",
+  "SAP",
+  ...WORKDAY_TENANTS.map((t) => t.company),
+  ...GREENHOUSE_BOARDS.map((b) => b.company),
+];
+
 export const tier1Sources: Source[] = [
   {
     id: "amazon:jobs",
@@ -44,6 +54,12 @@ export const tier1Sources: Source[] = [
     label: "JPMorgan Chase careers",
     tier: 1,
     run: () => fetchOracleRecruiting("JPMorgan", "jpmc.fa.oraclecloud.com", "CX_1001"),
+  },
+  {
+    id: "successfactors:sap",
+    label: "SAP (SuccessFactors)",
+    tier: 1,
+    run: () => fetchSuccessFactors("SAP", "jobs.sap.com"),
   },
   ...WORKDAY_TENANTS.map<Source>((t) => ({
     id: `workday:${t.tenant}`,

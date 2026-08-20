@@ -2,17 +2,24 @@ name: Daily scan
 
 on:
   schedule:
-    # 00:30 UTC = 06:00 IST, every day.
-    - cron: "30 0 * * *"
+    # Summer-2027 India reqs open Sep-Jan, and the flag is only worth
+    # anything inside 48h — so sweep four times a day rather than once.
+    # 00:30 / 06:30 / 12:30 / 18:30 UTC = 06:00 / 12:00 / 18:00 / 00:00 IST.
+    - cron: "30 0,6,12,18 * * *"
   workflow_dispatch:
     inputs:
       force_report:
         description: "Also regenerate the weekly report"
         type: boolean
         default: false
+      rediscover:
+        description: "Re-run ATS board discovery first (slow)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: daily-scan
@@ -21,7 +28,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - uses: actions/checkout@v4
@@ -33,6 +40,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Re-discover ATS boards
+        if: ${{ inputs.rediscover }}
+        run: npm run discover
 
       - name: Run the scan
         # Optional: set these repo secrets to keep Applied/Bookmarked state in
@@ -46,7 +57,10 @@ jobs:
       - name: Decide whether to build the weekly report
         id: week
         run: |
-          if [ "$(date -u +%u)" = "7" ] || [ "${{ inputs.force_report }}" = "true" ]; then
+          # Sunday, and only on the first run of the day, so the report is
+          # written once rather than four times.
+          if { [ "$(date -u +%u)" = "7" ] && [ "$(date -u +%H)" = "00" ]; } \
+             || [ "${{ inputs.force_report }}" = "true" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
@@ -70,6 +84,25 @@ jobs:
             git commit -m "chore(scan): refresh listings $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # A newly-opened role is only useful if he hears about it. GitHub emails
+      # issues to the repo owner, so this needs no mail secrets of its own.
+      - name: Check for roles worth an alert
+        id: alert
+        run: echo "count=$(npx tsx scripts/notify.ts "$RUNNER_TEMP/alert.md")" >> "$GITHUB_OUTPUT"
+
+      - name: Open an alert issue
+        if: steps.alert.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 ${{ steps.alert.outputs.count }} internship(s) opened — $(TZ=Asia/Kolkata date +'%d %b')" \
+            --body-file "$RUNNER_TEMP/alert.md" \
+            --label "new-roles" || \
+          gh issue create \
+            --title "🚨 ${{ steps.alert.outputs.count }} internship(s) opened — $(TZ=Asia/Kolkata date +'%d %b')" \
+            --body-file "$RUNNER_TEMP/alert.md"
 
       # The repo is connected to Vercel's Git integration, so the push above
       # already redeploys. This is a fallback for setups without it: add a

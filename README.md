@@ -3,11 +3,14 @@
 A self-refreshing radar for **Summer 2027 internships** (2028 batch, penultimate
 year), rated against one specific profile: B.Tech CSE, SRM IST Chennai, CGPA 9.15.
 
-Every morning at **06:00 IST** a GitHub Action sweeps ~39 sources in priority
-order, diffs the results against everything seen before, and commits the new
-listings. Anything whose fingerprint has never been seen gets flagged
-**🚨 OPENED — apply within 48h**. On Sundays it also writes a weekly report that
-renders inside the site.
+**Four times a day** (06:00 / 12:00 / 18:00 / 00:00 IST) a GitHub Action sweeps
+every source in priority order, diffs the results against everything seen
+before, and commits the new listings. Anything whose fingerprint has never been
+seen gets flagged **🚨 OPENED — apply within 48h** — and if it has Strong odds
+or is in Chennai, the workflow opens a GitHub issue, which GitHub emails you.
+That matters: a 48-hour window is worthless if you find out three days later.
+
+On Sundays it also writes a weekly report that renders inside the site.
 
 ---
 
@@ -110,6 +113,41 @@ result, which is worth doing occasionally.
 
 ---
 
+## Board discovery
+
+Guessing ATS board tokens does not work. 21 hand-guessed tokens for well-known
+Indian companies produced 3 hits — Razorpay's real Greenhouse token is
+`razorpaysoftwareprivatelimited`, which nobody would guess.
+
+```bash
+npm run discover          # all companies
+npm run discover razorpay # just one
+```
+
+`scripts/discover.ts` works in two passes:
+
+1. **Careers-page crawl** — fetches each company's careers page from
+   `lib/companies.ts`, reads whichever ATS it embeds, and verifies the board
+   actually serves postings before trusting it. This finds boards for the
+   companies that render their careers page server-side.
+2. **Tracker harvest** — most careers pages are client-rendered SPAs, so the
+   ATS link is not in the raw HTML (68 of 77 crawls came back empty on that
+   basis alone). But the tier-2 job trackers are full of real apply URLs that
+   *are* ATS links, already paired with a company name in the same table row.
+   Harvesting those recovers boards the crawl cannot see.
+
+Results are cached in `data/boards.json`, so the daily scan never pays the
+discovery cost. Boards rarely move — re-run this occasionally, or when a
+company stops appearing in the feed. The Actions workflow can also re-run it
+via the `rediscover` input.
+
+**Platforms with no key-free public endpoint**, checked and ruled out:
+Darwinbox (its candidate portal redirects to a login and the API 500s), Keka,
+Eightfold (403), and Zoho Recruit (401). SAP's SuccessFactors *does* render
+server-side and is scanned.
+
+---
+
 ## Adding or removing companies
 
 Everything lives in two files.
@@ -156,12 +194,24 @@ every scan. Two modes, resolved automatically at page load:
 
 The scan **never** clears state; it only ever reads it.
 
+### Closed listings
+
+When a role disappears from a working source, the listing has come down. It is
+dropped from the feed — unless it is bookmarked or applied, in which case it is
+kept and marked `status: "closed"`. Without that, marking a role applied and
+then having the company take the req down would quietly erase the entry from
+your own application log.
+
+Closed roles never count towards the open total and never appear in the feed;
+they show in Bookmarks and Applied with a "listing closed" tag.
+
 ---
 
 ## Running locally
 
 ```bash
 npm install
+npm run discover # find each company's ATS board -> data/boards.json
 npm run scan     # sweep every source, write data/db.json + data/history.json
 npm run report   # write data/reports/YYYY-Www.json for the current week
 npm run dev      # http://localhost:3000

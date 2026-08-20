@@ -14,7 +14,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import type { Db, History, Role, SourceFailure, Tier } from "../lib/types";
+import type { Db, History, Role, SourceFailure, StateMap, Tier } from "../lib/types";
 import { exclusionReason, pickLeadWith, rateOdds } from "../lib/odds";
 import {
   bucketLocation,
@@ -27,7 +27,7 @@ import {
   todayISO,
 } from "../lib/normalize";
 import { readKvState } from "../lib/state";
-import { ALL_SOURCES, SILENT_SOURCE_IDS, type RawRole, type Source } from "./sources";
+import { loadAllSources, SILENT_SOURCE_IDS, type RawRole, type Source } from "./sources";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -35,7 +35,7 @@ const DB_PATH = join(DATA, "db.json");
 const HISTORY_PATH = join(DATA, "history.json");
 const STATE_PATH = join(DATA, "state.json");
 
-const CONCURRENCY = 6;
+const CONCURRENCY = 14;
 
 async function readJson<T>(path: string, fallback: T): Promise<T> {
   try {
@@ -97,11 +97,20 @@ async function main(): Promise<void> {
   const runDate = todayISO();
   const startedAt = Date.now();
   console.log(`\nInternship Radar — scan ${runDate}`);
-  console.log(`Sweeping ${ALL_SOURCES.length} sources in priority order.\n`);
 
   const history = await readJson<History>(HISTORY_PATH, { seededAt: "", entries: {} });
   const previousDb = await readJson<Db | null>(DB_PATH, null);
   const baselineRun = Object.keys(history.entries).length === 0;
+
+  // Needed before the diff: roles he has acted on are kept even once they close.
+  const trackedState: StateMap =
+    (await readKvState().catch(() => null)) ?? (await readJson<StateMap>(STATE_PATH, {}));
+  const isTracked = (id: string) =>
+    Boolean(trackedState[id]?.applied || trackedState[id]?.bookmarked);
+
+  const ALL_SOURCES = await loadAllSources();
+  console.log(`Sweeping ${ALL_SOURCES.length} sources in priority order.
+`);
 
   const outcomes = await runAll(ALL_SOURCES);
 
@@ -151,6 +160,8 @@ async function main(): Promise<void> {
         leadWithTag: lead.tag,
         // A baseline run seeds history, so nothing is claimed as "just opened".
         isNew: baselineRun ? false : !prior,
+        status: "open",
+        closedAt: null,
       });
     }
   }
@@ -168,17 +179,37 @@ async function main(): Promise<void> {
 
   let carriedForward = 0;
   let droppedStale = 0;
+  let closedTracked = 0;
+
   for (const role of previousDb?.roles ?? []) {
-    if (!failedSourceIds.has(role.source) || byId.has(role.id)) continue;
-    if (role.lastSeenAt < staleCutoff) {
-      droppedStale++;
+    if (byId.has(role.id)) continue;
+
+    // Its source broke this run — the role is probably still open.
+    if (failedSourceIds.has(role.source)) {
+      if (role.lastSeenAt < staleCutoff) {
+        droppedStale++;
+        continue;
+      }
+      byId.set(role.id, { ...role, isNew: false, status: "open" });
+      carriedForward++;
       continue;
     }
-    byId.set(role.id, { ...role, isNew: false });
-    carriedForward++;
+
+    // The source answered and the role was not in it, so the listing is gone.
+    // Keep it only if he bookmarked or applied — otherwise it just leaves.
+    if (isTracked(role.id)) {
+      byId.set(role.id, {
+        ...role,
+        isNew: false,
+        status: "closed",
+        closedAt: role.closedAt ?? runDate,
+      });
+      closedTracked++;
+    }
   }
 
   const roles = [...byId.values()].sort((a, b) => {
+    if (a.status !== b.status) return a.status === "open" ? -1 : 1;
     if (a.isNew !== b.isNew) return a.isNew ? -1 : 1;
     const dateA = a.postedAt ?? a.firstSeenAt;
     const dateB = b.postedAt ?? b.firstSeenAt;
@@ -188,7 +219,7 @@ async function main(): Promise<void> {
 
   // ---- history ------------------------------------------------------------
   const nextEntries = { ...history.entries };
-  for (const role of roles) {
+  for (const role of roles.filter((r) => r.status === "open")) {
     const prior = nextEntries[role.id];
     nextEntries[role.id] = {
       id: role.id,
@@ -206,7 +237,7 @@ async function main(): Promise<void> {
       error: o.error as string,
     }));
 
-  const newThisRun = roles.filter((r) => r.isNew).length;
+  const newThisRun = roles.filter((r) => r.isNew && r.status === "open").length;
 
   const db: Db = {
     generatedAt: new Date().toISOString(),
@@ -219,6 +250,7 @@ async function main(): Promise<void> {
       newThisRun,
       sourcesOk: outcomes.filter((o) => !o.error).length,
       sourcesFailed: failures.length,
+      closedTracked,
     },
   };
 
@@ -230,7 +262,7 @@ async function main(): Promise<void> {
 
   // ---- snapshot KV state back into the repo -------------------------------
   try {
-    const kvState = await readKvState();
+    const kvState = await readKvState().catch(() => null);
     if (kvState) {
       await writeJson(STATE_PATH, kvState);
       console.log(`\n  state: snapshotted ${Object.keys(kvState).length} entries from KV`);
@@ -247,9 +279,10 @@ async function main(): Promise<void> {
 ────────────────────────────────────────────────
   raw listings seen     ${rawCount}
   excluded by rules     ${droppedExcluded}
-  eligible roles        ${roles.length}
+  eligible roles        ${roles.filter((r) => r.status === "open").length}
   new this run          ${baselineRun ? `0 (baseline seeded)` : newThisRun}
   carried forward       ${carriedForward}${droppedStale ? ` (${droppedStale} dropped as stale)` : ""}
+  closed but tracked    ${closedTracked}
   sources ok / failed   ${db.stats.sourcesOk} / ${db.stats.sourcesFailed}
   elapsed               ${((Date.now() - startedAt) / 1000).toFixed(1)}s
 ────────────────────────────────────────────────

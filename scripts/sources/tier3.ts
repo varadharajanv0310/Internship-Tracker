@@ -65,7 +65,13 @@ interface UnstopItem {
   isPaid?: boolean;
   end_date?: string;
   regnRequirements?: { end_regn_dt?: string };
-  jobDetail?: { min_salary?: number; max_salary?: number; job_location?: string };
+  jobDetail?: {
+    min_salary?: number;
+    max_salary?: number;
+    job_location?: string;
+    /** "paid" | "unpaid" — Unstop states this outright, so honour it. */
+    paid_unpaid?: string;
+  };
   filters?: Array<{ name?: string }>;
 }
 
@@ -82,6 +88,8 @@ export async function fetchUnstop(): Promise<RawRole[]> {
         ? `https://unstop.com/${item.public_url}`
         : `https://unstop.com/o/${item.seo_url ?? item.id}`;
       const salary = item.jobDetail;
+      // He is not applying to unpaid listings; Unstop labels them explicitly.
+      const unpaid = /unpaid/i.test(salary?.paid_unpaid ?? "");
       const stipend =
         salary?.min_salary || salary?.max_salary
           ? `₹${salary.min_salary ?? "?"}–${salary.max_salary ?? "?"}`
@@ -94,7 +102,7 @@ export async function fetchUnstop(): Promise<RawRole[]> {
         stipend,
         postedAt: item.updated_at ? item.updated_at.slice(0, 10) : null,
         deadline: item.regnRequirements?.end_regn_dt?.slice(0, 10) ?? item.end_date?.slice(0, 10) ?? null,
-        description: item.title,
+        description: `${item.title}${unpaid ? " (unpaid)" : ""}`,
       });
     }
   }
@@ -103,9 +111,18 @@ export async function fetchUnstop(): Promise<RawRole[]> {
 
 /* ------------------------------------------ Named Chennai / remote employers */
 
+/**
+ * SmartRecruiters identifiers verified by hand — these companies' careers
+ * pages are client-rendered, so board discovery cannot see the link, but the
+ * API answers for all of them.
+ */
 const SMARTRECRUITERS: Array<{ company: string; id: string }> = [
   { company: "Freshworks", id: "Freshworks" },
   { company: "Fractal", id: "Fractal" },
+  { company: "Swiggy", id: "Swiggy" },
+  { company: "Zomato", id: "Zomato" },
+  { company: "Meesho", id: "Meesho" },
+  { company: "Flipkart", id: "Flipkart" },
 ];
 
 const GREENHOUSE: Array<{ company: string; board: string }> = [
@@ -141,6 +158,13 @@ export function parseCareersAnchors(html: string, base: string, company: string)
   }
   return [...out.values()];
 }
+
+/** Companies already covered here, so discovery does not scan them twice. */
+export const TIER3_HARDCODED_COMPANIES = [
+  ...SMARTRECRUITERS.map((s) => s.company),
+  ...GREENHOUSE.map((g) => g.company),
+  ...CAREERS_PAGES.map((c) => c.company),
+];
 
 export const tier3Sources: Source[] = [
   ...INTERNSHALA_PAGES.map<Source>((p, i) => ({

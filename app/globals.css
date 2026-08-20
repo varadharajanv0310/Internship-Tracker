@@ -849,3 +849,18 @@ button {
   .paper { box-shadow: none !important; padding: 0 !important; }
   @page { margin: 14mm; }
 }
+
+/* A listing that has come down at the source but is kept for the log. */
+.closed-tag {
+  display: inline-block;
+  margin-left: 9px;
+  padding: 2px 6px;
+  border: 1px solid rgba(var(--fg-rgb), 0.18);
+  border-radius: 3px;
+  font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(var(--fg-rgb), 0.42);
+  vertical-align: middle;
+}

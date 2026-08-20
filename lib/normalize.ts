@@ -54,6 +54,17 @@ const FOREIGN_TOKENS = [
   "kenya", "nigeria", "uae", "dubai", "abu dhabi", "qatar", "saudi",
   "philippines", "vietnam", "thailand", "malaysia", "indonesia", "bangladesh",
   "sri lanka", "pakistan", "nepal", "costa rica", "peru",
+  // Cities matter too: "Berlin / Remote" cleared the remote gate because only
+  // "germany" was listed.
+  "berlin", "munich", "hamburg", "frankfurt", "london", "manchester", "dublin",
+  "amsterdam", "rotterdam", "paris", "lyon", "madrid", "barcelona", "lisbon",
+  "porto", "milan", "rome", "zurich", "geneva", "vienna", "prague", "warsaw",
+  "krakow", "budapest", "bucharest", "stockholm", "oslo", "copenhagen",
+  "helsinki", "athens", "istanbul", "tel aviv", "new york", "san francisco",
+  "seattle", "austin", "boston", "chicago", "los angeles", "san jose",
+  "toronto", "vancouver", "montreal", "sydney", "melbourne", "auckland",
+  "tokyo", "osaka", "seoul", "beijing", "shanghai", "shenzhen", "taipei",
+  "sao paulo", "mexico city", "buenos aires", "cairo", "nairobi", "lagos",
 ];
 
 /** Word-boundary test that survives norm()'s punctuation stripping. */
@@ -110,7 +121,7 @@ const STRONG_TECH_PATTERN =
  * mechanical internship is not a CSE role however it is described.
  */
 const HARD_BLOCK_PATTERN =
-  /\b(business development|sales|marketing|brand|human resources|recruit(ing|er|ment)?|talent acquisition|customer (success|service|support)|public relations|legal|paralegal|accounting|accountant|payroll|tax|audit|mechanical|civil|chemical|biotech|biomedical|pharma|nursing|clinical)\b/i;
+  /\b(business development|sales|marketing|brand|human resources|recruit(ing|er|ment)?|talent acquisition|customer (success|service|support)|public relations|legal|paralegal|accounting|accountant|payroll|tax|audit|mechanical|civil|chemical|biotech|biomedical|pharma|nursing|clinical|operations management|inventory|procurement|logistics|warehouse|project manager|program manager|delivery manager|scrum master|technical writer|content (developer|writer|strategist)|copywriter|tech(nical)? support|help ?desk|service desk|facilities|community manager|event)\b/i;
 
 /**
  * Keep a role when it carries a tech signal. A title that also reads as

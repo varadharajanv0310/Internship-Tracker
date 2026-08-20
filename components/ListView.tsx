@@ -120,9 +120,15 @@ export function ListView({ roles, variant }: { roles: Role[]; variant: "bookmark
                     target="_blank"
                     rel="noopener noreferrer"
                     className="row-role"
-                    style={{ color: "rgba(var(--fg-rgb),.85)" }}
+                    style={{
+                      color:
+                        role.status === "closed"
+                          ? "rgba(var(--fg-rgb),.5)"
+                          : "rgba(var(--fg-rgb),.85)",
+                    }}
                   >
                     {role.role}
+                    {role.status === "closed" && <span className="closed-tag">listing closed</span>}
                   </a>
                   <span className="row-sub">
                     {role.company}

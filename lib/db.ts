@@ -11,7 +11,7 @@ const EMPTY_DB: Db = {
   baselineRun: true,
   roles: [],
   failures: [],
-  stats: { totalRoles: 0, newThisRun: 0, sourcesOk: 0, sourcesFailed: 0 },
+  stats: { totalRoles: 0, newThisRun: 0, sourcesOk: 0, sourcesFailed: 0, closedTracked: 0 },
 };
 
 async function readJson<T>(path: string, fallback: T): Promise<T> {
@@ -23,7 +23,18 @@ async function readJson<T>(path: string, fallback: T): Promise<T> {
 }
 
 export async function loadDb(): Promise<Db> {
-  return readJson<Db>(join(DATA_DIR, "db.json"), EMPTY_DB);
+  const db = await readJson<Db>(join(DATA_DIR, "db.json"), EMPTY_DB);
+  // `status` arrived after the first scans shipped; treat anything written
+  // before that as open rather than hiding the whole feed.
+  return {
+    ...db,
+    stats: { ...db.stats, closedTracked: db.stats?.closedTracked ?? 0 },
+    roles: (db.roles ?? []).map((r) => ({
+      ...r,
+      status: r.status ?? "open",
+      closedAt: r.closedAt ?? null,
+    })),
+  };
 }
 
 /** Committed baseline state, used to seed the client when KV is absent. */
