@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-08-19T19:03:32.901Z",
+  "generatedAt": "2026-08-20T01:57:41.389Z",
   "runDate": "2026-08-20",
   "baselineRun": false,
   "roles": [
+    {
+      "id": "bfe12b7dcf6ea3af",
+      "company": "Instawork",
+      "role": "Hardware Intern — Robotics & AI",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4706444006",
+      "postedAt": "2026-08-20",
+      "firstSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-08-20",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:ai",
+      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false
+    },
     {
       "id": "86d9317ca95fba65",
       "company": "IBM",
@@ -475,30 +499,6 @@
       "isNew": false
     },
     {
-      "id": "bfe12b7dcf6ea3af",
-      "company": "Instawork",
-      "role": "Hardware Intern — Robotics & AI",
-      "location": "Bengaluru, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://job-boards.greenhouse.io/instawork/jobs/4706444006",
-      "postedAt": "2026-08-19",
-      "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-08-20",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:ai",
-      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false
-    },
-    {
       "id": "2ea59e2b1bfd1798",
       "company": "Philips",
       "role": "Software Development Engineer Intern",
@@ -824,7 +824,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Apprentice---Technology_R0000348368",
-      "postedAt": "2026-08-04",
+      "postedAt": "2026-08-05",
       "firstSeenAt": "2026-08-19",
       "lastSeenAt": "2026-08-20",
       "deadline": null,
