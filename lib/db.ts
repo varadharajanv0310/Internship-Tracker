@@ -34,6 +34,7 @@ export async function loadDb(): Promise<Db> {
       status: r.status ?? "open",
       closedAt: r.closedAt ?? null,
       category: r.category ?? "swe",
+      reputed: r.reputed ?? true,
     })),
   };
 }

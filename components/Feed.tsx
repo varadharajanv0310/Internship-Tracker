@@ -32,14 +32,21 @@ export function Feed({
   const [city, setCity] = useState<string>("All");
   const [cat, setCat] = useState<"All" | Role["category"]>("All");
   const [newOnly, setNewOnly] = useState(false);
+  const [showLesserKnown, setShowLesserKnown] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
 
   // Applied roles leave the feed (they live under Applied), and closed
   // listings are only retained for the log — neither belongs here.
-  const open = useMemo(
+  const allOpen = useMemo(
     () => roles.filter((r) => r.status === "open" && !state[r.id]?.applied),
     [roles, state],
   );
+  // Lesser-known companies are collected but hidden until asked for.
+  const open = useMemo(
+    () => (showLesserKnown ? allOpen : allOpen.filter((r) => r.reputed)),
+    [allOpen, showLesserKnown],
+  );
+  const lesserKnownCount = allOpen.length - allOpen.filter((r) => r.reputed).length;
 
   const cities = useMemo(() => {
     const counts = new Map<string, number>();
@@ -171,6 +178,22 @@ export function Feed({
           >
             <i style={newOnly ? { background: "#ff8a3d", boxShadow: "0 0 10px #ff8a3d" } : undefined} />
             New today only
+          </button>
+          <button
+            type="button"
+            className="toggle"
+            data-on={showLesserKnown}
+            onClick={() => setShowLesserKnown((v) => !v)}
+            title="Companies not on the reputed list in lib/reputation.ts"
+          >
+            <i
+              style={
+                showLesserKnown
+                  ? { background: "var(--acc)", boxShadow: "0 0 10px var(--acc)" }
+                  : undefined
+              }
+            />
+            Lesser-known {lesserKnownCount > 0 && `+${lesserKnownCount}`}
           </button>
         </div>
 

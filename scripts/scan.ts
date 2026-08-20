@@ -92,8 +92,8 @@ function keep(raw: RawRole): boolean {
   if (!isIndiaOrRemote(raw.location)) return false;
   // Only AI/ML, data & analytics, or software development.
   if (!roleCategory(raw.role, raw.description)) return false;
-  // Only companies worth naming in an interview — see lib/reputation.ts.
-  if (!isReputed(raw.company)) return false;
+  // Reputation is recorded per role, not filtered here — the feed hides
+  // lesser-known companies behind a toggle instead of losing them.
   if (exclusionReason(raw.company, raw.role, raw.description)) return false;
   return true;
 }
@@ -174,6 +174,7 @@ async function main(): Promise<void> {
         oddsScore: rating.score,
         oddsReasons: rating.reasons,
         category,
+        reputed: isReputed(company),
         leadWith: lead.project,
         leadWithTag: lead.tag,
         // A baseline run seeds history, so nothing is claimed as "just opened".

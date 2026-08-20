@@ -44,6 +44,12 @@ export interface Role {
   oddsReasons: string[];
   /** AI/ML, data & analytics, or software development. */
   category: "ai-ml" | "data" | "swe";
+  /**
+   * Whether the company is on the reputed list (lib/reputation.ts). Roles from
+   * lesser-known companies are still collected — the feed just hides them
+   * behind a toggle rather than dropping them.
+   */
+  reputed: boolean;
   /** Which of his projects to headline in the application. */
   leadWith: string;
   leadWithTag: string;

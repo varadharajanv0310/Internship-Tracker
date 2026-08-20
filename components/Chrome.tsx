@@ -8,8 +8,8 @@ import { useRoleState } from "./StateProvider";
 const THEME_KEY = "internship-radar:theme";
 
 export interface ChromeProps {
-  /** id + status, so the Feed count can exclude closed listings. */
-  ids: Array<{ id: string; status: "open" | "closed" }>;
+  /** id + status + reputation, so the Feed count matches the default view. */
+  ids: Array<{ id: string; status: "open" | "closed"; reputed: boolean }>;
   runDate: string;
   sourcesOk: number;
   sourcesFailed: number;
@@ -81,8 +81,9 @@ export function Chrome({
   // listings are retained only for the log, so they never count as open.
   const appliedCount = ids.filter((r) => state[r.id]?.applied).length;
   const starredCount = ids.filter((r) => state[r.id]?.bookmarked).length;
+  // Matches what the feed shows by default: reputed companies only.
   const openCount = ids.filter(
-    (r) => r.status === "open" && !state[r.id]?.applied,
+    (r) => r.status === "open" && r.reputed && !state[r.id]?.applied,
   ).length;
 
   const tabs: Array<{ href: string; label: string; count: string | number }> = [

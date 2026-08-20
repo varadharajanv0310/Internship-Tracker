@@ -68,7 +68,9 @@ export function RoleRow({
         <span className="row-main">
           <span className="row-role">{role.role}</span>
           <span className="row-sub">
-            {role.company} · {TIER_SHORT[role.tier]}
+            {role.company}
+            {!role.reputed && <span className="closed-tag">lesser-known</span>} ·{" "}
+            {TIER_SHORT[role.tier]}
             {/* the location column is dropped on narrow screens, so carry it here */}
             <span className="only-sm" data-local={local}>
               {" "}
