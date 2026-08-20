@@ -42,6 +42,8 @@ export interface Role {
   oddsScore: number;
   /** Why the scanner rated it this way. */
   oddsReasons: string[];
+  /** AI/ML, data & analytics, or software development. */
+  category: "ai-ml" | "data" | "swe";
   /** Which of his projects to headline in the application. */
   leadWith: string;
   leadWithTag: string;

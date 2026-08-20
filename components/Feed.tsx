@@ -8,6 +8,14 @@ import { useRoleState } from "./StateProvider";
 
 const ODDS_FILTERS: Array<Odds | "All"> = ["All", "Strong", "Moderate", "Reach"];
 
+/** The only three families the scanner keeps. */
+const CATEGORIES: Array<{ key: "All" | Role["category"]; label: string }> = [
+  { key: "All", label: "All roles" },
+  { key: "ai-ml", label: "AI/ML" },
+  { key: "data", label: "Data" },
+  { key: "swe", label: "Software" },
+];
+
 export function Feed({
   roles,
   failures,
@@ -22,6 +30,7 @@ export function Feed({
   const [query, setQuery] = useState("");
   const [localOnly, setLocalOnly] = useState(false);
   const [city, setCity] = useState<string>("All");
+  const [cat, setCat] = useState<"All" | Role["category"]>("All");
   const [newOnly, setNewOnly] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
 
@@ -46,6 +55,7 @@ export function Feed({
     let out = open;
     if (odds !== "All") out = out.filter((r) => r.odds === odds);
     if (city !== "All") out = out.filter((r) => citiesOf(r.location).includes(city));
+    if (cat !== "All") out = out.filter((r) => r.category === cat);
     if (localOnly) out = out.filter((r) => isLocal(r.location));
     if (newOnly) out = out.filter((r) => r.isNew || ageInDays(r.firstSeenAt) === 0);
     const q = query.trim().toLowerCase();
@@ -57,7 +67,7 @@ export function Feed({
     return [...out].sort(
       (a, b) => ageInDays(a.firstSeenAt) - ageInDays(b.firstSeenAt) || b.oddsScore - a.oddsScore,
     );
-  }, [open, odds, city, localOnly, newOnly, query]);
+  }, [open, odds, city, cat, localOnly, newOnly, query]);
 
   const newCount = open.filter((r) => r.isNew || ageInDays(r.firstSeenAt) === 0).length;
   const strongCount = open.filter((r) => r.odds === "Strong").length;
@@ -115,6 +125,28 @@ export function Feed({
               onClick={() => setOdds(o)}
             >
               {o}
+            </button>
+          ))}
+        </div>
+
+        <span className="vrule" />
+
+        <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+          {CATEGORIES.map((c) => (
+            <button
+              key={c.key}
+              type="button"
+              className="pill"
+              data-on={cat === c.key}
+              onClick={() => setCat(c.key)}
+            >
+              {c.label}
+              {c.key !== "All" && (
+                <span style={{ opacity: 0.55 }}>
+                  {" "}
+                  {open.filter((r) => r.category === c.key).length}
+                </span>
+              )}
             </button>
           ))}
         </div>

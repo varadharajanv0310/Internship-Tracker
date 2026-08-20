@@ -121,18 +121,60 @@ const STRONG_TECH_PATTERN =
  * mechanical internship is not a CSE role however it is described.
  */
 const HARD_BLOCK_PATTERN =
-  /\b(business development|sales|marketing|brand|human resources|recruit(ing|er|ment)?|talent acquisition|customer (success|service|support)|public relations|legal|paralegal|accounting|accountant|payroll|tax|audit|mechanical|civil|chemical|biotech|biomedical|pharma|nursing|clinical|operations management|inventory|procurement|logistics|warehouse|project manager|program manager|delivery manager|scrum master|technical writer|content (developer|writer|strategist)|copywriter|tech(nical)? support|help ?desk|service desk|facilities|community manager|event)\b/i;
+  /\b(business development|sales|marketing|brand|human resources|recruit(ing|er|ment)?|talent acquisition|customer (success|service|support)|public relations|legal|paralegal|accounting|accountant|payroll|tax|audit|mechanical|civil|chemical|biotech|biomedical|pharma|nursing|clinical|operations management|inventory|procurement|logistics|warehouse|project manager|program manager|delivery manager|scrum master|technical writer|content (developer|writer|strategist)|copywriter|tech(nical)? support|help ?desk|service desk|facilities|community manager|event|ux|ui|user experience|user interface|graphic design|product design|hardware|firmware|vlsi|rtl|asic|fpga)\b/i;
 
 /**
- * Keep a role when it carries a tech signal. A title that also reads as
- * non-technical needs a strong tech token to survive, and hard-blocked
- * functions are dropped outright.
+ * The only three families worth surfacing: AI/ML, data science & analytics,
+ * and software development. Anything else — UX, manual QA, networking,
+ * hardware, IT support — is out, however technical it sounds.
+ */
+export type RoleCategory = "ai-ml" | "data" | "swe";
+
+const CATEGORY_PATTERNS: Array<[RoleCategory, RegExp]> = [
+  [
+    "ai-ml",
+    /\b(a\.?i\.?|artificial intelligence|machine learning|\bml\b|mlops|deep learning|neural|nlp|natural language|llm|large language|generative|gen ?ai|computer vision|multimodal|reinforcement learning|recommendation|applied scien(ce|tist)|research scien(ce|tist)|ml engineer|ai engineer|prompt|rag\b|agentic)\b/i,
+  ],
+  [
+    "data",
+    /\b(data scien(ce|tist)|data analy(st|tics)|data engineer(ing)?|analytics engineer|business intelligence|\bbi\b|big data|etl|elt|data warehouse|data platform|data pipeline|quantitative (research|analyst|developer)|quant (research|developer|analyst)|statistic(s|al)|econometric)\b/i,
+  ],
+  [
+    "swe",
+    /\b(software (developer|development|engineer(ing)?)|\bsde\b|\bswe\b|sdet|software development engineer|full[- ]?stack|back ?end|front ?end|web develop(er|ment)|mobile develop(er|ment)|android|ios developer|application (developer|engineer)|platform engineer|cloud engineer|devops|\bsre\b|site reliability|infrastructure engineer|systems engineer|api engineer|test automation|automation engineer|programmer|python develop|java develop|javascript|react|node\.?js|golang|\bgo developer\b|product engineer|technology analyst)\b/i,
+  ],
+];
+
+/** Which of the three families a role belongs to, or null if none. */
+export function roleCategory(title: string, description?: string | null): RoleCategory | null {
+  const name = title || "";
+  if (HARD_BLOCK_PATTERN.test(name)) return null;
+  if (NON_TECH_PATTERN.test(name) && !STRONG_TECH_PATTERN.test(name)) return null;
+
+  for (const [cat, re] of CATEGORY_PATTERNS) if (re.test(name)) return cat;
+
+  // Only consult the description when the title says nothing useful ("Paid
+  // Internship", "Summer Intern"). Reading the JD for any title let a
+  // "UX Design Intern" whose JD mentioned AI get filed under AI/ML.
+  const stripped = name
+    .replace(/\b(20\d{2}|batch|hiring|apply|now|off[\s-]?campus|opportunity|programme?)\b/gi, "")
+    .replace(/[^A-Za-z\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const uninformative = /^(paid|summer|winter|spring|fall|new)?\s*intern(ship)?s?$/i.test(stripped);
+  if (!uninformative) return null;
+
+  const text = `${name} ${description ?? ""}`;
+  for (const [cat, re] of CATEGORY_PATTERNS) if (re.test(text)) return cat;
+  return null;
+}
+
+/**
+ * Keep a role when it lands in one of the three families.
+ * (Kept as a predicate so the scan reads plainly.)
  */
 export function isRelevantDiscipline(title: string, description?: string | null): boolean {
-  const name = title || "";
-  if (HARD_BLOCK_PATTERN.test(name)) return false;
-  if (NON_TECH_PATTERN.test(name) && !STRONG_TECH_PATTERN.test(name)) return false;
-  return TECH_PATTERN.test(`${name} ${description ?? ""}`);
+  return roleCategory(title, description) !== null;
 }
 
 /** Parse a stipend out of free text, returning the raw matched string. */

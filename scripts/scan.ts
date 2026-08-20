@@ -22,11 +22,12 @@ import {
   extractStipend,
   fingerprint,
   isIndiaOrRemote,
-  isRelevantDiscipline,
   looksLikeInternship,
   norm,
+  roleCategory,
   todayISO,
 } from "../lib/normalize";
+import { isReputed } from "../lib/reputation";
 import { readKvState } from "../lib/state";
 import { loadAllSources, SILENT_SOURCE_IDS, type RawRole, type Source } from "./sources";
 
@@ -89,7 +90,10 @@ function keep(raw: RawRole): boolean {
   if (!raw.company?.trim() || !raw.role?.trim() || !raw.url) return false;
   if (!raw.impliedInternship && !looksLikeInternship(raw.role)) return false;
   if (!isIndiaOrRemote(raw.location)) return false;
-  if (!isRelevantDiscipline(raw.role, raw.description)) return false;
+  // Only AI/ML, data & analytics, or software development.
+  if (!roleCategory(raw.role, raw.description)) return false;
+  // Only companies worth naming in an interview — see lib/reputation.ts.
+  if (!isReputed(raw.company)) return false;
   if (exclusionReason(raw.company, raw.role, raw.description)) return false;
   return true;
 }
@@ -119,11 +123,22 @@ async function main(): Promise<void> {
   const byId = new Map<string, Role>();
   let rawCount = 0;
   let droppedExcluded = 0;
+  // Track what the reputation gate turns away, so false negatives are visible
+  // rather than silently disappearing.
+  const droppedUnreputed = new Map<string, number>();
 
   for (const outcome of outcomes) {
     for (const raw of outcome.roles) {
       rawCount++;
       if (exclusionReason(raw.company, raw.role, raw.description)) droppedExcluded++;
+      if (
+        roleCategory(raw.role, raw.description) &&
+        isIndiaOrRemote(raw.location) &&
+        !isReputed(raw.company)
+      ) {
+        const co = raw.company.trim();
+        droppedUnreputed.set(co, (droppedUnreputed.get(co) ?? 0) + 1);
+      }
       if (!keep(raw)) continue;
 
       const company = raw.company.trim().replace(/\s+/g, " ");
@@ -137,6 +152,7 @@ async function main(): Promise<void> {
       const stipend = raw.stipend ?? extractStipend(raw.description);
       const rating = rateOdds({ company, role, location, description: raw.description, stipend });
       const lead = pickLeadWith(role, raw.description);
+      const category = roleCategory(role, raw.description) ?? "swe";
       const prior = history.entries[id];
 
       byId.set(id, {
@@ -157,6 +173,7 @@ async function main(): Promise<void> {
         odds: rating.odds,
         oddsScore: rating.score,
         oddsReasons: rating.reasons,
+        category,
         leadWith: lead.project,
         leadWithTag: lead.tag,
         // A baseline run seeds history, so nothing is claimed as "just opened".
@@ -311,6 +328,18 @@ async function main(): Promise<void> {
   elapsed               ${((Date.now() - startedAt) / 1000).toFixed(1)}s
 ────────────────────────────────────────────────
 `);
+
+  const unreputed = [...droppedUnreputed.entries()].sort((a, b) => b[1] - a[1]);
+  if (unreputed.length) {
+    console.log(
+      `  ${unreputed.length} companies filtered out as not reputed ` +
+        `(edit lib/reputation.ts to keep any of these). Most frequent:`,
+    );
+    for (const [co, n] of unreputed.slice(0, 12)) {
+      console.log(`    ${String(n).padStart(3)}x  ${co}`);
+    }
+    console.log("");
+  }
 
   if (failures.length) {
     console.log("  failed sources:");

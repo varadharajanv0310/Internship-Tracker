@@ -33,6 +33,7 @@ export async function loadDb(): Promise<Db> {
       ...r,
       status: r.status ?? "open",
       closedAt: r.closedAt ?? null,
+      category: r.category ?? "swe",
     })),
   };
 }
