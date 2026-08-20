@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:50:50.687Z",
+  "generatedAt": "2026-08-20T04:57:48.072Z",
   "runDate": "2026-08-20",
   "baselineRun": false,
   "roles": [
@@ -1238,12 +1238,25 @@
       "closedAt": null
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "source": "newsletter:offcampusjobs4u",
+      "sourceLabel": "OffCampusJobs4u — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "newsletter:enggwave",
+      "sourceLabel": "EnggWave — 2027 batch",
+      "tier": 4,
+      "error": "HTTP 403 Forbidden"
+    }
+  ],
   "stats": {
     "totalRoles": 46,
     "newThisRun": 0,
-    "sourcesOk": 428,
-    "sourcesFailed": 0,
+    "sourcesOk": 426,
+    "sourcesFailed": 2,
     "closedTracked": 0
   }
 }
