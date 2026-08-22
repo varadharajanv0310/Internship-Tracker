@@ -1,33 +1,63 @@
 {
-  "generatedAt": "2026-08-22T07:10:38.992Z",
+  "generatedAt": "2026-08-22T13:13:10.768Z",
   "runDate": "2026-08-22",
   "baselineRun": false,
   "roles": [
     {
-      "id": "ea0152bc10ea5181",
-      "company": "Jorim Technology Solutions Private Limited",
-      "role": "Full Stack Development",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/part-time-machine-learning-internship-in-multiple-locations-at-gateway-software-solutions1786081733",
-      "postedAt": null,
+      "id": "8db14a605d22682e",
+      "company": "Aimnod Services",
+      "role": "Front End Developer Internship",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": "₹3000–7000",
+      "url": "https://unstop.com/internships/front-end-developer-internship-aimnod-services-1742832",
+      "postedAt": "2026-08-22",
       "firstSeenAt": "2026-08-22",
       "lastSeenAt": "2026-08-22",
-      "deadline": null,
+      "deadline": "2026-09-05",
       "tier": 3,
-      "source": "internshala:16",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai",
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
       "odds": "Strong",
-      "oddsScore": 73,
+      "oddsScore": 72,
       "oddsReasons": [
         "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Chennai — home city, no relocation friction"
+        "+ Remote-friendly",
+        "+ Paid role with a stated stipend"
       ],
       "category": "swe",
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "c48b6d165d77fd26",
+      "company": "Career Solutions",
+      "role": "Machine Learning",
+      "location": "Chennai",
+      "locationBucket": "Chennai",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/machine-learning-internship-in-chennai-at-career-solutions1787391790",
+      "postedAt": null,
+      "firstSeenAt": "2026-08-22",
+      "lastSeenAt": "2026-08-22",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:8",
+      "sourceLabel": "Internshala — data science — Chennai",
+      "odds": "Strong",
+      "oddsScore": 71,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "+ Chennai — home city, no relocation friction"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
       "isNew": true,
       "status": "open",
       "closedAt": null
@@ -39,7 +69,7 @@
       "location": "Chennai, India",
       "locationBucket": "Chennai",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/cybersecurity-analyst-internship-in-multiple-locations-at-tsteps-private-limited1787040244",
+      "url": "https://internshala.com/internship/detail/front-end-development-internship-in-multiple-locations-at-tsteps-private-limited1787031049",
       "postedAt": null,
       "firstSeenAt": "2026-08-22",
       "lastSeenAt": "2026-08-22",
@@ -57,155 +87,7 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "e5b979cc8b8e71b1",
-      "company": "Alvionx",
-      "role": "Data Analytics",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-alvionx1787381041",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-22",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Strong",
-      "oddsScore": 67,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
-      "leadWithTag": "DS",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "67ab32061df84b6e",
-      "company": "Rotordyn.ai (Tampa, United States)",
-      "role": "AI/ML - Software Test Engineer",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-ai-ml-software-test-engineer-internship-at-rotordynai1787376228",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-22",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Strong",
-      "oddsScore": 67,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "53a30f4fec0e8c28",
-      "company": "Easy Hai",
-      "role": "Strategy & AI Research",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/front-end-development-internship-in-multiple-locations-at-tsteps-private-limited1787031049",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-22",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:16",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 64,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "0f8ee3f1bef87579",
-      "company": "MAI Labs",
-      "role": "Founders Office Intern: Growth, Content & AI Research",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/founders-office-growth-content-ai-research-internship-in-multiple-locations-at-mai-labs1787379827",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-22",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Moderate",
-      "oddsScore": 60,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "1578c6561e7fa2cb",
-      "company": "Sherlock AI",
-      "role": "AI Data Recording & Video Research",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-part-time-ai-data-recording-video-research-internship-at-sherlock-ai1787314253",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-22",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Moderate",
-      "oddsScore": 60,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -299,6 +181,35 @@
       "closedAt": null
     },
     {
+      "id": "37fbb8ec7aba7942",
+      "company": "InnovalQ Technologies",
+      "role": "Web Developer",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "locationBucket": "Other",
+      "stipend": "₹40000–40000",
+      "url": "https://unstop.com/jobs/web-developer-innovalq-technologies-1741827",
+      "postedAt": "2026-08-22",
+      "firstSeenAt": "2026-08-21",
+      "lastSeenAt": "2026-08-22",
+      "deadline": "2026-09-03",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Strong",
+      "oddsScore": 66,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "e971ee831d1217dc",
       "company": "LxGio India Private Limited",
       "role": "React & Next.js Web Developer Internship",
@@ -357,41 +268,13 @@
       "closedAt": null
     },
     {
-      "id": "11522b057451b666",
-      "company": "Tower Research Capital",
-      "role": "Intern - AI/ML",
-      "location": "Gurugram, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756",
-      "postedAt": "2026-08-22",
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:ai",
-      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 61,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "b6c4b06905b56a7b",
       "company": "Easy Hai",
       "role": "AI Operations & Automation",
       "location": "Chennai, India",
       "locationBucket": "Chennai",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/web-development-internship-in-multiple-locations-at-gateway-software-solutions1786336058",
+      "url": "https://internshala.com/internship/detail/part-time-web-designing-internship-in-multiple-locations-at-gateway-software-solutions1786594205",
       "postedAt": null,
       "firstSeenAt": "2026-08-22",
       "lastSeenAt": "2026-08-22",
@@ -733,35 +616,6 @@
       "closedAt": null
     },
     {
-      "id": "04a9c096fa8c778b",
-      "company": "ALMI Blogging School Pro (Almi Production Land Solar Private Limited)",
-      "role": "Web Development",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/internet-of-things-iot-internship-in-multiple-locations-at-elicius-energy-private-limited1786953786",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:16",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai",
-      "odds": "Strong",
-      "oddsScore": 73,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "0353c888884310fa",
       "company": "Jorim Technology Solutions Private Limited",
       "role": "Full Stack Development",
@@ -774,8 +628,8 @@
       "lastSeenAt": "2026-08-22",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:24",
-      "sourceLabel": "Internshala — full stack development — Chennai",
+      "source": "internshala:16",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai",
       "odds": "Strong",
       "oddsScore": 73,
       "oddsReasons": [
@@ -820,35 +674,6 @@
       "closedAt": null
     },
     {
-      "id": "37fbb8ec7aba7942",
-      "company": "InnovalQ Technologies",
-      "role": "Web Developer",
-      "location": "Coimbatore, Tamil Nadu, India",
-      "locationBucket": "Other",
-      "stipend": "₹40000–40000",
-      "url": "https://unstop.com/jobs/web-developer-innovalq-technologies-1741827",
-      "postedAt": "2026-08-21",
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": "2026-09-03",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 66,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "551eb40657551b18",
       "company": "PGAGI Consultancy Private Limited",
       "role": "AI/ML Internship",
@@ -871,6 +696,34 @@
       ],
       "category": "ai-ml",
       "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "11522b057451b666",
+      "company": "Tower Research Capital",
+      "role": "Intern - AI/ML",
+      "location": "Gurugram, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756",
+      "postedAt": "2026-08-21",
+      "firstSeenAt": "2026-08-21",
+      "lastSeenAt": "2026-08-22",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:ai",
+      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 61,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -949,35 +802,6 @@
       "tier": 3,
       "source": "internshala:0",
       "sourceLabel": "Internshala — computer science — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 52,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "a0a2d038a2e09cac",
-      "company": "Planys Technologies Private Limited",
-      "role": "Software Development",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-gateway-software-solutions1787115152",
-      "postedAt": null,
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:16",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai",
       "odds": "Moderate",
       "oddsScore": 52,
       "oddsReasons": [
@@ -1076,35 +900,6 @@
       ],
       "category": "swe",
       "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "81d18efbe46aa3b9",
-      "company": "Trimble",
-      "role": "Software Engineering Intern",
-      "location": "Remote - Vilnius, Lithuania",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/Lithuania---Vilnius/Software-Engineering-Intern_R56614",
-      "postedAt": "2026-08-21",
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -1318,36 +1113,6 @@
       "closedAt": null
     },
     {
-      "id": "45dbd5ddd0aaf774",
-      "company": "archintx.com",
-      "role": "AI Engineering Internship",
-      "location": "Chennai, Tamil Nadu, India",
-      "locationBucket": "Chennai",
-      "stipend": "₹3000–3000",
-      "url": "https://unstop.com/internships/ai-engineering-internship-archintxcom-1740236",
-      "postedAt": "2026-08-20",
-      "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22",
-      "deadline": "2026-09-02",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 55,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "167dc1190ba2fe65",
       "company": "Aalteon",
       "role": "Data Analyst Internship",
@@ -1401,6 +1166,35 @@
       ],
       "category": "swe",
       "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "81d18efbe46aa3b9",
+      "company": "Trimble",
+      "role": "Software Engineering Intern",
+      "location": "Remote - Vilnius, Lithuania",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/Lithuania---Vilnius/Software-Engineering-Intern_R56614",
+      "postedAt": "2026-08-20",
+      "firstSeenAt": "2026-08-21",
+      "lastSeenAt": "2026-08-22",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 48,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -2165,7 +1959,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://automationanywhere.wd5.myworkdayjobs.com/en-US/automationanywherejobs/job/IN-Bengaluru/Software-Development-Engineer-in-Test-Intern--SDET-Intern-_JR1474",
-      "postedAt": "2026-08-13",
+      "postedAt": "2026-08-12",
       "firstSeenAt": "2026-08-20",
       "lastSeenAt": "2026-08-22",
       "deadline": null,
@@ -2335,1026 +2129,6 @@
   ],
   "failures": [
     {
-      "source": "workday:nvidia",
-      "sourceLabel": "NVIDIA (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "workday:adobe",
-      "sourceLabel": "Adobe (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "workday:intel",
-      "sourceLabel": "Intel (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "workday:paypal",
-      "sourceLabel": "PayPal (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "workday:target",
-      "sourceLabel": "Target (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "workday:ms",
-      "sourceLabel": "Morgan Stanley (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:abb-external_career_page",
-      "sourceLabel": "ABB (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:abbott-abbottcareers",
-      "sourceLabel": "Abbott (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:adtran-adtran",
-      "sourceLabel": "Adtran (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:agilent-agilent_student_careers",
-      "sourceLabel": "Agilent (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:ag-airbus",
-      "sourceLabel": "Airbus (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:wgl-altagas",
-      "sourceLabel": "AltaGas (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:myhrabc-global",
-      "sourceLabel": "AmerisourceBergen (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:analogdevices-external",
-      "sourceLabel": "Analog Devices (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:amat-external",
-      "sourceLabel": "Applied Materials (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:aptiv-aptiv_careers",
-      "sourceLabel": "Aptiv (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:aresmgmt-external",
-      "sourceLabel": "Ares Management (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:asml-asmlext1",
-      "sourceLabel": "ASML (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:aspentech-aspentech",
-      "sourceLabel": "AspenTech (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:assurant-assurant_careers",
-      "sourceLabel": "Assurant (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:astreya-life-at-astreya-opportunities",
-      "sourceLabel": "Astreya (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:autodesk-ext",
-      "sourceLabel": "Autodesk (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:dealertire-ami",
-      "sourceLabel": "Automated Media (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:automationanywhere-automationanywherejobs",
-      "sourceLabel": "Automation Anywhere (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:avnet-external",
-      "sourceLabel": "Avnet (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:bakerhughes-bakerhughes",
-      "sourceLabel": "Baker Hughes (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:bmo-external",
-      "sourceLabel": "Bank of Montreal (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:barclays-external_career_site_barclays",
-      "sourceLabel": "Barclays (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:bbva-bbva",
-      "sourceLabel": "BBVA (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:binus-lifeatbinus",
-      "sourceLabel": "BINA UNIVERSITY (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:biotechne-biotechne",
-      "sourceLabel": "Bio-Techne (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:blackrock-blackrock_professional",
-      "sourceLabel": "BlackRock (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:jda-jda_careers",
-      "sourceLabel": "Blue Yonder (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:bbh-bbh",
-      "sourceLabel": "Brown Brothers Harriman (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:browserstack-External",
-      "sourceLabel": "BrowserStack (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cadence-external_careers",
-      "sourceLabel": "Cadence (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:calix-externalinternational",
-      "sourceLabel": "Calix (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cambiumlearning-camb",
-      "sourceLabel": "Cambium Learning Group (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:capitaland-capitalandinvestmentcareers",
-      "sourceLabel": "CapitaLand (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cat-caterpillarcareers",
-      "sourceLabel": "Caterpillar (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:centific-centific_global",
-      "sourceLabel": "Centific (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cerved-cerved",
-      "sourceLabel": "Cerved (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cc-chanelcareers",
-      "sourceLabel": "CHANEL (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:citi-2",
-      "sourceLabel": "Citi (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:clarioclinical-clarioclinical_careers",
-      "sourceLabel": "Clario (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cnx-external_global",
-      "sourceLabel": "CNX (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:copeland-copeland_external_careers_page",
-      "sourceLabel": "Copeland (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:costar-costarcareers",
-      "sourceLabel": "CoStar Group (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:covestro-cov_external",
-      "sourceLabel": "Covestro (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:csgi-csgcareers",
-      "sourceLabel": "CSG (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cvshealth-cvs_health_careers",
-      "sourceLabel": "CVS Health (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:damen-damen_careers",
-      "sourceLabel": "Damen Shiprepair Harlingen (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:dentsuaegis-dan_global",
-      "sourceLabel": "dentsu (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:dow-externalcareers",
-      "sourceLabel": "Dow (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:draftkings-employee_referral_portal",
-      "sourceLabel": "DraftKings (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:dxctechnology-dxcjobs",
-      "sourceLabel": "DXC Technology (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:ecolab-ecolab_external",
-      "sourceLabel": "Ecolab (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:relx-elsevierjobs",
-      "sourceLabel": "Elsevier (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:ensemblehp-ensemblehealthpartnerscareers",
-      "sourceLabel": "Ensemble Health Partners (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:entrust-entrustcareers",
-      "sourceLabel": "Entrust (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:epicorsoftware-epicorjobs",
-      "sourceLabel": "Epicor (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:hrhub-euronext_career_page",
-      "sourceLabel": "Euronext (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:evergreenix-external-careers2",
-      "sourceLabel": "Everfox (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:fmr-targeted",
-      "sourceLabel": "Fidelity Investments (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:fis-searchjobs",
-      "sourceLabel": "FIS (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:fiserv-ext",
-      "sourceLabel": "Fiserv (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:fnz-fnz_careers",
-      "sourceLabel": "FNZ (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:gdit-external_career_site",
-      "sourceLabel": "GDIT (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:geaerospace-ge_externalsite",
-      "sourceLabel": "GE Aerospace (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:gehc-gehc_externalsite",
-      "sourceLabel": "GE HealthCare (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:gevernova-only_confidential_executive_recruiting",
-      "sourceLabel": "GE Vernova (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:gea-geacareers",
-      "sourceLabel": "GEA (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:tsys-tsys",
-      "sourceLabel": "Global Payments (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:globalfoundries-external",
-      "sourceLabel": "GlobalFoundries (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:gsk-gskcareers",
-      "sourceLabel": "GSK (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:guidewire-external",
-      "sourceLabel": "Guidewire (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:haemonetics-hae",
-      "sourceLabel": "Haemonetics (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:harman-harman",
-      "sourceLabel": "Harman (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:harriscomputer-1",
-      "sourceLabel": "Harris Computer (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:hpe-jobsathpe",
-      "sourceLabel": "Hewlett Packard Enterprise (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:hitachi-hitachi",
-      "sourceLabel": "Hitachi (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:hlb-hlbcareers",
-      "sourceLabel": "Hong Leong Bank (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:hp-exteu-ac-careersite",
-      "sourceLabel": "HP (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:huntsman-huntsman",
-      "sourceLabel": "Huntsman (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:synnex-hyvecareers",
-      "sourceLabel": "Hyve Solutions (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:iff-iff_careers",
-      "sourceLabel": "IFF (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:infobip-infobipcareers",
-      "sourceLabel": "Infobip (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:ing-icsgblcor",
-      "sourceLabel": "ING (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:iqvia-iqvia",
-      "sourceLabel": "IQVIA (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:jabil-jabil_careers",
-      "sourceLabel": "Jabil (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:jj-jj",
-      "sourceLabel": "Johnson & Johnson (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:jci-jci",
-      "sourceLabel": "Johnson Controls (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:talentmanagementsolution-jonassoftwarecanada",
-      "sourceLabel": "Jonas Software (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:juliusbaer-external",
-      "sourceLabel": "Julius Baer (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:kiongroup-kiongroup",
-      "sourceLabel": "Kion Group (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:kyndryl-kyndrylprofessionalcareers",
-      "sourceLabel": "Kyndryl (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:leidos-external",
-      "sourceLabel": "Leidos (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:lnw-lightwonderexternalcareers",
-      "sourceLabel": "Light & Wonder (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:logicalis-logicaliscareers",
-      "sourceLabel": "Logicalis (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:logitech-logitech",
-      "sourceLabel": "Logitech (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:lombardodier-lombard_odier_careers",
-      "sourceLabel": "Lombard Odier (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:magna-magna",
-      "sourceLabel": "Magna (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:mango-mango_work_your_passion",
-      "sourceLabel": "Mango (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:manulife-mfcjh_jobs",
-      "sourceLabel": "Manulife (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:mmc-mmc",
-      "sourceLabel": "Marsh McLennan (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:mastercard-corporatecareers",
-      "sourceLabel": "Mastercard (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:mckesson-external_careers",
-      "sourceLabel": "McKesson (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:medline-medline",
-      "sourceLabel": "Medline (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:mercedesbenztechinnovation-mbti_jobportal",
-      "sourceLabel": "Mercedes-Benz Tech Innovation (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:micron-external",
-      "sourceLabel": "Micron Technology (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:miele-miele-jobs",
-      "sourceLabel": "Miele (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:moog-moog_external_career_site",
-      "sourceLabel": "Moog (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:msd-searchjobs",
-      "sourceLabel": "MSD (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:web-externalcareersite",
-      "sourceLabel": "Newfold Digital (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:nidec-nidec",
-      "sourceLabel": "Nidec (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:nio-nio_careers",
-      "sourceLabel": "NIO (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:nttlimited-ntt_careers",
-      "sourceLabel": "NTT (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:oaktree-oaktree",
-      "sourceLabel": "Oaktree (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:oshkoshcorporation-oshkosh",
-      "sourceLabel": "Oshkosh (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:pg-1000",
-      "sourceLabel": "P&G - Procter & Gamble (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:psu-psu_staff",
-      "sourceLabel": "Penn State (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:philips-jobs-and-careers",
-      "sourceLabel": "Philips (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:pluxee-pluxee_career_site",
-      "sourceLabel": "Pluxee (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:pnc-external",
-      "sourceLabel": "PNC (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:priceline-priceline",
-      "sourceLabel": "Priceline (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:investpsp-psp_careers",
-      "sourceLabel": "PSP (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:ptc-ptc",
-      "sourceLabel": "PTC (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:pwc-nonpublic_postings",
-      "sourceLabel": "PwC (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:qualifacts-qualifacts_external_careers",
-      "sourceLabel": "Qualifacts (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:r1rcm-r1rcm",
-      "sourceLabel": "R1 RCM (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rakuten-kobo",
-      "sourceLabel": "Rakuten Kobo (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rbc-rbcearlytalent1",
-      "sourceLabel": "RBC - Royal Bank of Canada (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:reliaquest-reliaquest_careers",
-      "sourceLabel": "ReliaQuest (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:relx-relx",
-      "sourceLabel": "RELX (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:alliancewd-renault-group-careers",
-      "sourceLabel": "Renault (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:roche-roche-ext",
-      "sourceLabel": "Roche (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:quickenloans-rocket_careers",
-      "sourceLabel": "Rocket Companies (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rocket-rocket_careers",
-      "sourceLabel": "Rocket Software (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rockwellautomation-external_rockwell_automation",
-      "sourceLabel": "Rockwell Automation (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rbc-rbcglobal1",
-      "sourceLabel": "Royal Bank of Canada (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:rsm-rsmcareers",
-      "sourceLabel": "RSM (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:spgi-spgi_careers",
-      "sourceLabel": "S&P Global (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:sec-samsung_careers",
-      "sourceLabel": "Samsung (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:onehealthineers-shsjb",
-      "sourceLabel": "Siemens Healthineers (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:lighting-jobs-and-careers",
-      "sourceLabel": "Signify (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cat-solarturbines",
-      "sourceLabel": "Solar Turbines (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:statestreet-global",
-      "sourceLabel": "State Street (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:suncor-suncor_external",
-      "sourceLabel": "Suncor (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:synchronyfinancial-university",
-      "sourceLabel": "Synchrony Bank (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:sysco-syscocareers",
-      "sourceLabel": "Sysco (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:synnex-tdsynnexcareers",
-      "sourceLabel": "TD SYNNEX (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:flir-flircareers",
-      "sourceLabel": "Teledyne (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:tencent-tencent_careers",
-      "sourceLabel": "Tencent (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:cigna-cignacareers",
-      "sourceLabel": "The Cigna Group (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:utaustin-utstaff",
-      "sourceLabel": "The University of Texas at Austin (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:thermofisher-thermofishercareers",
-      "sourceLabel": "Thermo Fisher Scientific (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:thomsonreuters-external_career_site",
-      "sourceLabel": "Thomson Reuters (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:tmx-tmx_careers",
-      "sourceLabel": "TMX (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:transunion-transunion",
-      "sourceLabel": "TransUnion (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:trendmicro-external",
-      "sourceLabel": "Trend Micro (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:trimble-trimblecareers",
-      "sourceLabel": "Trimble (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:galileo-galileo_career_site",
-      "sourceLabel": "Universidad IEU S.C. (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:valeo-valeo_jobs",
-      "sourceLabel": "Valeo (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:warnerbros-global",
-      "sourceLabel": "Warner Bros. Discovery (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:welocalize-welocalize",
-      "sourceLabel": "Welocalize (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:wk-external",
-      "sourceLabel": "Wolters Kluwer (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:workday-workday",
-      "sourceLabel": "Workday (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:zeissgroup-external",
-      "sourceLabel": "ZEISS (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:zoom-zoom",
-      "sourceLabel": "Zoom (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
       "source": "newsletter:offcampusjobs4u",
       "sourceLabel": "OffCampusJobs4u — 2027 batch",
       "tier": 4,
@@ -3368,10 +2142,10 @@
     }
   ],
   "stats": {
-    "totalRoles": 80,
-    "newThisRun": 7,
-    "sourcesOk": 308,
-    "sourcesFailed": 172,
+    "totalRoles": 73,
+    "newThisRun": 2,
+    "sourcesOk": 478,
+    "sourcesFailed": 2,
     "closedTracked": 0
   }
 }
