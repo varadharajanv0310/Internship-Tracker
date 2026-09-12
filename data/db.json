@@ -1,8 +1,36 @@
 {
-  "generatedAt": "2026-09-12T04:53:38.356Z",
+  "generatedAt": "2026-09-12T11:06:31.124Z",
   "runDate": "2026-09-12",
   "baselineRun": false,
   "roles": [
+    {
+      "id": "01678a607411745a",
+      "company": "Assetcues Solutions Private Limited",
+      "role": "AWS DevOps Engineer",
+      "location": "Pune",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/aws-devops-engineer-internship-in-pune-at-assetcues-solutions-private-limited1789207836",
+      "postedAt": null,
+      "firstSeenAt": "2026-09-12",
+      "lastSeenAt": "2026-09-12",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
     {
       "id": "58052bb6c0f14908",
       "company": "Swarm Aero",
@@ -412,36 +440,6 @@
       "closedAt": null
     },
     {
-      "id": "84da027c46c0cf3b",
-      "company": "NVIDIA",
-      "role": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
-      "location": "India, Bengaluru",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
-      "postedAt": "2026-09-01",
-      "firstSeenAt": "2026-08-31",
-      "lastSeenAt": "2026-09-12",
-      "deadline": null,
-      "tier": 1,
-      "source": "workday:nvidia",
-      "sourceLabel": "NVIDIA (Workday)",
-      "odds": "Reach",
-      "oddsScore": 2,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "- NVIDIA runs an extremely selective process",
-        "- Wants a PhD / MS candidate"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "317ca90bc279af53",
       "company": "Rabbit Marketing House",
       "role": "AI Development",
@@ -465,6 +463,36 @@
       ],
       "category": "ai-ml",
       "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "84da027c46c0cf3b",
+      "company": "NVIDIA",
+      "role": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
+      "location": "India, Bengaluru",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
+      "postedAt": "2026-08-31",
+      "firstSeenAt": "2026-08-31",
+      "lastSeenAt": "2026-09-12",
+      "deadline": null,
+      "tier": 1,
+      "source": "workday:nvidia",
+      "sourceLabel": "NVIDIA (Workday)",
+      "odds": "Reach",
+      "oddsScore": 2,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "- NVIDIA runs an extremely selective process",
+        "- Wants a PhD / MS candidate"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -1145,83 +1173,24 @@
       "closedAt": null
     },
     {
-      "id": "0bc401aecf2fd29e",
-      "company": "AllGoVision Technologies",
-      "role": "Embedded AI Engineer",
-      "location": "Bangalore, Remote",
-      "locationBucket": "Remote",
-      "stipend": "₹500000–750000",
-      "url": "https://unstop.com/jobs/embedded-ai-engineer-allgovision-technologies-449341",
-      "postedAt": "2022-10-06",
-      "firstSeenAt": "2026-08-26",
-      "lastSeenAt": "2026-09-12",
-      "deadline": "2022-10-31",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 51,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "d183cfa44caf441f",
-      "company": "Agoda",
-      "role": "Data Engineer (Java)",
+      "id": "b26848635a3a87e4",
+      "company": "Techmihirnaik",
+      "role": "Android Developer Internship - Kotlin",
       "location": "India",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://unstop.com/jobs/data-engineer-java-agoda-378611",
-      "postedAt": "2022-07-18",
+      "url": "https://unstop.com/internships/android-developer-internship-kotlin-techmihirnaik-376667",
+      "postedAt": "2022-09-06",
       "firstSeenAt": "2026-08-26",
       "lastSeenAt": "2026-09-12",
-      "deadline": "2022-08-15",
+      "deadline": "2022-08-26",
       "tier": 3,
       "source": "unstop:search",
       "sourceLabel": "Unstop — paid internships",
       "odds": "Moderate",
-      "oddsScore": 56,
+      "oddsScore": 42,
       "oddsReasons": [
-        "+ Java"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "strata (FastAPI/DuckDB/React/local-LLM)",
-      "leadWithTag": "data-platform",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "11b668c5268ee075",
-      "company": "Olcademy",
-      "role": "Web Development Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://unstop.com/internships/web-development-internship-olcademy-289921",
-      "postedAt": "2022-04-29",
-      "firstSeenAt": "2026-08-28",
-      "lastSeenAt": "2026-09-12",
-      "deadline": "2022-05-05",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 69,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Remote-friendly"
+        "- No direct overlap with his core stack"
       ],
       "category": "swe",
       "reputed": false,
@@ -1262,6 +1231,35 @@
       "closedAt": null
     },
     {
+      "id": "88aa3fc9c3f26c8d",
+      "company": "Techmihirnaik",
+      "role": "Android Developer",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://unstop.com/jobs/android-developer-techmihirnaik-264775",
+      "postedAt": "2022-02-14",
+      "firstSeenAt": "2026-08-26",
+      "lastSeenAt": "2026-09-12",
+      "deadline": "2022-02-15",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 48,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "b735eda1e379a7be",
       "company": "Pregrad",
       "role": "Data Analytics Mentor",
@@ -1286,35 +1284,6 @@
       "reputed": false,
       "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
       "leadWithTag": "DS",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "2f5576ff427ea4fc",
-      "company": "Iraitech Innovations & Technologies Pvt. Ltd.",
-      "role": "Android Developer",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://unstop.com/jobs/android-developer-iraitech-innovations-technologies-pvt-ltd-246229",
-      "postedAt": "2022-01-07",
-      "firstSeenAt": "2026-08-26",
-      "lastSeenAt": "2026-09-12",
-      "deadline": "2022-01-06",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -1410,12 +1379,6 @@
   ],
   "failures": [
     {
-      "source": "careers:planys",
-      "sourceLabel": "Planys Technologies careers page",
-      "tier": 3,
-      "error": "fetch failed"
-    },
-    {
       "source": "board:greenhouse:phonepe",
       "sourceLabel": "PhonePe (greenhouse)",
       "tier": 3,
@@ -1426,12 +1389,6 @@
       "sourceLabel": "Talent-360.me (workable)",
       "tier": 3,
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "newsletter:freshersdunia",
-      "sourceLabel": "FreshersDunia — 2028 batch off-campus",
-      "tier": 4,
-      "error": "HTTP 403 Forbidden"
     },
     {
       "source": "newsletter:offcampusjobs4u",
@@ -1447,10 +1404,10 @@
     }
   ],
   "stats": {
-    "totalRoles": 48,
-    "newThisRun": 0,
-    "sourcesOk": 474,
-    "sourcesFailed": 6,
+    "totalRoles": 47,
+    "newThisRun": 1,
+    "sourcesOk": 476,
+    "sourcesFailed": 4,
     "closedTracked": 0
   }
 }
