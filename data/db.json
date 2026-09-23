@@ -1,8 +1,36 @@
 {
-  "generatedAt": "2026-09-23T05:02:16.056Z",
+  "generatedAt": "2026-09-23T12:01:04.840Z",
   "runDate": "2026-09-23",
   "baselineRun": false,
   "roles": [
+    {
+      "id": "ad76c68b062a7740",
+      "company": "Red Hat",
+      "role": "Software Engineering Intern",
+      "location": "Bangalore, Pune",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://freshersdunia.in/red-hat-internship-2026-software-engineer-intern/",
+      "postedAt": null,
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "deadline": null,
+      "tier": 4,
+      "source": "newsletter:freshersdunia",
+      "sourceLabel": "FreshersDunia — 2028 batch off-campus",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
     {
       "id": "41e983ec03277ffe",
       "company": "Automation Anywhere",
@@ -27,7 +55,7 @@
       "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -233,34 +261,6 @@
       "closedAt": null
     },
     {
-      "id": "797389e4326d4ca2",
-      "company": "Electronic Arts",
-      "role": "Software Engineer Intern",
-      "location": "India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://freshersdunia.in/electronic-arts-internship-2026-2/",
-      "postedAt": null,
-      "firstSeenAt": "2026-09-15",
-      "lastSeenAt": "2026-09-23",
-      "deadline": null,
-      "tier": 4,
-      "source": "newsletter:freshersdunia",
-      "sourceLabel": "FreshersDunia — 2028 batch off-campus",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "8b7bdb5da67042e4",
       "company": "Salesforce",
       "role": "Software Development",
@@ -437,36 +437,6 @@
       "closedAt": null
     },
     {
-      "id": "84da027c46c0cf3b",
-      "company": "NVIDIA",
-      "role": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
-      "location": "India, Bengaluru",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
-      "postedAt": "2026-09-01",
-      "firstSeenAt": "2026-08-31",
-      "lastSeenAt": "2026-09-23",
-      "deadline": null,
-      "tier": 1,
-      "source": "workday:nvidia",
-      "sourceLabel": "NVIDIA (Workday)",
-      "odds": "Reach",
-      "oddsScore": 2,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "- NVIDIA runs an extremely selective process",
-        "- Wants a PhD / MS candidate"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "317ca90bc279af53",
       "company": "Rabbit Marketing House",
       "role": "AI Development",
@@ -490,6 +460,36 @@
       ],
       "category": "ai-ml",
       "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "84da027c46c0cf3b",
+      "company": "NVIDIA",
+      "role": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
+      "location": "India, Bengaluru",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
+      "postedAt": "2026-08-31",
+      "firstSeenAt": "2026-08-31",
+      "lastSeenAt": "2026-09-23",
+      "deadline": null,
+      "tier": 1,
+      "source": "workday:nvidia",
+      "sourceLabel": "NVIDIA (Workday)",
+      "odds": "Reach",
+      "oddsScore": 2,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "- NVIDIA runs an extremely selective process",
+        "- Wants a PhD / MS candidate"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -521,6 +521,35 @@
       "reputed": false,
       "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
       "leadWithTag": "DS",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "d9cc96cf38368b81",
+      "company": "Aone Ad",
+      "role": "Web Development",
+      "location": "Work From Home, Remote",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/work-from-home-web-development-internship-at-aone-ad1790153597",
+      "postedAt": null,
+      "firstSeenAt": "2026-08-24",
+      "lastSeenAt": "2026-09-23",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:1",
+      "sourceLabel": "Internshala — computer science — work from home",
+      "odds": "Strong",
+      "oddsScore": 69,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -770,6 +799,34 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://freshersdunia.in/philips-internship-2026/",
+      "postedAt": null,
+      "firstSeenAt": "2026-08-19",
+      "lastSeenAt": "2026-09-23",
+      "deadline": null,
+      "tier": 4,
+      "source": "newsletter:freshersdunia",
+      "sourceLabel": "FreshersDunia — 2028 batch off-campus",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "557a73fac490dbcf",
+      "company": "Stripe",
+      "role": "Paid Internship",
+      "location": "Bengaluru",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://freshersdunia.in/stripe-internship-2026-hiring/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
       "lastSeenAt": "2026-09-23",
@@ -1082,6 +1139,35 @@
       "closedAt": null
     },
     {
+      "id": "11b668c5268ee075",
+      "company": "Olcademy",
+      "role": "Web Development Internship",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://unstop.com/internships/web-development-internship-olcademy-289921",
+      "postedAt": "2022-04-29",
+      "firstSeenAt": "2026-08-28",
+      "lastSeenAt": "2026-09-23",
+      "deadline": "2022-05-05",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Strong",
+      "oddsScore": 69,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "5c16a13d16dea39e",
       "company": "Hobnobly",
       "role": "DevOps Internship",
@@ -1260,6 +1346,12 @@
   ],
   "failures": [
     {
+      "source": "successfactors:sap",
+      "sourceLabel": "SAP (SuccessFactors)",
+      "tier": 1,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
       "source": "board:greenhouse:buyersedgeplatformrecruiting",
       "sourceLabel": "Buyers Edge Platform (greenhouse)",
       "tier": 3,
@@ -1297,10 +1389,10 @@
     }
   ],
   "stats": {
-    "totalRoles": 43,
+    "totalRoles": 46,
     "newThisRun": 1,
-    "sourcesOk": 474,
-    "sourcesFailed": 6,
+    "sourcesOk": 473,
+    "sourcesFailed": 7,
     "closedTracked": 0
   }
 }
