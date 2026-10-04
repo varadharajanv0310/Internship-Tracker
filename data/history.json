@@ -1304,7 +1304,7 @@
     "11b668c5268ee075": {
       "id": "11b668c5268ee075",
       "firstSeenAt": "2026-08-28",
-      "lastSeenAt": "2026-09-30"
+      "lastSeenAt": "2026-10-04"
     },
     "9d3ff33a259874c5": {
       "id": "9d3ff33a259874c5",
@@ -2278,6 +2278,21 @@
     },
     "24a0b7dece410085": {
       "id": "24a0b7dece410085",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
+    },
+    "c81c1900a22f04a1": {
+      "id": "c81c1900a22f04a1",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
+    },
+    "56507271fce9b89f": {
+      "id": "56507271fce9b89f",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
+    },
+    "1e6b756539f6cecd": {
+      "id": "1e6b756539f6cecd",
       "firstSeenAt": "2026-10-04",
       "lastSeenAt": "2026-10-04"
     }
