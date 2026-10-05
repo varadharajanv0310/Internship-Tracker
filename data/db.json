@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:04:57.394Z",
+  "generatedAt": "2026-10-05T15:10:02.182Z",
   "runDate": "2026-10-05",
   "baselineRun": false,
   "roles": [
@@ -28,7 +28,7 @@
       "reputed": false,
       "leadWith": "FORENSIQ (doc-forgery detection, 99.2%)",
       "leadWithTag": "doc-AI",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -56,7 +56,7 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -84,7 +84,7 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -112,7 +112,7 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
+      "isNew": false,
       "status": "open",
       "closedAt": null
     },
@@ -140,66 +140,6 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "56507271fce9b89f",
-      "company": "Marvell",
-      "role": "Research Intern (PhD), Storage Systems for AI",
-      "location": "Hyderabad",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256",
-      "postedAt": "2026-10-05",
-      "firstSeenAt": "2026-10-04",
-      "lastSeenAt": "2026-10-05",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "odds": "Moderate",
-      "oddsScore": 44,
-      "oddsReasons": [
-        "+ LLM / RAG / agents (WEB PILOT, SEVA, 4 papers)",
-        "- Wants a PhD / MS candidate",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "1e6b756539f6cecd",
-      "company": "Marvell",
-      "role": "Research Intern (PhD), AI-Scale Protocols & Simulation",
-      "location": "Hyderabad",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255",
-      "postedAt": "2026-10-05",
-      "firstSeenAt": "2026-10-04",
-      "lastSeenAt": "2026-10-05",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "odds": "Reach",
-      "oddsScore": 20,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "- Wants a PhD / MS candidate",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -291,6 +231,66 @@
       "closedAt": null
     },
     {
+      "id": "56507271fce9b89f",
+      "company": "Marvell",
+      "role": "Research Intern (PhD), Storage Systems for AI",
+      "location": "Hyderabad",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256",
+      "postedAt": "2026-10-04",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-05",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:marvell-marvellcareers",
+      "sourceLabel": "Marvell (workday)",
+      "odds": "Moderate",
+      "oddsScore": 44,
+      "oddsReasons": [
+        "+ LLM / RAG / agents (WEB PILOT, SEVA, 4 papers)",
+        "- Wants a PhD / MS candidate",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "1e6b756539f6cecd",
+      "company": "Marvell",
+      "role": "Research Intern (PhD), AI-Scale Protocols & Simulation",
+      "location": "Hyderabad",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255",
+      "postedAt": "2026-10-04",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-05",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:marvell-marvellcareers",
+      "sourceLabel": "Marvell (workday)",
+      "odds": "Reach",
+      "oddsScore": 20,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "- Wants a PhD / MS candidate",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "a0897683445bef20",
       "company": "GRADTWIN SERVICES (OPC) PRIVATE LIMITED",
       "role": "Data Analytics With Python",
@@ -375,36 +375,6 @@
       "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "d309814fc9b43e44",
-      "company": "Bosch",
-      "role": "AI / ML and Generative AI research assistant",
-      "location": "coimbatore, in",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153227458",
-      "postedAt": "2026-10-02",
-      "firstSeenAt": "2026-10-03",
-      "lastSeenAt": "2026-10-05",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:smartrecruiters:BoschGroup",
-      "sourceLabel": "Bosch (smartrecruiters)",
-      "odds": "Strong",
-      "oddsScore": 89,
-      "oddsReasons": [
-        "+ LLM / RAG / agents (WEB PILOT, SEVA, 4 papers)",
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -526,36 +496,6 @@
       "closedAt": null
     },
     {
-      "id": "ea8bc8dc8c28f99e",
-      "company": "Marvell",
-      "role": "Research Intern, Physical AI and GPU (PhD)",
-      "location": "Hyderabad",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253",
-      "postedAt": "2026-10-02",
-      "firstSeenAt": "2026-10-01",
-      "lastSeenAt": "2026-10-05",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "odds": "Reach",
-      "oddsScore": 20,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "- Wants a PhD / MS candidate",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "8fc78b9f22fa5cd5",
       "company": "Marvell",
       "role": "AI Intern",
@@ -579,6 +519,36 @@
       "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "ea8bc8dc8c28f99e",
+      "company": "Marvell",
+      "role": "Research Intern, Physical AI and GPU (PhD)",
+      "location": "Hyderabad",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253",
+      "postedAt": "2026-10-01",
+      "firstSeenAt": "2026-10-01",
+      "lastSeenAt": "2026-10-05",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:marvell-marvellcareers",
+      "sourceLabel": "Marvell (workday)",
+      "odds": "Reach",
+      "oddsScore": 20,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "- Wants a PhD / MS candidate",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -648,35 +618,6 @@
       "closedAt": null
     },
     {
-      "id": "0b7420506b695adc",
-      "company": "Kaleris",
-      "role": "Associate Software Engineer Intern",
-      "location": "Chennai",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
-      "postedAt": "2026-09-29",
-      "firstSeenAt": "2026-09-28",
-      "lastSeenAt": "2026-10-05",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:kaleris-kaleris_careers",
-      "sourceLabel": "Kaleris (workday)",
-      "odds": "Moderate",
-      "oddsScore": 52,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "5ad9fc02d265be6c",
       "company": "GRADTWIN SERVICES (OPC) PRIVATE LIMITED",
       "role": "Python Full Stack Developer",
@@ -732,6 +673,35 @@
       "reputed": false,
       "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
       "leadWithTag": "DS",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "0b7420506b695adc",
+      "company": "Kaleris",
+      "role": "Associate Software Engineer Intern",
+      "location": "Chennai",
+      "locationBucket": "Chennai",
+      "stipend": null,
+      "url": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
+      "postedAt": "2026-09-28",
+      "firstSeenAt": "2026-09-28",
+      "lastSeenAt": "2026-10-05",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:kaleris-kaleris_careers",
+      "sourceLabel": "Kaleris (workday)",
+      "odds": "Moderate",
+      "oddsScore": 52,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Chennai — home city, no relocation friction"
+      ],
+      "category": "swe",
+      "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -1850,6 +1820,342 @@
       "error": "HTTP 403 Forbidden"
     },
     {
+      "source": "internshala:0",
+      "sourceLabel": "Internshala — computer science — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:1",
+      "sourceLabel": "Internshala — computer science — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:2",
+      "sourceLabel": "Internshala — computer science — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:5",
+      "sourceLabel": "Internshala — software development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:6",
+      "sourceLabel": "Internshala — software development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:7",
+      "sourceLabel": "Internshala — software development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:8",
+      "sourceLabel": "Internshala — data science — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:9",
+      "sourceLabel": "Internshala — data science — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:10",
+      "sourceLabel": "Internshala — data science — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:11",
+      "sourceLabel": "Internshala — data science — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:12",
+      "sourceLabel": "Internshala — machine learning — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:13",
+      "sourceLabel": "Internshala — machine learning — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:14",
+      "sourceLabel": "Internshala — machine learning — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:15",
+      "sourceLabel": "Internshala — machine learning — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:16",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:17",
+      "sourceLabel": "Internshala — artificial intelligence — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:18",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:19",
+      "sourceLabel": "Internshala — artificial intelligence — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:20",
+      "sourceLabel": "Internshala — web development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:21",
+      "sourceLabel": "Internshala — web development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:22",
+      "sourceLabel": "Internshala — web development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:23",
+      "sourceLabel": "Internshala — web development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:24",
+      "sourceLabel": "Internshala — full stack development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:25",
+      "sourceLabel": "Internshala — full stack development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:26",
+      "sourceLabel": "Internshala — full stack development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:27",
+      "sourceLabel": "Internshala — full stack development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:28",
+      "sourceLabel": "Internshala — python/django — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:29",
+      "sourceLabel": "Internshala — python/django — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:30",
+      "sourceLabel": "Internshala — python/django — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:31",
+      "sourceLabel": "Internshala — python/django — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:33",
+      "sourceLabel": "Internshala — backend development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:34",
+      "sourceLabel": "Internshala — backend development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:35",
+      "sourceLabel": "Internshala — backend development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:36",
+      "sourceLabel": "Internshala — frontend development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:37",
+      "sourceLabel": "Internshala — frontend development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:38",
+      "sourceLabel": "Internshala — frontend development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:39",
+      "sourceLabel": "Internshala — frontend development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:40",
+      "sourceLabel": "Internshala — cyber security — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:41",
+      "sourceLabel": "Internshala — cyber security — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:42",
+      "sourceLabel": "Internshala — cyber security — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:43",
+      "sourceLabel": "Internshala — cyber security — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:44",
+      "sourceLabel": "Internshala — devops — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:45",
+      "sourceLabel": "Internshala — devops — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:46",
+      "sourceLabel": "Internshala — devops — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:47",
+      "sourceLabel": "Internshala — devops — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:48",
+      "sourceLabel": "Internshala — mobile app development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:49",
+      "sourceLabel": "Internshala — mobile app development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:50",
+      "sourceLabel": "Internshala — mobile app development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:51",
+      "sourceLabel": "Internshala — mobile app development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:52",
+      "sourceLabel": "Internshala — ui/ux design — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:53",
+      "sourceLabel": "Internshala — ui/ux design — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:54",
+      "sourceLabel": "Internshala — ui/ux design — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:55",
+      "sourceLabel": "Internshala — ui/ux design — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
       "source": "board:greenhouse:buyersedgeplatformrecruiting",
       "sourceLabel": "Buyers Edge Platform (greenhouse)",
       "tier": 3,
@@ -1899,10 +2205,10 @@
     }
   ],
   "stats": {
-    "totalRoles": 63,
-    "newThisRun": 5,
-    "sourcesOk": 471,
-    "sourcesFailed": 9,
+    "totalRoles": 62,
+    "newThisRun": 0,
+    "sourcesOk": 415,
+    "sourcesFailed": 65,
     "closedTracked": 0
   }
 }
