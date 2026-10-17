@@ -1,8 +1,37 @@
 {
-  "generatedAt": "2026-10-17T04:54:15.645Z",
+  "generatedAt": "2026-10-17T11:06:22.725Z",
   "runDate": "2026-10-17",
   "baselineRun": false,
   "roles": [
+    {
+      "id": "c675969d3568b90c",
+      "company": "Envision Next LLP",
+      "role": "Full Stack Developer",
+      "location": "Mumbai",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/full-stack-developer-internship-in-navi-mumbai-at-envision-next-llp1792230728",
+      "postedAt": null,
+      "firstSeenAt": "2026-10-17",
+      "lastSeenAt": "2026-10-17",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
+      "odds": "Strong",
+      "oddsScore": 71,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Computer vision / document AI (FORENSIQ 99.2%)"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
     {
       "id": "ee1e160c9163a582",
       "company": "Wikimedia Foundation",
@@ -382,7 +411,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://ag.wd3.myworkdayjobs.com/en-US/airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449392",
-      "postedAt": "2026-10-13",
+      "postedAt": "2026-10-12",
       "firstSeenAt": "2026-10-12",
       "lastSeenAt": "2026-10-17",
       "deadline": null,
@@ -410,7 +439,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://ag.wd3.myworkdayjobs.com/en-US/airbus/job/Bangalore-Area/Internship---Test-Automation_JR10449226",
-      "postedAt": "2026-10-13",
+      "postedAt": "2026-10-12",
       "firstSeenAt": "2026-10-12",
       "lastSeenAt": "2026-10-17",
       "deadline": null,
@@ -431,34 +460,6 @@
       "closedAt": null
     },
     {
-      "id": "2e549afca0cec709",
-      "company": "Ganesh Enterprises",
-      "role": "Software Development",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/part-time-software-development-internship-in-bangalore-at-ganesh-enterprises1791349042",
-      "postedAt": null,
-      "firstSeenAt": "2026-10-12",
-      "lastSeenAt": "2026-10-17",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:44",
-      "sourceLabel": "Internshala — devops — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "c7333837f1d1198f",
       "company": "Creative Squad Private Limited",
       "role": "Full Stack Development",
@@ -471,8 +472,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
+      "source": "internshala:0",
+      "sourceLabel": "Internshala — computer science — Chennai",
       "odds": "Strong",
       "oddsScore": 73,
       "oddsReasons": [
@@ -488,13 +489,13 @@
       "closedAt": null
     },
     {
-      "id": "ced7eff70c4a14c8",
-      "company": "Wizda Learning Solutions Private Limited",
+      "id": "fb6b5769abb9d912",
+      "company": "ProGlobal Software Private Limited",
       "role": "Full Stack Development",
       "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-wizda-learning-solutions-private-limited1789645540",
+      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-proglobal-software-private-limited1790690003",
       "postedAt": null,
       "firstSeenAt": "2026-10-05",
       "lastSeenAt": "2026-10-17",
@@ -516,31 +517,29 @@
       "closedAt": null
     },
     {
-      "id": "56507271fce9b89f",
-      "company": "Marvell",
-      "role": "Research Intern (PhD), Storage Systems for AI",
-      "location": "Hyderabad",
+      "id": "04507525837bf2e2",
+      "company": "Think2Exam",
+      "role": "Web Development",
+      "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256",
-      "postedAt": "2026-10-05",
-      "firstSeenAt": "2026-10-04",
+      "url": "https://internshala.com/internship/detail/web-development-internship-in-bangalore-at-think2exam1790507685",
+      "postedAt": null,
+      "firstSeenAt": "2026-10-05",
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
+      "source": "internshala:36",
+      "sourceLabel": "Internshala — frontend development — Chennai",
       "odds": "Moderate",
-      "oddsScore": 44,
+      "oddsScore": 63,
       "oddsReasons": [
-        "+ LLM / RAG / agents (WEB PILOT, SEVA, 4 papers)",
-        "- Wants a PhD / MS candidate",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+        "+ Full-stack React/Next.js/TS (PDS Global, production)"
       ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -558,8 +557,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:36",
-      "sourceLabel": "Internshala — frontend development — Chennai",
+      "source": "internshala:40",
+      "sourceLabel": "Internshala — cyber security — Chennai",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
@@ -569,36 +568,6 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "1e6b756539f6cecd",
-      "company": "Marvell",
-      "role": "Research Intern (PhD), AI-Scale Protocols & Simulation",
-      "location": "Hyderabad",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255",
-      "postedAt": "2026-10-05",
-      "firstSeenAt": "2026-10-04",
-      "lastSeenAt": "2026-10-17",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "odds": "Reach",
-      "oddsScore": 20,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "- Wants a PhD / MS candidate",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -633,34 +602,6 @@
       "closedAt": null
     },
     {
-      "id": "24a0b7dece410085",
-      "company": "Dawnbells",
-      "role": "Full Stack Development",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-dawnbells1790613543",
-      "postedAt": null,
-      "firstSeenAt": "2026-10-04",
-      "lastSeenAt": "2026-10-17",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:36",
-      "sourceLabel": "Internshala — frontend development — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 63,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "fdf1f15975741fb2",
       "company": "Future Bound Tech",
       "role": "Software Development",
@@ -685,6 +626,66 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "56507271fce9b89f",
+      "company": "Marvell",
+      "role": "Research Intern (PhD), Storage Systems for AI",
+      "location": "Hyderabad",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256",
+      "postedAt": "2026-10-04",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-17",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:marvell-marvellcareers",
+      "sourceLabel": "Marvell (workday)",
+      "odds": "Moderate",
+      "oddsScore": 44,
+      "oddsReasons": [
+        "+ LLM / RAG / agents (WEB PILOT, SEVA, 4 papers)",
+        "- Wants a PhD / MS candidate",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "1e6b756539f6cecd",
+      "company": "Marvell",
+      "role": "Research Intern (PhD), AI-Scale Protocols & Simulation",
+      "location": "Hyderabad",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255",
+      "postedAt": "2026-10-04",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-17",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:marvell-marvellcareers",
+      "sourceLabel": "Marvell (workday)",
+      "odds": "Reach",
+      "oddsScore": 20,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "- Wants a PhD / MS candidate",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "ai-ml",
+      "reputed": true,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -756,7 +757,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253",
-      "postedAt": "2026-10-02",
+      "postedAt": "2026-10-01",
       "firstSeenAt": "2026-10-01",
       "lastSeenAt": "2026-10-17",
       "deadline": null,
@@ -825,8 +826,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:9",
-      "sourceLabel": "Internshala — data science — work from home",
+      "source": "internshala:1",
+      "sourceLabel": "Internshala — computer science — work from home",
       "odds": "Moderate",
       "oddsScore": 60,
       "oddsReasons": [
@@ -944,8 +945,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
+      "source": "internshala:0",
+      "sourceLabel": "Internshala — computer science — Chennai",
       "odds": "Strong",
       "oddsScore": 73,
       "oddsReasons": [
@@ -1054,7 +1055,7 @@
       "location": "Chennai, India",
       "locationBucket": "Chennai",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-multiple-locations-at-innoknowvex1789804441",
+      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-multiple-locations-at-innoknowvex1792210373",
       "postedAt": null,
       "firstSeenAt": "2026-09-19",
       "lastSeenAt": "2026-10-17",
@@ -1072,35 +1073,6 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "a321eb41bacfd4e7",
-      "company": "Innoknowvex",
-      "role": "Data Science",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/data-science-internship-in-multiple-locations-at-innoknowvex1789803495",
-      "postedAt": null,
-      "firstSeenAt": "2026-09-19",
-      "lastSeenAt": "2026-10-17",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:8",
-      "sourceLabel": "Internshala — data science — Chennai",
-      "odds": "Strong",
-      "oddsScore": 71,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
-      "leadWithTag": "DS",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -1130,6 +1102,35 @@
       "reputed": false,
       "leadWith": "SEVA + Calibration at Scale (4 papers)",
       "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "a321eb41bacfd4e7",
+      "company": "Innoknowvex",
+      "role": "Data Science",
+      "location": "Chennai, India",
+      "locationBucket": "Chennai",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/data-science-internship-in-multiple-locations-at-innoknowvex1789803495",
+      "postedAt": null,
+      "firstSeenAt": "2026-09-19",
+      "lastSeenAt": "2026-10-17",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:8",
+      "sourceLabel": "Internshala — data science — Chennai",
+      "odds": "Strong",
+      "oddsScore": 71,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "+ Chennai — home city, no relocation friction"
+      ],
+      "category": "data",
+      "reputed": false,
+      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
+      "leadWithTag": "DS",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -1206,8 +1207,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:55",
-      "sourceLabel": "Internshala — ui/ux design — work from home p2",
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
       "odds": "Reach",
       "oddsScore": 5,
       "oddsReasons": [
@@ -1367,20 +1368,20 @@
       "closedAt": null
     },
     {
-      "id": "19a48392ba05cf17",
+      "id": "73d939577b52b76e",
       "company": "Gateway Software Solutions",
-      "role": "Full Stack Development",
+      "role": "Front End Development",
       "location": "Chennai, India",
       "locationBucket": "Chennai",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-multiple-locations-at-gateway-software-solutions1791291170",
+      "url": "https://internshala.com/internship/detail/front-end-development-internship-in-multiple-locations-at-gateway-software-solutions1791863478",
       "postedAt": null,
       "firstSeenAt": "2026-08-21",
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
+      "source": "internshala:0",
+      "sourceLabel": "Internshala — computer science — Chennai",
       "odds": "Strong",
       "oddsScore": 73,
       "oddsReasons": [
@@ -1396,13 +1397,13 @@
       "closedAt": null
     },
     {
-      "id": "73d939577b52b76e",
+      "id": "19a48392ba05cf17",
       "company": "Gateway Software Solutions",
-      "role": "Front End Development",
+      "role": "Full Stack Development",
       "location": "Chennai, India",
       "locationBucket": "Chennai",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/front-end-development-internship-in-multiple-locations-at-gateway-software-solutions1791863478",
+      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-multiple-locations-at-gateway-software-solutions1791291170",
       "postedAt": null,
       "firstSeenAt": "2026-08-21",
       "lastSeenAt": "2026-10-17",
@@ -1466,8 +1467,8 @@
       "lastSeenAt": "2026-10-17",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:55",
-      "sourceLabel": "Internshala — ui/ux design — work from home p2",
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
       "odds": "Moderate",
       "oddsScore": 48,
       "oddsReasons": [
@@ -2045,324 +2046,6 @@
       "error": "HTTP 403 Forbidden"
     },
     {
-      "source": "workday:salesforce",
-      "sourceLabel": "Salesforce (Workday)",
-      "tier": 1,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "internshala:0",
-      "sourceLabel": "Internshala — computer science — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:1",
-      "sourceLabel": "Internshala — computer science — work from home",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:5",
-      "sourceLabel": "Internshala — software development — work from home",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:6",
-      "sourceLabel": "Internshala — software development — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:7",
-      "sourceLabel": "Internshala — software development — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:8",
-      "sourceLabel": "Internshala — data science — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:10",
-      "sourceLabel": "Internshala — data science — Chennai p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:11",
-      "sourceLabel": "Internshala — data science — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:12",
-      "sourceLabel": "Internshala — machine learning — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:13",
-      "sourceLabel": "Internshala — machine learning — work from home",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:14",
-      "sourceLabel": "Internshala — machine learning — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:15",
-      "sourceLabel": "Internshala — machine learning — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:16",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:17",
-      "sourceLabel": "Internshala — artificial intelligence — work from home",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:18",
-      "sourceLabel": "Internshala — artificial intelligence — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:19",
-      "sourceLabel": "Internshala — artificial intelligence — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:20",
-      "sourceLabel": "Internshala — web development — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:21",
-      "sourceLabel": "Internshala — web development — work from home",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:22",
-      "sourceLabel": "Internshala — web development — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:23",
-      "sourceLabel": "Internshala — web development — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:24",
-      "sourceLabel": "Internshala — full stack development — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:25",
-      "sourceLabel": "Internshala — full stack development — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:26",
-      "sourceLabel": "Internshala — full stack development — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:27",
-      "sourceLabel": "Internshala — full stack development — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:28",
-      "sourceLabel": "Internshala — python/django — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:29",
-      "sourceLabel": "Internshala — python/django — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:30",
-      "sourceLabel": "Internshala — python/django — Chennai p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:31",
-      "sourceLabel": "Internshala — python/django — work from home p2",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:32",
-      "sourceLabel": "Internshala — backend development — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:33",
-      "sourceLabel": "Internshala — backend development — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:34",
-      "sourceLabel": "Internshala — backend development — Chennai p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:35",
-      "sourceLabel": "Internshala — backend development — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:36",
-      "sourceLabel": "Internshala — frontend development — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:37",
-      "sourceLabel": "Internshala — frontend development — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:38",
-      "sourceLabel": "Internshala — frontend development — Chennai p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:39",
-      "sourceLabel": "Internshala — frontend development — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:40",
-      "sourceLabel": "Internshala — cyber security — Chennai",
-      "tier": 3,
-      "error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source": "internshala:41",
-      "sourceLabel": "Internshala — cyber security — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:42",
-      "sourceLabel": "Internshala — cyber security — Chennai p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:43",
-      "sourceLabel": "Internshala — cyber security — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:44",
-      "sourceLabel": "Internshala — devops — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:45",
-      "sourceLabel": "Internshala — devops — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:47",
-      "sourceLabel": "Internshala — devops — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:48",
-      "sourceLabel": "Internshala — mobile app development — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:49",
-      "sourceLabel": "Internshala — mobile app development — work from home",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:50",
-      "sourceLabel": "Internshala — mobile app development — Chennai p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:51",
-      "sourceLabel": "Internshala — mobile app development — work from home p2",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "internshala:52",
-      "sourceLabel": "Internshala — ui/ux design — Chennai",
-      "tier": 3,
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "board:workday:amainc-ama_careers",
-      "sourceLabel": "Analytical Mechanics Associates (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:arlo-external_careers",
-      "sourceLabel": "Arlo (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:btisolutions-external",
-      "sourceLabel": "BTI Solutions (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
       "source": "board:greenhouse:buyersedgeplatformrecruiting",
       "sourceLabel": "Buyers Edge Platform (greenhouse)",
       "tier": 3,
@@ -2371,18 +2054,6 @@
     {
       "source": "board:workday:candescent-hiring",
       "sourceLabel": "Candescent (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:capitalone-capital_one",
-      "sourceLabel": "Capital One (workday)",
-      "tier": 3,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "source": "board:workday:factset-factsetcareers",
-      "sourceLabel": "FactSet (workday)",
       "tier": 3,
       "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
     },
@@ -2411,8 +2082,8 @@
       "error": "HTTP 404 Not Found"
     },
     {
-      "source": "board:workday:puma-jobs_at_puma",
-      "sourceLabel": "Puma (workday)",
+      "source": "board:workday:plexus-plexus_careers",
+      "sourceLabel": "Plexus (workday)",
       "tier": 3,
       "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
     },
@@ -2449,9 +2120,9 @@
   ],
   "stats": {
     "totalRoles": 70,
-    "newThisRun": 0,
-    "sourcesOk": 412,
-    "sourcesFailed": 68,
+    "newThisRun": 1,
+    "sourcesOk": 467,
+    "sourcesFailed": 13,
     "closedTracked": 0
   }
 }
