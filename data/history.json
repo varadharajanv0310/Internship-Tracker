@@ -2274,7 +2274,7 @@
     "11901c67dba64291": {
       "id": "11901c67dba64291",
       "firstSeenAt": "2026-10-04",
-      "lastSeenAt": "2026-11-02"
+      "lastSeenAt": "2026-11-04"
     },
     "24a0b7dece410085": {
       "id": "24a0b7dece410085",
@@ -2549,7 +2549,7 @@
     "51d1eb469e5ee797": {
       "id": "51d1eb469e5ee797",
       "firstSeenAt": "2026-10-13",
-      "lastSeenAt": "2026-11-03"
+      "lastSeenAt": "2026-11-04"
     },
     "ac52c1aafad988c9": {
       "id": "ac52c1aafad988c9",
@@ -3114,12 +3114,12 @@
     "0edf4dc134128db2": {
       "id": "0edf4dc134128db2",
       "firstSeenAt": "2026-10-29",
-      "lastSeenAt": "2026-11-02"
+      "lastSeenAt": "2026-11-04"
     },
     "7e4dcccac4784f3a": {
       "id": "7e4dcccac4784f3a",
       "firstSeenAt": "2026-10-29",
-      "lastSeenAt": "2026-11-03"
+      "lastSeenAt": "2026-11-04"
     },
     "20895c3727a45831": {
       "id": "20895c3727a45831",
@@ -3174,7 +3174,7 @@
     "33206524e52c4ee1": {
       "id": "33206524e52c4ee1",
       "firstSeenAt": "2026-10-30",
-      "lastSeenAt": "2026-11-03"
+      "lastSeenAt": "2026-11-04"
     },
     "2bf8b9638e3a17b3": {
       "id": "2bf8b9638e3a17b3",
@@ -3319,12 +3319,12 @@
     "1dfcd59ec9923f9d": {
       "id": "1dfcd59ec9923f9d",
       "firstSeenAt": "2026-11-03",
-      "lastSeenAt": "2026-11-03"
+      "lastSeenAt": "2026-11-04"
     },
     "b5cd1679290e2c2d": {
       "id": "b5cd1679290e2c2d",
       "firstSeenAt": "2026-11-03",
-      "lastSeenAt": "2026-11-03"
+      "lastSeenAt": "2026-11-04"
     },
     "ad7cbfbd20a3151c": {
       "id": "ad7cbfbd20a3151c",
@@ -3408,6 +3408,11 @@
     },
     "0f57625cac3d11f7": {
       "id": "0f57625cac3d11f7",
+      "firstSeenAt": "2026-11-04",
+      "lastSeenAt": "2026-11-04"
+    },
+    "e2dc5e8fd6ce3b12": {
+      "id": "e2dc5e8fd6ce3b12",
       "firstSeenAt": "2026-11-04",
       "lastSeenAt": "2026-11-04"
     }
