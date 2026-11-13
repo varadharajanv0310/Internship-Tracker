@@ -1344,7 +1344,7 @@
     "237f056d78801b1d": {
       "id": "237f056d78801b1d",
       "firstSeenAt": "2026-08-29",
-      "lastSeenAt": "2026-11-12"
+      "lastSeenAt": "2026-11-13"
     },
     "e1b15906f6409e3d": {
       "id": "e1b15906f6409e3d",
@@ -3414,7 +3414,7 @@
     "e2dc5e8fd6ce3b12": {
       "id": "e2dc5e8fd6ce3b12",
       "firstSeenAt": "2026-11-04",
-      "lastSeenAt": "2026-11-12"
+      "lastSeenAt": "2026-11-13"
     },
     "cb3b247cd2725df6": {
       "id": "cb3b247cd2725df6",
@@ -3444,7 +3444,7 @@
     "001c3b1e1c8d545c": {
       "id": "001c3b1e1c8d545c",
       "firstSeenAt": "2026-11-05",
-      "lastSeenAt": "2026-11-10"
+      "lastSeenAt": "2026-11-13"
     },
     "3db13fc6addadd96": {
       "id": "3db13fc6addadd96",
@@ -3624,7 +3624,7 @@
     "20b9e3e60e07a1be": {
       "id": "20b9e3e60e07a1be",
       "firstSeenAt": "2026-11-08",
-      "lastSeenAt": "2026-11-11"
+      "lastSeenAt": "2026-11-13"
     },
     "cba14f3d7522c405": {
       "id": "cba14f3d7522c405",
@@ -3749,7 +3749,7 @@
     "197d4494e522ed76": {
       "id": "197d4494e522ed76",
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-12"
+      "lastSeenAt": "2026-11-13"
     },
     "85f42faf23826401": {
       "id": "85f42faf23826401",
@@ -3759,7 +3759,7 @@
     "8859313893017614": {
       "id": "8859313893017614",
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-12"
+      "lastSeenAt": "2026-11-13"
     },
     "0cffd99d69815cda": {
       "id": "0cffd99d69815cda",
@@ -3818,6 +3818,21 @@
     },
     "19ff96ef6652c307": {
       "id": "19ff96ef6652c307",
+      "firstSeenAt": "2026-11-13",
+      "lastSeenAt": "2026-11-13"
+    },
+    "8c0c2351f97f7726": {
+      "id": "8c0c2351f97f7726",
+      "firstSeenAt": "2026-11-13",
+      "lastSeenAt": "2026-11-13"
+    },
+    "e287d84fc2b9eb11": {
+      "id": "e287d84fc2b9eb11",
+      "firstSeenAt": "2026-11-13",
+      "lastSeenAt": "2026-11-13"
+    },
+    "9f0f954a18cae9e7": {
+      "id": "9f0f954a18cae9e7",
       "firstSeenAt": "2026-11-13",
       "lastSeenAt": "2026-11-13"
     }
