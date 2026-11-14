@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-14T06:53:09.091Z",
+  "generatedAt": "2026-11-14T18:27:12.764Z",
   "runDate": "2026-11-14",
   "baselineRun": false,
   "roles": [
     {
-      "id": "3ec90db493ee8d55",
-      "company": "EvoNexis",
-      "role": "Web Development",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-web-development-internship-at-evonexis1794635681",
-      "postedAt": null,
+      "id": "42409fc5aad3159e",
+      "company": "Airkrit India Pvt. Ltd.",
+      "role": "Web Developer",
+      "location": "Salem, Tamil Nadu, India",
+      "locationBucket": "Other",
+      "stipend": "₹300000–600000",
+      "url": "https://unstop.com/jobs/web-developer-airkrit-india-pvt-ltd-1810548",
+      "postedAt": "2026-11-14",
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
-      "deadline": null,
+      "deadline": "2026-11-28",
       "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
       "odds": "Strong",
-      "oddsScore": 69,
+      "oddsScore": 66,
       "oddsReasons": [
         "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Remote-friendly"
+        "+ Paid role with a stated stipend"
       ],
       "category": "swe",
       "reputed": false,
@@ -33,25 +33,25 @@
       "closedAt": null
     },
     {
-      "id": "3778808d2deae6d1",
-      "company": "EvoNexis",
-      "role": "Data Analytics",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-evonexis1794636094",
-      "postedAt": null,
+      "id": "b15e1ea5f2e5f735",
+      "company": "Ndmit",
+      "role": "Data Science Trainer",
+      "location": "Indore, Madhya Pradesh, India",
+      "locationBucket": "Other",
+      "stipend": "₹30000–30000",
+      "url": "https://unstop.com/jobs/data-science-trainer-ndmit-1810278",
+      "postedAt": "2026-11-14",
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
-      "deadline": null,
+      "deadline": "2026-11-28",
       "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Strong",
-      "oddsScore": 67,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 64,
       "oddsReasons": [
         "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly"
+        "+ Paid role with a stated stipend"
       ],
       "category": "data",
       "reputed": false,
@@ -62,13 +62,13 @@
       "closedAt": null
     },
     {
-      "id": "f7a92031ffbbe297",
-      "company": "EvoNexis",
-      "role": "Machine Learning",
-      "location": "Work From Home, Remote",
-      "locationBucket": "Remote",
+      "id": "d3278f97a4ec67cc",
+      "company": "10xTechClub",
+      "role": "Research Analyst & Program Facilitator (Software, DS & AI)",
+      "location": "Pune",
+      "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-evonexis1794635974",
+      "url": "https://internshala.com/internship/detail/research-analyst-program-facilitator-software-ds-ai-internship-in-pune-at-10xtechclub1794663725",
       "postedAt": null,
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
@@ -76,11 +76,11 @@
       "tier": 3,
       "source": "internshala:3",
       "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Strong",
-      "oddsScore": 67,
+      "odds": "Moderate",
+      "oddsScore": 54,
       "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly"
+        "- No direct overlap with his core stack",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
       ],
       "category": "ai-ml",
       "reputed": false,
@@ -91,13 +91,101 @@
       "closedAt": null
     },
     {
-      "id": "5111b2159196f397",
-      "company": "ConsultBae",
-      "role": "Project Executive - AI Data Services",
-      "location": "Work From Home, Remote",
+      "id": "10c3ec3999b9f252",
+      "company": "Finsamudra Private Limited",
+      "role": "AI Content Creator & Social Media Manager",
+      "location": "Bangalore, Karnataka, Remote",
       "locationBucket": "Remote",
+      "stipend": "₹240000–300000",
+      "url": "https://unstop.com/jobs/ai-content-creator-social-media-manager-finsamudra-private-limited-1810350",
+      "postedAt": "2026-11-14",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14",
+      "deadline": "2026-11-28",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 51,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "00c43bb2360cfdc8",
+      "company": "Airkrit India Pvt. Ltd.",
+      "role": "Software Engineer",
+      "location": "Bangalore, Karnataka, India",
+      "locationBucket": "Other",
+      "stipend": "₹300000–700000",
+      "url": "https://unstop.com/jobs/software-engineer-airkrit-india-pvt-ltd-1810534",
+      "postedAt": "2026-11-14",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14",
+      "deadline": "2026-11-28",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 45,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "39c34f9907f169ab",
+      "company": "Coy",
+      "role": "Software Engineer Intern",
+      "location": "Gurgaon, Haryana, India",
+      "locationBucket": "Other",
+      "stipend": "₹45000–45000",
+      "url": "https://unstop.com/internships/software-engineer-intern-coy-1809143",
+      "postedAt": "2026-11-14",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14",
+      "deadline": "2026-11-27",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 45,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "078dee71826ab2c8",
+      "company": "Bharath Group",
+      "role": "AI Video & Film Creator",
+      "location": "Bangalore",
+      "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/work-from-home-project-executive-ai-data-services-internship-at-consultbae1794636326",
+      "url": "https://internshala.com/internship/detail/ai-video-film-creator-internship-in-bangalore-at-bharath-group1794480737",
       "postedAt": null,
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
@@ -106,10 +194,9 @@
       "source": "internshala:3",
       "sourceLabel": "Internshala — computer science — work from home p2",
       "odds": "Moderate",
-      "oddsScore": 48,
+      "oddsScore": 42,
       "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
+        "- No direct overlap with his core stack"
       ],
       "category": "ai-ml",
       "reputed": false,
@@ -150,31 +237,31 @@
       "closedAt": null
     },
     {
-      "id": "c1ed4db123b91a5d",
-      "company": "SmaranAI.in",
-      "role": "AI & React Developer Internship",
+      "id": "a91cc8b400f3de9f",
+      "company": "Zenotalent",
+      "role": "Data Science Internship",
       "location": "Remote, India",
       "locationBucket": "Remote",
-      "stipend": "₹2250–3500",
-      "url": "https://unstop.com/internships/ai-react-developer-internship-smaranaiin-1805059",
+      "stipend": "₹25000–25000",
+      "url": "https://unstop.com/internships/data-science-internship-zenotalent-1810486",
       "postedAt": "2026-11-14",
-      "firstSeenAt": "2026-11-12",
+      "firstSeenAt": "2026-08-21",
       "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-24",
+      "deadline": "2026-11-28",
       "tier": 3,
       "source": "unstop:search",
       "sourceLabel": "Unstop — paid internships",
       "odds": "Strong",
-      "oddsScore": 72,
+      "oddsScore": 70,
       "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Data science / analytics (K Labs, real govt data)",
         "+ Remote-friendly",
         "+ Paid role with a stated stipend"
       ],
-      "category": "ai-ml",
+      "category": "data",
       "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
+      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
+      "leadWithTag": "DS",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -260,36 +347,6 @@
       "reputed": false,
       "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
       "leadWithTag": "DS",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "8c0c2351f97f7726",
-      "company": "Information Security Goverance",
-      "role": "Data Analyst Internship",
-      "location": "Chennai, Tamil Nadu, India",
-      "locationBucket": "Chennai",
-      "stipend": "₹10000–10000",
-      "url": "https://unstop.com/internships/data-analyst-internship-information-security-goverance-1808105",
-      "postedAt": "2026-11-14",
-      "firstSeenAt": "2026-11-13",
-      "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-27",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 55,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -470,6 +527,34 @@
       "closedAt": null
     },
     {
+      "id": "e287d84fc2b9eb11",
+      "company": "Grovia Business Consulting India Private Limited",
+      "role": "Software Development",
+      "location": "Bangalore",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/software-development-internship-in-bangalore-at-grovia-business-consulting-india-private-limited1794547499",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-13",
+      "lastSeenAt": "2026-11-14",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "42c60012cffed7ed",
       "company": "CareSource",
       "role": "2027 Summer Internship Program - Provider Analytics AI Intern",
@@ -477,7 +562,7 @@
       "locationBucket": "Remote",
       "stipend": null,
       "url": "https://caresource.wd1.myworkdayjobs.com/en-US/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program----Provider-Analytics-AI-Intern_R14481",
-      "postedAt": "2026-11-13",
+      "postedAt": "2026-11-12",
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
@@ -499,63 +584,6 @@
       "closedAt": null
     },
     {
-      "id": "9210d3e569ce7ba0",
-      "company": "CareSource",
-      "role": "2027 Summer Internship Program - Software Engineer",
-      "location": "Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://caresource.wd1.myworkdayjobs.com/en-US/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Software-Engineer_R14136",
-      "postedAt": "2026-11-13",
-      "firstSeenAt": "2026-11-14",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "f99c8e44abad231c",
-      "company": "Marvell",
-      "role": "Intern - Software Engineer - Bachelor's Degree",
-      "location": "Hyderabad, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Hyderabad/Intern--Software-Engineer_2603879",
-      "postedAt": "2026-11-13",
-      "firstSeenAt": "2026-10-23",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "197d4494e522ed76",
       "company": "Ga.ma.na",
       "role": "Software Development Engineering (Web)",
@@ -568,8 +596,8 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:12",
-      "sourceLabel": "Internshala — machine learning — Chennai",
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
       "odds": "Moderate",
       "oddsScore": 63,
       "oddsReasons": [
@@ -614,25 +642,25 @@
       "closedAt": null
     },
     {
-      "id": "85f42faf23826401",
-      "company": "Hoogway.ai",
-      "role": "Software Development Engineer Internship",
-      "location": "Bangalore, Karnataka, India",
-      "locationBucket": "Other",
-      "stipend": "₹15000–40000",
-      "url": "https://unstop.com/internships/software-development-engineer-internship-hoogwayai-1805800",
+      "id": "9210d3e569ce7ba0",
+      "company": "CareSource",
+      "role": "2027 Summer Internship Program - Software Engineer",
+      "location": "Remote",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://caresource.wd1.myworkdayjobs.com/en-US/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Software-Engineer_R14136",
       "postedAt": "2026-11-12",
-      "firstSeenAt": "2026-11-12",
+      "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-15",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
       "odds": "Moderate",
-      "oddsScore": 45,
+      "oddsScore": 48,
       "oddsReasons": [
         "- No direct overlap with his core stack",
-        "+ Paid role with a stated stipend"
+        "+ Remote-friendly"
       ],
       "category": "swe",
       "reputed": false,
@@ -643,15 +671,15 @@
       "closedAt": null
     },
     {
-      "id": "fa7130bbdeb7500d",
-      "company": "Boeing",
-      "role": "Software Engineer Intern",
-      "location": "Bengaluru, India",
+      "id": "f99c8e44abad231c",
+      "company": "Marvell",
+      "role": "Intern - Software Engineer - Bachelor's Degree",
+      "location": "Hyderabad, India",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/intern/job/IND---Bangalore-India/Software-Engineer-Intern_JR2026529357",
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Hyderabad/Intern--Software-Engineer_2603879",
       "postedAt": "2026-11-12",
-      "firstSeenAt": "2026-11-12",
+      "firstSeenAt": "2026-10-23",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 2,
@@ -664,6 +692,34 @@
       ],
       "category": "swe",
       "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "8859313893017614",
+      "company": "Bosscoder Academy",
+      "role": "Software Engineer (SDE) + Instructor",
+      "location": "Bangalore",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/software-engineer-sde-instructor-internship-in-bangalore-at-bosscoder-academy1794227248",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-12",
+      "lastSeenAt": "2026-11-14",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -702,120 +758,27 @@
       "closedAt": null
     },
     {
-      "id": "0cffd99d69815cda",
-      "company": "Codonyx india",
-      "role": "AI/ML Data and Model Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹5000–5000",
-      "url": "https://unstop.com/internships/aiml-data-and-model-intern-codonyx-india-1805291",
+      "id": "fa7130bbdeb7500d",
+      "company": "Boeing",
+      "role": "Software Engineer Intern",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/intern/job/IND---Bangalore-India/Software-Engineer-Intern_JR2026529357",
       "postedAt": "2026-11-11",
       "firstSeenAt": "2026-11-12",
       "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-25",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 80,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ PyTorch / deep learning",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "9bd36377de3db324",
-      "company": "Vortizo AI",
-      "role": "Data Science Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹35000–35000",
-      "url": "https://unstop.com/internships/data-science-internship-vortizo-ai-1806039",
-      "postedAt": "2026-11-11",
-      "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-25",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 70,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
-      "leadWithTag": "DS",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "393f2f91470ba7ba",
-      "company": "404Minds Technologies",
-      "role": "AI/ML Internship (Remote)",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹12000–18000",
-      "url": "https://unstop.com/internships/aiml-internship-remote-404minds-technologies-1805355",
-      "postedAt": "2026-11-11",
-      "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-25",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 70,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "ba8751e6fcaa917e",
-      "company": "Codeatrix",
-      "role": "AI Developer Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹15000–15000",
-      "url": "https://unstop.com/internships/ai-developer-internship-codeatrix-1805366",
-      "postedAt": "2026-11-11",
-      "firstSeenAt": "2026-11-14",
-      "lastSeenAt": "2026-11-14",
-      "deadline": "2026-11-25",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
       "odds": "Moderate",
-      "oddsScore": 51,
+      "oddsScore": 42,
       "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
+        "- No direct overlap with his core stack"
       ],
-      "category": "ai-ml",
-      "reputed": false,
+      "category": "swe",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -854,35 +817,6 @@
       "closedAt": null
     },
     {
-      "id": "05ec971efa77e624",
-      "company": "PayPal",
-      "role": "Software Engineer Intern",
-      "location": "Bengaluru, India +1",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-      "postedAt": "2026-11-10",
-      "firstSeenAt": "2026-11-11",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Reach",
-      "oddsScore": 27,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "- PayPal has a high hiring bar"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "0ee5fffb8a882944",
       "company": "BXP Support And Solutions Private Limited",
       "role": "AWS DevOps Engineer",
@@ -895,40 +829,12 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
+      "source": "internshala:44",
+      "sourceLabel": "Internshala — devops — Chennai",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
         "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "20b9e3e60e07a1be",
-      "company": "LI-MAT SOFT SOLUTIONS PRIVATE LIMITED",
-      "role": "Full Stack Development",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-li-mat-soft-solutions-private-limited1793862616",
-      "postedAt": null,
-      "firstSeenAt": "2026-11-08",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 63,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)"
       ],
       "category": "swe",
       "reputed": false,
@@ -1038,8 +944,8 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:4",
-      "sourceLabel": "Internshala — software development — Chennai",
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
       "odds": "Moderate",
       "oddsScore": 63,
       "oddsReasons": [
@@ -1083,20 +989,20 @@
       "closedAt": null
     },
     {
-      "id": "ad7cbfbd20a3151c",
-      "company": "Stoicheiodis Scientia Private Limited",
-      "role": "Web Development",
+      "id": "b5cd1679290e2c2d",
+      "company": "Astrorize",
+      "role": "Software Development – Full Stack & Mobile",
       "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/web-development-internship-in-bangalore-at-stoicheiodis-scientia-private-limited1793514709",
+      "url": "https://internshala.com/internship/detail/software-development--full-stack-mobile-internship-in-bangalore-at-astrorize1794667301",
       "postedAt": null,
       "firstSeenAt": "2026-11-03",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:28",
-      "sourceLabel": "Internshala — python/django — Chennai",
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
       "odds": "Moderate",
       "oddsScore": 63,
       "oddsReasons": [
@@ -1111,13 +1017,69 @@
       "closedAt": null
     },
     {
-      "id": "8ed301e9e5b3541b",
-      "company": "Flipspaces",
-      "role": "AI Operations & Data",
+      "id": "ad7cbfbd20a3151c",
+      "company": "Stoicheiodis Scientia Private Limited",
+      "role": "Web Development",
       "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/ai-operations-data-internship-in-bangalore-at-flipspaces1793680249",
+      "url": "https://internshala.com/internship/detail/web-development-internship-in-bangalore-at-stoicheiodis-scientia-private-limited1793514709",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-03",
+      "lastSeenAt": "2026-11-14",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
+      "odds": "Moderate",
+      "oddsScore": 63,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "1dfcd59ec9923f9d",
+      "company": "ProductNova",
+      "role": "Full Stack Development",
+      "location": "Bangalore",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-productnova1793598115",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-03",
+      "lastSeenAt": "2026-11-14",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
+      "odds": "Moderate",
+      "oddsScore": 63,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "94e285cd194570f7",
+      "company": "Nathaniel School Of Music",
+      "role": "AI & Media Tools (Music Creator Studio)",
+      "location": "Bangalore",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/ai-media-tools-music-creator-studio-internship-in-bangalore-at-nathaniel-school-of-music1792132750",
       "postedAt": null,
       "firstSeenAt": "2026-11-03",
       "lastSeenAt": "2026-11-14",
@@ -1139,13 +1101,13 @@
       "closedAt": null
     },
     {
-      "id": "94e285cd194570f7",
-      "company": "Nathaniel School Of Music",
-      "role": "AI & Media Tools (Music Creator Studio)",
+      "id": "8ed301e9e5b3541b",
+      "company": "Flipspaces",
+      "role": "AI Operations & Data",
       "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/ai-media-tools-music-creator-studio-internship-in-bangalore-at-nathaniel-school-of-music1792132750",
+      "url": "https://internshala.com/internship/detail/ai-operations-data-internship-in-bangalore-at-flipspaces1793680249",
       "postedAt": null,
       "firstSeenAt": "2026-11-03",
       "lastSeenAt": "2026-11-14",
@@ -1265,34 +1227,6 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:24",
-      "sourceLabel": "Internshala — full stack development — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 63,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "1ec430326f8e1ca2",
-      "company": "Agile Vortex Private Limited",
-      "role": "Full Stack Development",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-agile-vortex-private-limited1792729874",
-      "postedAt": null,
-      "firstSeenAt": "2026-10-23",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 3,
       "source": "internshala:4",
       "sourceLabel": "Internshala — software development — Chennai",
       "odds": "Moderate",
@@ -1378,34 +1312,6 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:8",
-      "sourceLabel": "Internshala — data science — Chennai",
-      "odds": "Moderate",
-      "oddsScore": 55,
-      "oddsReasons": [
-        "+ UI/UX (INTECHGRID)"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "1fc3316b6aa86820",
-      "company": "Penguin Solutions",
-      "role": "Software Development",
-      "location": "Bangalore",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/software-development-internship-in-bangalore-at-penguin-solutions1792413587",
-      "postedAt": null,
-      "firstSeenAt": "2026-10-19",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 3,
       "source": "internshala:4",
       "sourceLabel": "Internshala — software development — Chennai",
       "odds": "Moderate",
@@ -1450,6 +1356,35 @@
       "closedAt": null
     },
     {
+      "id": "0b7420506b695adc",
+      "company": "Kaleris",
+      "role": "Associate Software Engineer Intern",
+      "location": "Chennai",
+      "locationBucket": "Chennai",
+      "stipend": null,
+      "url": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
+      "postedAt": "2026-10-15",
+      "firstSeenAt": "2026-09-28",
+      "lastSeenAt": "2026-11-14",
+      "deadline": null,
+      "tier": 3,
+      "source": "board:workday:kaleris-kaleris_careers",
+      "sourceLabel": "Kaleris (workday)",
+      "odds": "Moderate",
+      "oddsScore": 52,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Chennai — home city, no relocation friction"
+      ],
+      "category": "swe",
+      "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "817b2d404561cc7a",
       "company": "Valeo",
       "role": "Intern - AI",
@@ -1479,35 +1414,6 @@
       "closedAt": null
     },
     {
-      "id": "0b7420506b695adc",
-      "company": "Kaleris",
-      "role": "Associate Software Engineer Intern",
-      "location": "Chennai",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
-      "postedAt": "2026-10-14",
-      "firstSeenAt": "2026-09-28",
-      "lastSeenAt": "2026-11-14",
-      "deadline": null,
-      "tier": 3,
-      "source": "board:workday:kaleris-kaleris_careers",
-      "sourceLabel": "Kaleris (workday)",
-      "odds": "Moderate",
-      "oddsScore": 52,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "56507271fce9b89f",
       "company": "Marvell",
       "role": "Research Intern (PhD), Storage Systems for AI",
@@ -1515,7 +1421,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256",
-      "postedAt": "2026-10-14",
+      "postedAt": "2026-10-15",
       "firstSeenAt": "2026-10-04",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
@@ -1545,7 +1451,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255",
-      "postedAt": "2026-10-14",
+      "postedAt": "2026-10-15",
       "firstSeenAt": "2026-10-04",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
@@ -1575,7 +1481,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253",
-      "postedAt": "2026-10-14",
+      "postedAt": "2026-10-15",
       "firstSeenAt": "2026-10-01",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
@@ -1605,7 +1511,7 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
-      "postedAt": "2026-10-14",
+      "postedAt": "2026-10-15",
       "firstSeenAt": "2026-08-31",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
@@ -1669,8 +1575,8 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:24",
-      "sourceLabel": "Internshala — full stack development — Chennai",
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
@@ -1697,8 +1603,8 @@
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:8",
-      "sourceLabel": "Internshala — data science — Chennai",
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
       "odds": "Strong",
       "oddsScore": 71,
       "oddsReasons": [
@@ -1857,20 +1763,20 @@
       "closedAt": null
     },
     {
-      "id": "237f056d78801b1d",
-      "company": "Jobs Territory",
-      "role": "Full Stack Development",
+      "id": "6b2f9d5182f2a71f",
+      "company": "BXP Support And Solutions Private Limited",
+      "role": "Junior Full Stack Developer",
       "location": "Bangalore",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-jobs-territory1793858456",
+      "url": "https://internshala.com/internship/detail/junior-full-stack-developer-internship-in-bangalore-at-bxp-support-and-solutions-private-limited1794513966",
       "postedAt": null,
-      "firstSeenAt": "2026-08-29",
+      "firstSeenAt": "2026-08-28",
       "lastSeenAt": "2026-11-14",
       "deadline": null,
       "tier": 3,
-      "source": "internshala:12",
-      "sourceLabel": "Internshala — machine learning — Chennai",
+      "source": "internshala:16",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai",
       "odds": "Moderate",
       "oddsScore": 63,
       "oddsReasons": [
@@ -2185,160 +2091,16 @@
       "error": "HTTP 403 Forbidden"
     },
     {
-      "source": "workday:nvidia",
-      "sourceLabel": "NVIDIA (Workday)",
-      "tier": 1,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "workday:adobe",
-      "sourceLabel": "Adobe (Workday)",
-      "tier": 1,
-      "error": "HTTP 521 <none>"
-    },
-    {
       "source": "workday:intel",
       "sourceLabel": "Intel (Workday)",
       "tier": 1,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "workday:paypal",
-      "sourceLabel": "PayPal (Workday)",
-      "tier": 1,
-      "error": "HTTP 521 <none>"
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
     },
     {
       "source": "workday:target",
       "sourceLabel": "Target (Workday)",
       "tier": 1,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "workday:ms",
-      "sourceLabel": "Morgan Stanley (Workday)",
-      "tier": 1,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:abbott-abbottcareers",
-      "sourceLabel": "Abbott (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:agilent-agilent_student_careers",
-      "sourceLabel": "Agilent (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:wgl-altagas",
-      "sourceLabel": "AltaGas (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:myhrabc-global",
-      "sourceLabel": "AmerisourceBergen (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:analogdevices-external",
-      "sourceLabel": "Analog Devices (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:amat-external",
-      "sourceLabel": "Applied Materials (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:aptiv-aptiv_careers",
-      "sourceLabel": "Aptiv (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:aresmgmt-external",
-      "sourceLabel": "Ares Management (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:aspentech-aspentech",
-      "sourceLabel": "AspenTech (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:assurant-assurant_careers",
-      "sourceLabel": "Assurant (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:astreya-life-at-astreya-opportunities",
-      "sourceLabel": "Astreya (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:autodesk-ext",
-      "sourceLabel": "Autodesk (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:dealertire-ami",
-      "sourceLabel": "Automated Media (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:automationanywhere-automationanywherejobs",
-      "sourceLabel": "Automation Anywhere (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:avnet-external",
-      "sourceLabel": "Avnet (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:bakerhughes-bakerhughes",
-      "sourceLabel": "Baker Hughes (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:biotechne-biotechne",
-      "sourceLabel": "Bio-Techne (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:blackrock-blackrock_professional",
-      "sourceLabel": "BlackRock (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:jda-jda_careers",
-      "sourceLabel": "Blue Yonder (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:bbh-bbh",
-      "sourceLabel": "Brown Brothers Harriman (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
     },
     {
       "source": "board:greenhouse:buyersedgeplatformrecruiting",
@@ -2347,148 +2109,10 @@
       "error": "HTTP 404 Not Found"
     },
     {
-      "source": "board:workday:cadence-external_careers",
-      "sourceLabel": "Cadence (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:calix-externalinternational",
-      "sourceLabel": "Calix (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cambiumlearning-camb",
-      "sourceLabel": "Cambium Learning Group (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cat-caterpillarcareers",
-      "sourceLabel": "Caterpillar (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:centific-centific_global",
-      "sourceLabel": "Centific (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:citi-2",
-      "sourceLabel": "Citi (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:clarioclinical-clarioclinical_careers",
-      "sourceLabel": "Clario (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cnx-external_global",
-      "sourceLabel": "CNX (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:copeland-copeland_external_careers_page",
-      "sourceLabel": "Copeland (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:costar-costarcareers",
-      "sourceLabel": "CoStar Group (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:csgi-csgcareers",
-      "sourceLabel": "CSG (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cvshealth-cvs_health_careers",
-      "sourceLabel": "CVS Health (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
       "source": "board:greenhouse:doctolib",
       "sourceLabel": "Doctolib (greenhouse)",
       "tier": 3,
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "board:workday:dow-externalcareers",
-      "sourceLabel": "Dow (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:draftkings-employee_referral_portal",
-      "sourceLabel": "DraftKings (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:dxctechnology-dxcjobs",
-      "sourceLabel": "DXC Technology (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:ecolab-ecolab_external",
-      "sourceLabel": "Ecolab (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:ensemblehp-ensemblehealthpartnerscareers",
-      "sourceLabel": "Ensemble Health Partners (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:entrust-entrustcareers",
-      "sourceLabel": "Entrust (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:epicorsoftware-epicorjobs",
-      "sourceLabel": "Epicor (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:evergreenix-external-careers2",
-      "sourceLabel": "Everfox (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:fmr-targeted",
-      "sourceLabel": "Fidelity Investments (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:fis-searchjobs",
-      "sourceLabel": "FIS (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:fiserv-ext",
-      "sourceLabel": "Fiserv (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
     },
     {
       "source": "board:ashby:furiosa-ai",
@@ -2497,232 +2121,10 @@
       "error": "HTTP 404 Not Found"
     },
     {
-      "source": "board:workday:gdit-external_career_site",
-      "sourceLabel": "GDIT (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:geaerospace-ge_externalsite",
-      "sourceLabel": "GE Aerospace (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:gehc-gehc_externalsite",
-      "sourceLabel": "GE HealthCare (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:gevernova-only_confidential_executive_recruiting",
-      "sourceLabel": "GE Vernova (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:tsys-tsys",
-      "sourceLabel": "Global Payments (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:globalfoundries-external",
-      "sourceLabel": "GlobalFoundries (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:gsk-gskcareers",
-      "sourceLabel": "GSK (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:guidewire-external",
-      "sourceLabel": "Guidewire (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:haemonetics-hae",
-      "sourceLabel": "Haemonetics (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:hpe-jobsathpe",
-      "sourceLabel": "Hewlett Packard Enterprise (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:hitachi-hitachi",
-      "sourceLabel": "Hitachi (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:hp-exteu-ac-careersite",
-      "sourceLabel": "HP (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:huntsman-huntsman",
-      "sourceLabel": "Huntsman (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:synnex-hyvecareers",
-      "sourceLabel": "Hyve Solutions (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:iff-iff_careers",
-      "sourceLabel": "IFF (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:iqvia-iqvia",
-      "sourceLabel": "IQVIA (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:jabil-jabil_careers",
-      "sourceLabel": "Jabil (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:jj-jj",
-      "sourceLabel": "Johnson & Johnson (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:jci-jci",
-      "sourceLabel": "Johnson Controls (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:kaleris-kaleris_careers",
-      "sourceLabel": "Kaleris (workday)",
-      "tier": 3,
-      "error": "HTTP 500 Internal Server Error"
-    },
-    {
-      "source": "board:workday:kyndryl-kyndrylprofessionalcareers",
-      "sourceLabel": "Kyndryl (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:leidos-external",
-      "sourceLabel": "Leidos (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:lnw-lightwonderexternalcareers",
-      "sourceLabel": "Light & Wonder (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:logitech-logitech",
-      "sourceLabel": "Logitech (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:mmc-mmc",
-      "sourceLabel": "Marsh McLennan (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:marvell-marvellcareers",
-      "sourceLabel": "Marvell (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:mastercard-corporatecareers",
-      "sourceLabel": "Mastercard (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:medline-medline",
-      "sourceLabel": "Medline (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:micron-external",
-      "sourceLabel": "Micron Technology (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:moog-moog_external_career_site",
-      "sourceLabel": "Moog (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:msd-searchjobs",
-      "sourceLabel": "MSD (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:web-externalcareersite",
-      "sourceLabel": "Newfold Digital (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:nidec-nidec",
-      "sourceLabel": "Nidec (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
       "source": "board:workday:nio-nio_careers",
       "sourceLabel": "NIO (workday)",
       "tier": 3,
       "error": "HTTP 422 Unprocessable Entity"
-    },
-    {
-      "source": "board:workday:oaktree-oaktree",
-      "sourceLabel": "Oaktree (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:oshkoshcorporation-oshkosh",
-      "sourceLabel": "Oshkosh (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:pg-1000",
-      "sourceLabel": "P&G - Procter & Gamble (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:psu-psu_staff",
-      "sourceLabel": "Penn State (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
     },
     {
       "source": "board:greenhouse:phonepe",
@@ -2731,190 +2133,10 @@
       "error": "HTTP 404 Not Found"
     },
     {
-      "source": "board:workday:pnc-external",
-      "sourceLabel": "PNC (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:priceline-priceline",
-      "sourceLabel": "Priceline (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:ptc-ptc",
-      "sourceLabel": "PTC (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:qualifacts-qualifacts_external_careers",
-      "sourceLabel": "Qualifacts (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:r1rcm-r1rcm",
-      "sourceLabel": "R1 RCM (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:rakuten-kobo",
-      "sourceLabel": "Rakuten Kobo (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:reliaquest-reliaquest_careers",
-      "sourceLabel": "ReliaQuest (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:quickenloans-rocket_careers",
-      "sourceLabel": "Rocket Companies (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:rocket-rocket_careers",
-      "sourceLabel": "Rocket Software (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:rockwellautomation-external_rockwell_automation",
-      "sourceLabel": "Rockwell Automation (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:rsm-rsmcareers",
-      "sourceLabel": "RSM (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:spgi-spgi_careers",
-      "sourceLabel": "S&P Global (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cat-solarturbines",
-      "sourceLabel": "Solar Turbines (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:statestreet-global",
-      "sourceLabel": "State Street (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:suncor-suncor_external",
-      "sourceLabel": "Suncor (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:synchronyfinancial-university",
-      "sourceLabel": "Synchrony Bank (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:sysco-syscocareers",
-      "sourceLabel": "Sysco (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
       "source": "board:workable:talent3600",
       "sourceLabel": "Talent-360.me (workable)",
       "tier": 3,
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "board:workday:synnex-tdsynnexcareers",
-      "sourceLabel": "TD SYNNEX (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:flir-flircareers",
-      "sourceLabel": "Teledyne (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:tencent-tencent_careers",
-      "sourceLabel": "Tencent (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:cigna-cignacareers",
-      "sourceLabel": "The Cigna Group (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:utaustin-utstaff",
-      "sourceLabel": "The University of Texas at Austin (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:thermofisher-thermofishercareers",
-      "sourceLabel": "Thermo Fisher Scientific (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:thomsonreuters-external_career_site",
-      "sourceLabel": "Thomson Reuters (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:transunion-transunion",
-      "sourceLabel": "TransUnion (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:trimble-trimblecareers",
-      "sourceLabel": "Trimble (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:warnerbros-global",
-      "sourceLabel": "Warner Bros. Discovery (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:welocalize-welocalize",
-      "sourceLabel": "Welocalize (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:workday-workday",
-      "sourceLabel": "Workday (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
-    },
-    {
-      "source": "board:workday:zoom-zoom",
-      "sourceLabel": "Zoom (workday)",
-      "tier": 3,
-      "error": "HTTP 521 <none>"
     },
     {
       "source": "newsletter:offcampusjobs4u",
@@ -2927,19 +2149,13 @@
       "sourceLabel": "EnggWave — 2027 batch",
       "tier": 4,
       "error": "HTTP 403 Forbidden"
-    },
-    {
-      "source": "newsletter:placementofficer",
-      "sourceLabel": "Placement-Officer — internships",
-      "tier": 4,
-      "error": "HTTP 429 Too Many Requests"
     }
   ],
   "stats": {
-    "totalRoles": 75,
-    "newThisRun": 4,
-    "sourcesOk": 354,
-    "sourcesFailed": 126,
+    "totalRoles": 72,
+    "newThisRun": 7,
+    "sourcesOk": 469,
+    "sourcesFailed": 11,
     "closedTracked": 0
   }
 }

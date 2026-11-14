@@ -679,7 +679,7 @@
     "a91cc8b400f3de9f": {
       "id": "a91cc8b400f3de9f",
       "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-08-22"
+      "lastSeenAt": "2026-11-14"
     },
     "ae43de13904acf53": {
       "id": "ae43de13904acf53",
@@ -1289,7 +1289,7 @@
     "6b2f9d5182f2a71f": {
       "id": "6b2f9d5182f2a71f",
       "firstSeenAt": "2026-08-28",
-      "lastSeenAt": "2026-09-01"
+      "lastSeenAt": "2026-11-14"
     },
     "9d69c630b1a40a90": {
       "id": "9d69c630b1a40a90",
@@ -3324,7 +3324,7 @@
     "b5cd1679290e2c2d": {
       "id": "b5cd1679290e2c2d",
       "firstSeenAt": "2026-11-03",
-      "lastSeenAt": "2026-11-04"
+      "lastSeenAt": "2026-11-14"
     },
     "ad7cbfbd20a3151c": {
       "id": "ad7cbfbd20a3151c",
@@ -3759,7 +3759,7 @@
     "8859313893017614": {
       "id": "8859313893017614",
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-13"
+      "lastSeenAt": "2026-11-14"
     },
     "0cffd99d69815cda": {
       "id": "0cffd99d69815cda",
@@ -3829,7 +3829,7 @@
     "e287d84fc2b9eb11": {
       "id": "e287d84fc2b9eb11",
       "firstSeenAt": "2026-11-13",
-      "lastSeenAt": "2026-11-13"
+      "lastSeenAt": "2026-11-14"
     },
     "9f0f954a18cae9e7": {
       "id": "9f0f954a18cae9e7",
@@ -3903,6 +3903,41 @@
     },
     "5111b2159196f397": {
       "id": "5111b2159196f397",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "42409fc5aad3159e": {
+      "id": "42409fc5aad3159e",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "b15e1ea5f2e5f735": {
+      "id": "b15e1ea5f2e5f735",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "d3278f97a4ec67cc": {
+      "id": "d3278f97a4ec67cc",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "10c3ec3999b9f252": {
+      "id": "10c3ec3999b9f252",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "00c43bb2360cfdc8": {
+      "id": "00c43bb2360cfdc8",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "39c34f9907f169ab": {
+      "id": "39c34f9907f169ab",
+      "firstSeenAt": "2026-11-14",
+      "lastSeenAt": "2026-11-14"
+    },
+    "078dee71826ab2c8": {
+      "id": "078dee71826ab2c8",
       "firstSeenAt": "2026-11-14",
       "lastSeenAt": "2026-11-14"
     }
