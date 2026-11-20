@@ -514,7 +514,7 @@
     "4766772ded835ae7": {
       "id": "4766772ded835ae7",
       "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-11-16"
+      "lastSeenAt": "2026-11-20"
     },
     "97f1ef76eb9b1709": {
       "id": "97f1ef76eb9b1709",
@@ -3329,7 +3329,7 @@
     "ad7cbfbd20a3151c": {
       "id": "ad7cbfbd20a3151c",
       "firstSeenAt": "2026-11-03",
-      "lastSeenAt": "2026-11-19"
+      "lastSeenAt": "2026-11-20"
     },
     "94e285cd194570f7": {
       "id": "94e285cd194570f7",
@@ -3414,7 +3414,7 @@
     "e2dc5e8fd6ce3b12": {
       "id": "e2dc5e8fd6ce3b12",
       "firstSeenAt": "2026-11-04",
-      "lastSeenAt": "2026-11-18"
+      "lastSeenAt": "2026-11-20"
     },
     "cb3b247cd2725df6": {
       "id": "cb3b247cd2725df6",
@@ -3759,7 +3759,7 @@
     "8859313893017614": {
       "id": "8859313893017614",
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-17"
+      "lastSeenAt": "2026-11-20"
     },
     "0cffd99d69815cda": {
       "id": "0cffd99d69815cda",
@@ -3979,7 +3979,7 @@
     "91d8289aec86d7e3": {
       "id": "91d8289aec86d7e3",
       "firstSeenAt": "2026-11-16",
-      "lastSeenAt": "2026-11-16"
+      "lastSeenAt": "2026-11-20"
     },
     "ab5fc8046c233641": {
       "id": "ab5fc8046c233641",
@@ -4243,6 +4243,36 @@
     },
     "ece0a7624577fc54": {
       "id": "ece0a7624577fc54",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "eb92d5e0f9a89b59": {
+      "id": "eb92d5e0f9a89b59",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "63b65e7dbb259fcd": {
+      "id": "63b65e7dbb259fcd",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "a6951924b2e067c1": {
+      "id": "a6951924b2e067c1",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "f8f85e4540529376": {
+      "id": "f8f85e4540529376",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "48019f0aa78b3ad1": {
+      "id": "48019f0aa78b3ad1",
+      "firstSeenAt": "2026-11-20",
+      "lastSeenAt": "2026-11-20"
+    },
+    "53889466306d1101": {
+      "id": "53889466306d1101",
       "firstSeenAt": "2026-11-20",
       "lastSeenAt": "2026-11-20"
     }
