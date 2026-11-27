@@ -1,8 +1,183 @@
 {
-  "generatedAt": "2026-11-27T08:55:26.761Z",
-  "runDate": "2026-11-27",
+  "generatedAt": "2026-11-27T21:33:02.545Z",
+  "runDate": "2026-11-28",
   "baselineRun": false,
   "roles": [
+    {
+      "id": "df3c1ab421aff50b",
+      "company": "Myndly AI",
+      "role": "Full Stack Developer Internship",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": "₹30000–35000",
+      "url": "https://unstop.com/internships/full-stack-developer-internship-myndly-ai-1830747",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-28",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-11",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Strong",
+      "oddsScore": 72,
+      "oddsReasons": [
+        "+ Full-stack React/Next.js/TS (PDS Global, production)",
+        "+ Remote-friendly",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "edce7841501eda25",
+      "company": "Nasdaq",
+      "role": "2027 Data Engineering Intern",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/XMLNAME-2027-Data-Engineering-Intern_R0027046",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-28",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:ai",
+      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 60,
+      "oddsReasons": [
+        "+ Data platform / DuckDB / query engines (strata)"
+      ],
+      "category": "data",
+      "reputed": false,
+      "leadWith": "strata (FastAPI/DuckDB/React/local-LLM)",
+      "leadWithTag": "data-platform",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "890682315505e10d",
+      "company": "maximeyz",
+      "role": "Ai Engineer Internship",
+      "location": "Mumbai, Maharashtra, India",
+      "locationBucket": "Other",
+      "stipend": "₹6000–10000",
+      "url": "https://unstop.com/internships/ai-engineer-internship-maximeyz-1830808",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-28",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-11",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 45,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": true,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "4fc91d4200ad8e53",
+      "company": "Peroptyx",
+      "role": "Data Analyst (Marathi Language Required)",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://unstop.com/jobs/data-analyst-marathi-language-required-peroptyx-1831616",
+      "postedAt": "2026-11-28",
+      "firstSeenAt": "2026-10-29",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-28",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 61,
+      "oddsReasons": [
+        "+ UI/UX (INTECHGRID)",
+        "+ Remote-friendly"
+      ],
+      "category": "data",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "3abe2b38aa2732ed",
+      "company": "Toniq Retail Brands Pvt Ltd",
+      "role": "Ai Dashboard Internship",
+      "location": "Chennai, Tamil Nadu, India",
+      "locationBucket": "Chennai",
+      "stipend": "₹15000–15000",
+      "url": "https://unstop.com/internships/ai-dashboard-internship-toniq-retail-brands-pvt-ltd-1826497",
+      "postedAt": "2026-11-28",
+      "firstSeenAt": "2026-11-26",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-08",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 55,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Chennai — home city, no relocation friction",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "c194138b46bbf73e",
+      "company": "Vitrina A.I.",
+      "role": "AI Engineer Internship",
+      "location": "Mumbai, Maharashtra, India",
+      "locationBucket": "Other",
+      "stipend": "₹7000–7000",
+      "url": "https://unstop.com/internships/ai-engineer-internship-vitrina-ai-1830654",
+      "postedAt": "2026-11-28",
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-11",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 45,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
     {
       "id": "e1620b2a9de2f323",
       "company": "Energy Alternatives India",
@@ -28,151 +203,6 @@
       "reputed": false,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "c37d990a88a897de",
-      "company": "Sparkz Strategies LLP",
-      "role": "AI & Machine Learning Developer Intern",
-      "location": "Chennai, India",
-      "locationBucket": "Chennai",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/ai-robotics-trainer-internship-in-multiple-locations-at-hownwhy-education-solutions-private-limited1793857425",
-      "postedAt": null,
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:8",
-      "sourceLabel": "Internshala — data science — Chennai",
-      "odds": "Strong",
-      "oddsScore": 71,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ Chennai — home city, no relocation friction"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "9ed7976272778ac1",
-      "company": "Curavolv",
-      "role": "Software Development and AI Engineering Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹10000–10000",
-      "url": "https://unstop.com/internships/software-development-and-ai-engineering-internship-curavolv-1830198",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-11",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 51,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "c194138b46bbf73e",
-      "company": "Vitrina A.I.",
-      "role": "AI Engineer Internship",
-      "location": "Mumbai, Maharashtra, India",
-      "locationBucket": "Other",
-      "stipend": "₹7000–7000",
-      "url": "https://unstop.com/internships/ai-engineer-internship-vitrina-ai-1830654",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-11",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 45,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "4d8ca82c0fa97168",
-      "company": "Internshala",
-      "role": "Software Development Engineering (App)",
-      "location": "Gurgaon",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://internshala.com/internship/detail/software-development-engineering-app-internship-in-gurgaon-at-internshala1795762923",
-      "postedAt": null,
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 3,
-      "source": "internshala:3",
-      "sourceLabel": "Internshala — computer science — work from home p2",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": true,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "068365d38ac776e0",
-      "company": "CommerceIQ",
-      "role": "Data Scientist - Intern",
-      "location": "Bengaluru, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://job-boards.greenhouse.io/commerceiq/jobs/8215092003",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:ai",
-      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
-      "odds": "Strong",
-      "oddsScore": 73,
-      "oddsReasons": [
-        "+ Data science / analytics (K Labs, real govt data)",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "data",
-      "reputed": false,
-      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
-      "leadWithTag": "DS",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -207,6 +237,35 @@
       "closedAt": null
     },
     {
+      "id": "c37d990a88a897de",
+      "company": "Sparkz Strategies LLP",
+      "role": "AI & Machine Learning Developer Intern",
+      "location": "Chennai, India",
+      "locationBucket": "Chennai",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/ai-robotics-trainer-internship-in-multiple-locations-at-hownwhy-education-solutions-private-limited1793857425",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-27",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:8",
+      "sourceLabel": "Internshala — data science — Chennai",
+      "odds": "Strong",
+      "oddsScore": 71,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "+ Chennai — home city, no relocation friction"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "SEVA + Calibration at Scale (4 papers)",
+      "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "81ef6717f9c55448",
       "company": "GKey IT Solutions Pvt.Ltd",
       "role": "Data Analytics",
@@ -236,17 +295,17 @@
       "closedAt": null
     },
     {
-      "id": "f446d2bcc5f11002",
-      "company": "T9 GIC",
-      "role": "Dot Net Full stack Developer",
-      "location": "Hyderabad, Telangana, India",
+      "id": "4380edb6939852da",
+      "company": "Rich System Solutions pvt ltd",
+      "role": "Full Stack Developer",
+      "location": "Nashik, Maharashtra, India",
       "locationBucket": "Other",
-      "stipend": "₹800000–1700000",
-      "url": "https://unstop.com/jobs/dot-net-full-stack-developer-t9-gic-1826398",
+      "stipend": "₹300000–300000",
+      "url": "https://unstop.com/jobs/full-stack-developer-rich-system-solutions-pvt-ltd-1827400",
       "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-08",
+      "firstSeenAt": "2026-11-26",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-09",
       "tier": 3,
       "source": "unstop:search",
       "sourceLabel": "Unstop — paid internships",
@@ -293,6 +352,150 @@
       "closedAt": null
     },
     {
+      "id": "9ed7976272778ac1",
+      "company": "Curavolv",
+      "role": "Software Development and AI Engineering Internship",
+      "location": "Remote, India",
+      "locationBucket": "Remote",
+      "stipend": "₹10000–10000",
+      "url": "https://unstop.com/internships/software-development-and-ai-engineering-internship-curavolv-1830198",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-11",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 51,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "ai-ml",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "0cddc34ee60b27f6",
+      "company": "Bhai.AR",
+      "role": "Software Developer Internship",
+      "location": "Bangalore, Karnataka, India",
+      "locationBucket": "Other",
+      "stipend": "₹15000–15000",
+      "url": "https://unstop.com/internships/software-developer-internship-bhaiar-1829142",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-19",
+      "lastSeenAt": "2026-11-28",
+      "deadline": "2026-12-01",
+      "tier": 3,
+      "source": "unstop:search",
+      "sourceLabel": "Unstop — paid internships",
+      "odds": "Moderate",
+      "oddsScore": 45,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Paid role with a stated stipend"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "5974583e690aaf9a",
+      "company": "Nasdaq",
+      "role": "2027 Software Development Intern",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/XMLNAME-2027-Software-Development-Intern_R0027140",
+      "postedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-21",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "4d8ca82c0fa97168",
+      "company": "Internshala",
+      "role": "Software Development Engineering (App)",
+      "location": "Gurgaon",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://internshala.com/internship/detail/software-development-engineering-app-internship-in-gurgaon-at-internshala1795762923",
+      "postedAt": null,
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-27",
+      "deadline": null,
+      "tier": 3,
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "068365d38ac776e0",
+      "company": "CommerceIQ",
+      "role": "Data Scientist - Intern",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://job-boards.greenhouse.io/commerceiq/jobs/8215092003",
+      "postedAt": "2026-11-26",
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:ai",
+      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
+      "odds": "Strong",
+      "oddsScore": 73,
+      "oddsReasons": [
+        "+ Data science / analytics (K Labs, real govt data)",
+        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
+      ],
+      "category": "data",
+      "reputed": false,
+      "leadWith": "K Labs (real Tamil Nadu govt data) + strata",
+      "leadWithTag": "DS",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
       "id": "9650fd3f33390b99",
       "company": "FamPay",
       "role": "Backend Engineering Intern",
@@ -300,9 +503,9 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
-      "postedAt": "2026-11-27",
+      "postedAt": "2026-11-26",
       "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 2,
       "source": "tracker:swe",
@@ -321,94 +524,6 @@
       "closedAt": null
     },
     {
-      "id": "105b008a9a712c85",
-      "company": "Marsh McLennan",
-      "role": "Intern - AI Research and Development Analyst",
-      "location": "Gurugram, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://mmc.wd1.myworkdayjobs.com/en-US/mmc/job/Gurugram---DLF-Building/Intern---AI-Research-and-Development-Analyst_R_371543",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:ai",
-      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 54,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ 4 papers (SEVA, Calibration at Scale) carry weight for research roles"
-      ],
-      "category": "ai-ml",
-      "reputed": true,
-      "leadWith": "SEVA + Calibration at Scale (4 papers)",
-      "leadWithTag": "research",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "cac048da029a3336",
-      "company": "AI Raccoon",
-      "role": "Software Developer Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹8000–8000",
-      "url": "https://unstop.com/internships/software-developer-internship-ai-raccoon-1829943",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-10",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 51,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "d06c01136fd02d20",
-      "company": "Assurant",
-      "role": "Software Engineering Intern",
-      "location": "Remote - India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/India-Virtual/Software-Engineering-Intern_R-116381",
-      "postedAt": "2026-11-27",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "5fb7a609521067c1",
       "company": "OpenSesame",
       "role": "Software Engineering Internship - Summer 2027",
@@ -416,9 +531,9 @@
       "locationBucket": "Remote",
       "stipend": null,
       "url": "https://boards.greenhouse.io/opensesame/jobs/8418272?gh_jid=8418272",
-      "postedAt": "2026-11-27",
+      "postedAt": "2026-11-26",
       "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 2,
       "source": "tracker:swe",
@@ -445,213 +560,9 @@
       "locationBucket": "Other",
       "stipend": null,
       "url": "https://boeing.wd1.myworkdayjobs.com/en-US/intern/job/IND---Bangalore-India/Software-Engineer-Intern_JR2026529357",
-      "postedAt": "2026-11-27",
+      "postedAt": "2026-11-26",
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 42,
-      "oddsReasons": [
-        "- No direct overlap with his core stack"
-      ],
-      "category": "swe",
-      "reputed": true,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "57341fb54ad3be8b",
-      "company": "GAO Tek Inc.",
-      "role": "Web Developer",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹300000–400000",
-      "url": "https://unstop.com/jobs/web-developer-gao-tek-inc-1826970",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-08",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 72,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "4ea12f15edfa4579",
-      "company": "Instillmotion Labs Pvt Ltd",
-      "role": "Senior Software Engineer – Backend",
-      "location": "Hyderabad, Telangana, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://unstop.com/jobs/senior-software-engineer-backend-instillmotion-labs-pvt-ltd-1826947",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-01",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 61,
-      "oddsReasons": [
-        "+ Python / FastAPI backend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "3abe2b38aa2732ed",
-      "company": "Toniq Retail Brands Pvt Ltd",
-      "role": "Ai Dashboard Internship",
-      "location": "Chennai, Tamil Nadu, India",
-      "locationBucket": "Chennai",
-      "stipend": "₹15000–15000",
-      "url": "https://unstop.com/internships/ai-dashboard-internship-toniq-retail-brands-pvt-ltd-1826497",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-26",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-08",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 55,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Chennai — home city, no relocation friction",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "ai-ml",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "03c44d424b4edc5d",
-      "company": "Guru AI Technologies",
-      "role": "Software Developer Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹1000–10000",
-      "url": "https://unstop.com/internships/software-developer-internship-guru-ai-technologies-1799764",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-26",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-12-09",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Moderate",
-      "oddsScore": 51,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "06c6c22eb80ec111",
-      "company": "Assurant",
-      "role": "Software Engineer - Intern",
-      "location": "Remote - India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/India-Virtual/Software-Engineer---Intern_R-116432",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "74523e0417941cb6",
-      "company": "Assurant",
-      "role": "Summer 2027 Intern: Software Engineering Intern",
-      "location": "Remote - India",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/India-Virtual/Summer-2027-Intern--Software-Engineering-Intern_R-116389",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "8b721faf614c737f",
-      "company": "GE Vernova",
-      "role": "Software Engineering Intern",
-      "location": "Bengaluru, India",
-      "locationBucket": "Other",
-      "stipend": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/en-US/vernova_externalsite/job/Hyderabad/Software-Engineering-Intern_R5050069-1",
-      "postedAt": "2026-11-26",
-      "firstSeenAt": "2026-11-27",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 2,
       "source": "tracker:swe",
@@ -698,36 +609,6 @@
       "closedAt": null
     },
     {
-      "id": "815759c8ba3f9c02",
-      "company": "Starium Innovative Healthcare",
-      "role": "Web Developer Internship",
-      "location": "Remote, India",
-      "locationBucket": "Remote",
-      "stipend": "₹5000–10000",
-      "url": "https://unstop.com/internships/web-developer-internship-starium-innovative-healthcare-1826960",
-      "postedAt": "2026-11-25",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": "2026-11-25",
-      "tier": 3,
-      "source": "unstop:search",
-      "sourceLabel": "Unstop — paid internships",
-      "odds": "Strong",
-      "oddsScore": 72,
-      "oddsReasons": [
-        "+ Full-stack React/Next.js/TS (PDS Global, production)",
-        "+ Remote-friendly",
-        "+ Paid role with a stated stipend"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
       "id": "ae66fc92b1151fcb",
       "company": "Toniq Retail Brands Pvt Ltd",
       "role": "AI Dashboard Developer",
@@ -737,7 +618,7 @@
       "url": "https://unstop.com/jobs/ai-dashboard-developer-toniq-retail-brands-pvt-ltd-1826205",
       "postedAt": "2026-11-25",
       "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": "2026-12-08",
       "tier": 3,
       "source": "unstop:search",
@@ -758,27 +639,56 @@
       "closedAt": null
     },
     {
-      "id": "e5aaf33addf9d89b",
-      "company": "Nasdaq",
-      "role": "2026 AI Development Intern",
+      "id": "74523e0417941cb6",
+      "company": "Assurant",
+      "role": "Summer 2027 Intern: Software Engineering Intern",
+      "location": "Remote - India",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/India-Virtual/Summer-2027-Intern--Software-Engineering-Intern_R-116387",
+      "postedAt": "2026-11-25",
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 48,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "8b721faf614c737f",
+      "company": "GE Vernova",
+      "role": "Software Engineering Intern",
       "location": "Bengaluru, India",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/XMLNAME-2026-AI-Development-Intern_R0027025",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/en-US/vernova_externalsite/job/Hyderabad/Software-Engineering-Intern_R5050069-1",
       "postedAt": "2026-11-25",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
+      "firstSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 2,
-      "source": "tracker:ai",
-      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
         "- No direct overlap with his core stack"
       ],
-      "category": "ai-ml",
-      "reputed": false,
+      "category": "swe",
+      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -795,7 +705,7 @@
       "url": "https://www.amazon.jobs/en/jobs/10443572/data-scientist-i-6m-intern",
       "postedAt": "2026-11-24",
       "firstSeenAt": "2026-11-24",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 1,
       "source": "amazon:jobs",
@@ -819,86 +729,27 @@
       "closedAt": null
     },
     {
-      "id": "166d7acb2042f768",
-      "company": "CACI",
-      "role": "Software Development Intern - Summer 2027",
-      "location": "Remote",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Remote-Any-State/Software-Development-Intern---Summer-2027_335425",
-      "postedAt": "2026-11-24",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Moderate",
-      "oddsScore": 48,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "61c41a831183bd31",
+      "id": "e5aaf33addf9d89b",
       "company": "Nasdaq",
-      "role": "Software Development Intern",
+      "role": "2026 AI Development Intern",
       "location": "Bengaluru, India",
       "locationBucket": "Other",
       "stipend": null,
-      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/Software-Development-Intern_R0027111",
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/XMLNAME-2026-AI-Development-Intern_R0027025",
       "postedAt": "2026-11-24",
       "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "source": "tracker:ai",
+      "sourceLabel": "speedyapply 2027 AI — INTERN_INTL",
       "odds": "Moderate",
       "oddsScore": 42,
       "oddsReasons": [
         "- No direct overlap with his core stack"
       ],
-      "category": "swe",
+      "category": "ai-ml",
       "reputed": false,
-      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
-      "leadWithTag": "fullstack/fintech",
-      "isNew": false,
-      "status": "open",
-      "closedAt": null
-    },
-    {
-      "id": "427715490963151d",
-      "company": "NVIDIA",
-      "role": "Software Engineering Intern",
-      "location": "Remote - Yerevan, Armenia",
-      "locationBucket": "Remote",
-      "stipend": null,
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/Armenia-Yerevan/Software-Engineering-Intern_JR2030226",
-      "postedAt": "2026-11-24",
-      "firstSeenAt": "2026-11-25",
-      "lastSeenAt": "2026-11-27",
-      "deadline": null,
-      "tier": 2,
-      "source": "tracker:swe",
-      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
-      "odds": "Reach",
-      "oddsScore": 22,
-      "oddsReasons": [
-        "- No direct overlap with his core stack",
-        "- NVIDIA runs an extremely selective process",
-        "+ Remote-friendly"
-      ],
-      "category": "swe",
-      "reputed": true,
       "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
       "leadWithTag": "fullstack/fintech",
       "isNew": false,
@@ -931,6 +782,93 @@
       "reputed": true,
       "leadWith": "SEVA + Calibration at Scale (4 papers)",
       "leadWithTag": "research",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "166d7acb2042f768",
+      "company": "CACI",
+      "role": "Software Development Intern - Summer 2027",
+      "location": "Remote",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Remote-Any-State/Software-Development-Intern---Summer-2027_335425",
+      "postedAt": "2026-11-23",
+      "firstSeenAt": "2026-11-25",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 48,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "61c41a831183bd31",
+      "company": "Nasdaq",
+      "role": "Software Development Intern",
+      "location": "Bengaluru, India",
+      "locationBucket": "Other",
+      "stipend": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/job_postings/job/India---Bangalore---Karnataka/Software-Development-Intern_R0027111",
+      "postedAt": "2026-11-23",
+      "firstSeenAt": "2026-11-25",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Moderate",
+      "oddsScore": 42,
+      "oddsReasons": [
+        "- No direct overlap with his core stack"
+      ],
+      "category": "swe",
+      "reputed": false,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
+      "isNew": false,
+      "status": "open",
+      "closedAt": null
+    },
+    {
+      "id": "427715490963151d",
+      "company": "NVIDIA",
+      "role": "Software Engineering Intern",
+      "location": "Remote - Yerevan, Armenia",
+      "locationBucket": "Remote",
+      "stipend": null,
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/Armenia-Yerevan/Software-Engineering-Intern_JR2030226",
+      "postedAt": "2026-11-23",
+      "firstSeenAt": "2026-11-25",
+      "lastSeenAt": "2026-11-28",
+      "deadline": null,
+      "tier": 2,
+      "source": "tracker:swe",
+      "sourceLabel": "speedyapply 2027 SWE — INTERN_INTL",
+      "odds": "Reach",
+      "oddsScore": 22,
+      "oddsReasons": [
+        "- No direct overlap with his core stack",
+        "- NVIDIA runs an extremely selective process",
+        "+ Remote-friendly"
+      ],
+      "category": "swe",
+      "reputed": true,
+      "leadWith": "PDS Global — production fintech full-stack lead (Next.js/TS)",
+      "leadWithTag": "fullstack/fintech",
       "isNew": false,
       "status": "open",
       "closedAt": null
@@ -1257,7 +1195,7 @@
       "url": "https://freshersdunia.in/paypal-internship-drive-2027/",
       "postedAt": null,
       "firstSeenAt": "2026-11-12",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -1721,7 +1659,7 @@
       "url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a",
       "postedAt": "2026-09-21",
       "firstSeenAt": "2026-10-19",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 3,
       "source": "board:lever:hevodata",
@@ -1751,7 +1689,7 @@
       "url": "https://freshersdunia.in/rubrik-winter-mega-hiring-interns-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-09-08",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -1779,7 +1717,7 @@
       "url": "https://freshersdunia.in/ge-aerospace-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-09-05",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -1923,7 +1861,7 @@
       "url": "https://freshersdunia.in/philips-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -1951,7 +1889,7 @@
       "url": "https://freshersdunia.in/cisco-software-engineer-summer-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -1980,7 +1918,7 @@
       "url": "https://freshersdunia.in/salesforce-off-campus-internship-2026/",
       "postedAt": null,
       "firstSeenAt": "2026-08-19",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 4,
       "source": "newsletter:freshersdunia",
@@ -2010,7 +1948,7 @@
       "url": "https://jobs.lever.co/oddin/f6683592-7ff8-4c0a-86dd-8b0d36d3207d",
       "postedAt": "2026-03-04",
       "firstSeenAt": "2026-08-20",
-      "lastSeenAt": "2026-11-27",
+      "lastSeenAt": "2026-11-28",
       "deadline": null,
       "tier": 3,
       "source": "board:lever:oddin",
@@ -2038,6 +1976,12 @@
       "sourceLabel": "SAP (SuccessFactors)",
       "tier": 1,
       "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "workday:nvidia",
+      "sourceLabel": "NVIDIA (Workday)",
+      "tier": 1,
+      "error": "HTTP 429 Too Many Requests"
     },
     {
       "source": "workday:adobe",
@@ -2070,8 +2014,350 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "internshala:0",
+      "sourceLabel": "Internshala — computer science — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:1",
+      "sourceLabel": "Internshala — computer science — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:2",
+      "sourceLabel": "Internshala — computer science — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:3",
+      "sourceLabel": "Internshala — computer science — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:4",
+      "sourceLabel": "Internshala — software development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:5",
+      "sourceLabel": "Internshala — software development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:6",
+      "sourceLabel": "Internshala — software development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:7",
+      "sourceLabel": "Internshala — software development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:8",
+      "sourceLabel": "Internshala — data science — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:9",
+      "sourceLabel": "Internshala — data science — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:10",
+      "sourceLabel": "Internshala — data science — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:11",
+      "sourceLabel": "Internshala — data science — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:12",
+      "sourceLabel": "Internshala — machine learning — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:13",
+      "sourceLabel": "Internshala — machine learning — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:14",
+      "sourceLabel": "Internshala — machine learning — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:15",
+      "sourceLabel": "Internshala — machine learning — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:16",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:17",
+      "sourceLabel": "Internshala — artificial intelligence — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:18",
+      "sourceLabel": "Internshala — artificial intelligence — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:19",
+      "sourceLabel": "Internshala — artificial intelligence — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:20",
+      "sourceLabel": "Internshala — web development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:21",
+      "sourceLabel": "Internshala — web development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:22",
+      "sourceLabel": "Internshala — web development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:23",
+      "sourceLabel": "Internshala — web development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:24",
+      "sourceLabel": "Internshala — full stack development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:25",
+      "sourceLabel": "Internshala — full stack development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:26",
+      "sourceLabel": "Internshala — full stack development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:27",
+      "sourceLabel": "Internshala — full stack development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:28",
+      "sourceLabel": "Internshala — python/django — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:29",
+      "sourceLabel": "Internshala — python/django — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:30",
+      "sourceLabel": "Internshala — python/django — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:31",
+      "sourceLabel": "Internshala — python/django — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:32",
+      "sourceLabel": "Internshala — backend development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:33",
+      "sourceLabel": "Internshala — backend development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:34",
+      "sourceLabel": "Internshala — backend development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:35",
+      "sourceLabel": "Internshala — backend development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:36",
+      "sourceLabel": "Internshala — frontend development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:37",
+      "sourceLabel": "Internshala — frontend development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:38",
+      "sourceLabel": "Internshala — frontend development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:39",
+      "sourceLabel": "Internshala — frontend development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:40",
+      "sourceLabel": "Internshala — cyber security — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:41",
+      "sourceLabel": "Internshala — cyber security — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:42",
+      "sourceLabel": "Internshala — cyber security — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:43",
+      "sourceLabel": "Internshala — cyber security — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:44",
+      "sourceLabel": "Internshala — devops — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:45",
+      "sourceLabel": "Internshala — devops — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:46",
+      "sourceLabel": "Internshala — devops — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:47",
+      "sourceLabel": "Internshala — devops — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:48",
+      "sourceLabel": "Internshala — mobile app development — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:49",
+      "sourceLabel": "Internshala — mobile app development — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:50",
+      "sourceLabel": "Internshala — mobile app development — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:51",
+      "sourceLabel": "Internshala — mobile app development — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:52",
+      "sourceLabel": "Internshala — ui/ux design — Chennai",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:53",
+      "sourceLabel": "Internshala — ui/ux design — work from home",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:54",
+      "sourceLabel": "Internshala — ui/ux design — Chennai p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "source": "internshala:55",
+      "sourceLabel": "Internshala — ui/ux design — work from home p2",
+      "tier": 3,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
       "source": "board:workday:abb-external_career_page",
       "sourceLabel": "ABB (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:abbott-abbottcareers",
+      "sourceLabel": "Abbott (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2136,6 +2422,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:arlo-external_careers",
+      "sourceLabel": "Arlo (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:asml-asmlext1",
       "sourceLabel": "ASML (workday)",
       "tier": 3,
@@ -2154,6 +2446,18 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:astreya-life-at-astreya-opportunities",
+      "sourceLabel": "Astreya (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:autodesk-ext",
+      "sourceLabel": "Autodesk (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:dealertire-ami",
       "sourceLabel": "Automated Media (workday)",
       "tier": 3,
@@ -2168,6 +2472,12 @@
     {
       "source": "board:workday:accenture-avanadecareers",
       "sourceLabel": "Avanade (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:avnet-external",
+      "sourceLabel": "Avnet (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2262,6 +2572,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:capitalone-capital_one",
+      "sourceLabel": "Capital One (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:capitaland-capitalandinvestmentcareers",
       "sourceLabel": "CapitaLand (workday)",
       "tier": 3,
@@ -2282,6 +2598,12 @@
     {
       "source": "board:workday:cerved-cerved",
       "sourceLabel": "Cerved (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:cc-chanelcareers",
+      "sourceLabel": "CHANEL (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2310,6 +2632,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:costar-costarcareers",
+      "sourceLabel": "CoStar Group (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:covestro-cov_external",
       "sourceLabel": "Covestro (workday)",
       "tier": 3,
@@ -2318,6 +2646,12 @@
     {
       "source": "board:workday:csgi-csgcareers",
       "sourceLabel": "CSG (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:cvshealth-cvs_health_careers",
+      "sourceLabel": "CVS Health (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2402,6 +2736,12 @@
     {
       "source": "board:workday:evergreenix-external-careers2",
       "sourceLabel": "Everfox (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:factset-factsetcareers",
+      "sourceLabel": "FactSet (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2520,12 +2860,6 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:hitachi-hitachi",
-      "sourceLabel": "Hitachi (workday)",
-      "tier": 3,
-      "error": "HTTP 429 Too Many Requests"
-    },
-    {
       "source": "board:workday:hlb-hlbcareers",
       "sourceLabel": "Hong Leong Bank (workday)",
       "tier": 3,
@@ -2534,12 +2868,6 @@
     {
       "source": "board:workday:hp-exteu-ac-careersite",
       "sourceLabel": "HP (workday)",
-      "tier": 3,
-      "error": "HTTP 429 Too Many Requests"
-    },
-    {
-      "source": "board:workday:huntsman-huntsman",
-      "sourceLabel": "Huntsman (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2586,6 +2914,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:jci-jci",
+      "sourceLabel": "Johnson Controls (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:talentmanagementsolution-jonassoftwarecanada",
       "sourceLabel": "Jonas Software (workday)",
       "tier": 3,
@@ -2594,6 +2928,12 @@
     {
       "source": "board:workday:juliusbaer-external",
       "sourceLabel": "Julius Baer (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:kaleris-kaleris_careers",
+      "sourceLabel": "Kaleris (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2610,14 +2950,14 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:lnw-lightwonderexternalcareers",
-      "sourceLabel": "Light & Wonder (workday)",
+      "source": "board:workday:leidos-external",
+      "sourceLabel": "Leidos (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:logicalis-logicaliscareers",
-      "sourceLabel": "Logicalis (workday)",
+      "source": "board:workday:lnw-lightwonderexternalcareers",
+      "sourceLabel": "Light & Wonder (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2712,6 +3052,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:nidec-nidec",
+      "sourceLabel": "Nidec (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "board:workday:nio-nio_careers",
       "sourceLabel": "NIO (workday)",
       "tier": 3,
@@ -2792,6 +3138,12 @@
     {
       "source": "board:workday:pwc-nonpublic_postings",
       "sourceLabel": "PwC (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:qualifacts-qualifacts_external_careers",
+      "sourceLabel": "Qualifacts (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2958,14 +3310,20 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:tmx-tmx_careers",
-      "sourceLabel": "TMX (workday)",
+      "source": "board:workday:thermofisher-thermofishercareers",
+      "sourceLabel": "Thermo Fisher Scientific (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:transunion-transunion",
-      "sourceLabel": "TransUnion (workday)",
+      "source": "board:workday:thomsonreuters-external_career_site",
+      "sourceLabel": "Thomson Reuters (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "board:workday:tmx-tmx_careers",
+      "sourceLabel": "TMX (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -2976,8 +3334,8 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:trimble-trimblecareers",
-      "sourceLabel": "Trimble (workday)",
+      "source": "board:workday:uniphore-Uniphore",
+      "sourceLabel": "Uniphore (workday)",
       "tier": 3,
       "error": "HTTP 429 Too Many Requests"
     },
@@ -3012,12 +3370,6 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
-      "source": "board:workday:welocalize-welocalize",
-      "sourceLabel": "Welocalize (workday)",
-      "tier": 3,
-      "error": "HTTP 429 Too Many Requests"
-    },
-    {
       "source": "board:workday:wk-external",
       "sourceLabel": "Wolters Kluwer (workday)",
       "tier": 3,
@@ -3036,6 +3388,12 @@
       "error": "HTTP 429 Too Many Requests"
     },
     {
+      "source": "board:workday:zoom-zoom",
+      "sourceLabel": "Zoom (workday)",
+      "tier": 3,
+      "error": "HTTP 429 Too Many Requests"
+    },
+    {
       "source": "newsletter:offcampusjobs4u",
       "sourceLabel": "OffCampusJobs4u — 2027 batch",
       "tier": 4,
@@ -3046,19 +3404,13 @@
       "sourceLabel": "EnggWave — 2027 batch",
       "tier": 4,
       "error": "HTTP 403 Forbidden"
-    },
-    {
-      "source": "newsletter:placementofficer",
-      "sourceLabel": "Placement-Officer — internships",
-      "tier": 4,
-      "error": "HTTP 429 Too Many Requests"
     }
   ],
   "stats": {
-    "totalRoles": 70,
-    "newThisRun": 5,
-    "sourcesOk": 310,
-    "sourcesFailed": 170,
+    "totalRoles": 68,
+    "newThisRun": 3,
+    "sourcesOk": 241,
+    "sourcesFailed": 239,
     "closedTracked": 0
   }
 }
